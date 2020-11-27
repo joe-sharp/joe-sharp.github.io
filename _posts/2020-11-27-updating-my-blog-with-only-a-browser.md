@@ -18,4 +18,4 @@ I think I will limit the test to just those two items. New text, and a new pictu
 
 I guess we will find out here in just a moment. I plan on doing a follow up to the post or simply editing this last paragraph with the results. If I am able to do an in-place edit from the browser as well; I will consider that earning some extra credit. I am pretty optimistic all of this should work though. I mean would someone on the internet really lie like that? Right to my face?!
 
-Update: Well it definitely did not "just work" but not all is lost. I configured a GitHub action that should process this for me. Let's see how it goes.
+Update: Well it definitely did not "just work" but not all is lost. I configured a GitHub action that should process this for me. Let's see how it goes...
