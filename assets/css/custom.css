@@ -5,4 +5,10 @@
   .palette-blue {
     filter: invert(100%);
   }
+  .hero-title, .block-title, .post-title {
+    color: #666!important;
+  }
+  .palette-blue a, #content {
+    color: #ddd;
+  }
 }
