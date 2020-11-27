@@ -13,21 +13,41 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sharpscription - a Blog by Joe Sharp
+title: Sharpscription - a blog by Joe Sharp
 email: joesharp13@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Joe Sharp a fullstack developer with expertise in Ruby,
   SublimeText, Unix/Linux and a variety of knowledge on other
   technologies & programming languages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-reddit_username: joe-sharp
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+layout_style: overflow
+palette: blue
+header:
+  title: Sharpscription
+  tagline: a blog by Joe Sharp
+  profile_img: images/joe-sharp.png
+  bg: dark
+  has_nav: true
+  has_social: true
+footer:
+  content: '&copy; Joe Sharp. All rights reserved.'
+  links:
+    - text: joe-sharp.com
+      url: 'https://joe-sharp.com'
+      new_window: false
 github_username:  joe-sharp
 
 # Build settings
 markdown: kramdown
-theme: minima
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
 plugins:
   - jekyll-feed
 

@@ -1,0 +1,22 @@
+{
+    "links": [
+        {
+            "type": "github",
+            "title": "GitHub",
+            "icon": "fa-github",
+            "url": "https://github.com/joe-sharp"
+        },
+        {
+            "type": "linkedin",
+            "title": "LinkedIn",
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/joesharp13"
+        },
+        {
+            "type": "reddit",
+            "title": "Reddit",
+            "icon": "fa-reddit",
+            "url": "https://www.reddit.com/user/joe-sharp"
+        }
+    ]
+}
