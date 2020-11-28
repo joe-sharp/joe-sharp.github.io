@@ -11,8 +11,8 @@
         <meta name="author" content="Joe Sharp" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 month" />
-        <meta property="og:title" content="Sharpscription">
-        <meta property="og:description" content="a Blog by Joe Sharp">
+        <meta property="og:title" content="{% if title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}">
+        <meta property="og:description" content="{% if subtitle_is_not_empty %}{{ page.subtitle }}{% else %}a Blog by Joe Sharp{% endif %}">
         <meta property="og:image" content="https://blog.joe-sharp.com/images/thumbnail.jpg">
         <meta property="og:url" content="https://blog.joe-sharp.com/index.html">
         <meta name="twitter:card" content="summary_large_image">
