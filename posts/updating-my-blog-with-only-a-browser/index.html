@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>Sharpscription - a blog by Joe Sharp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="a Blog by Joe Sharp" />
+        <meta name="keywords" content="Joe Sharp, Programming, Programmer, Guru, Genius, Mac Genius, Hacker, Engineer" />
+        <meta name="author" content="Joe Sharp" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="1 month" />
+        <meta property="og:title" content="Sharpscription - a blog by Joe Sharp">
+        <meta property="og:description" content="a Blog by Joe Sharp">
+        <meta property="og:image" content="https://blog.joe-sharp.com/images/thumbnail.jpg">
+        <meta property="og:url" content="https://blog.joe-sharp.com/index.html">
+        <meta name="twitter:card" content="summary_large_image">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+    </head>
+    <body>
+
+        <div id="page" class="site style-overflow palette-blue">
+  <header id="masthead" class="site-header dark">
+  <div class="site-header-wrap">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        <p class="profile">
+          <a href="/"><img src="/images/joe-sharp.png"
+              class="avatar" alt="Author Avatar" /></a>
+        </p>
+        <div class="site-identity">
+          <h1 class="site-title"><a href="/">Sharpscription</a></h1>
+          <p class="site-description">a blog by Joe Sharp</p>
+        </div>
+        <div class="social-links">
+          
+          <a href="https://github.com/joe-sharp" target="_blank" rel="noopener"><span class="fab fa-github" aria-hidden="true"></span><span class="screen-reader-text">GitHub</span></a>
+          
+          <a href="https://www.linkedin.com/joesharp13" target="_blank" rel="noopener"><span class="fab fa-linkedin" aria-hidden="true"></span><span class="screen-reader-text">LinkedIn</span></a>
+          
+          <a href="https://www.reddit.com/user/joe-sharp" target="_blank" rel="noopener"><span class="fab fa-reddit" aria-hidden="true"></span><span class="screen-reader-text">Reddit</span></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div id="content" class="site-content">
+    <div class="inner">
+      <main id="main" class="site-main">
+          <article class="post post-full">
+    <header class="post-header">
+      <h1 class="post-title underline">Updating my blog with only a browser</h1>
+    </header><!-- .post-header -->
+    
+    
+    
+    
+    <div class="post-thumbnail">
+      <img src="/images/2020-11-27-updating-my-blog-with-only-a-browser.png" alt="Updating my blog with only a browser" />
+    </div><!-- .post-thumbnail -->
+    
+    <div class="post-content">
+      <p><strong>Time to put Jekyll to the test!</strong> If this is really as easy as I hoped, I should be able to update my blog with only a web browser. I should even be able to update it from a phone if I really needed to. For this test, I plan to open a new branch directly from GitHub’s online text editor. Once the branch has been opened from the text in this post, I would then hopefully be able to add an additional file directly from the web browser which could be a screenshot of this screen. Getting a screenshot from say another computer should be trivial, but also uploading a picture directly from a phone would likely be possible.</p>
+
+<h2 id="lets-start-small">Let’s start small</h2>
+
+<p>I think I will limit the test to just those two items. New text, and a new picture to go with it. So once the new branch has the media I can open a pull request. If I have the opportunity to preview the post it would be preferred but is not required. If you use GitHub frequently, you might know there is a Preview option I can use that will show me roughly how the markdown will style the post. The biggest question is will GitHub and Jekyll process the new post markdown and turn it into HTML. If it can’t we will fail this test.</p>
+
+<h2 id="so-did-it-work">So did it work?</h2>
+
+<p>I guess we will find out here in just a moment. I plan to do a follow-up to the post or simply edit this last paragraph with the results. If I am able to do an in-place edit from the browser as well, it has earned some extra credit in my book. I am pretty optimistic that all of this should work. I mean would someone on the Internet really lie like that? Right to my face?!</p>
+
+<p>Update: Well it definitely did not “just work” but not all is lost. I configured a GitHub action that should process this for me. Let’s see how it goes. …</p>
+
+<p>Update 2: Wow, it works amazingly well! I followed an extremely simple guide on configuring a GitHub action along with a repository secret. Now when I commit changes to my main branch, GitHub spins up a Docker instance and converts my markdown using Jekyll. The site changes are made available almost immediately. It works so well I am finalizing my update here from my phone!</p>
+
+    </div><!-- .post-content -->
+    <footer class="post-meta">
+      <time class="published"
+        datetime="2020-11-27 00:00">Friday, November 27, 2020</time>
+    </footer><!-- .post-meta -->
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="block read-next">
+    <h2 class="block-title underline">Read Next</h2>
+    <div class="post-feed">
+      <article class="post">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+          </header>
+          <div class="post-content">
+            <p>Previous post excerpt...</p>
+          </div>
+          <footer class="post-meta">
+            <time class="published" datetime="">Previous post date</time>
+          </footer>
+        </div>
+      </article>
+      <article class="post">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+          </header>
+          <div class="post-content">
+            <p>Next post excerpt...</p>
+          </div>
+          <footer class="post-meta">
+            <time class="published" datetime="">Next post date</time>
+          </footer>
+        </div>
+      </article>
+    </div>
+  </nav>
+  -->
+
+      </main>
+      <footer id="colophon" class="site-footer">
+  <p class="site-info">
+    &copy; 2020 Joe Sharp, all rights reserved.
+    &nbsp;
+    
+    <a href="https://joe-sharp.com" 
+      >joe-sharp.com</a>.
+    
+  </p><!-- .site-info -->
+  <a id="to-top" class="to-top" href="#page"><span class="icon-arrow-up" aria-hidden="true"></span><span
+      class="screen-reader-text">Back to top</span></a>
+</footer><!-- .site-footer -->
+
+    </div>
+  </div>
+</div>
+
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>

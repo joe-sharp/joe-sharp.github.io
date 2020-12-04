@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>Sharpscription - a blog by Joe Sharp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="a Blog by Joe Sharp" />
+        <meta name="keywords" content="Joe Sharp, Programming, Programmer, Guru, Genius, Mac Genius, Hacker, Engineer" />
+        <meta name="author" content="Joe Sharp" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="1 month" />
+        <meta property="og:title" content="Sharpscription - a blog by Joe Sharp">
+        <meta property="og:description" content="a Blog by Joe Sharp">
+        <meta property="og:image" content="https://blog.joe-sharp.com/images/thumbnail.jpg">
+        <meta property="og:url" content="https://blog.joe-sharp.com/index.html">
+        <meta name="twitter:card" content="summary_large_image">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+    </head>
+    <body>
+
+        <div id="page" class="site style-overflow palette-blue">
+  <header id="masthead" class="site-header dark">
+  <div class="site-header-wrap">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        <p class="profile">
+          <a href="/"><img src="/images/joe-sharp.png"
+              class="avatar" alt="Author Avatar" /></a>
+        </p>
+        <div class="site-identity">
+          <h1 class="site-title"><a href="/">Sharpscription</a></h1>
+          <p class="site-description">a blog by Joe Sharp</p>
+        </div>
+        <div class="social-links">
+          
+          <a href="https://github.com/joe-sharp" target="_blank" rel="noopener"><span class="fab fa-github" aria-hidden="true"></span><span class="screen-reader-text">GitHub</span></a>
+          
+          <a href="https://www.linkedin.com/joesharp13" target="_blank" rel="noopener"><span class="fab fa-linkedin" aria-hidden="true"></span><span class="screen-reader-text">LinkedIn</span></a>
+          
+          <a href="https://www.reddit.com/user/joe-sharp" target="_blank" rel="noopener"><span class="fab fa-reddit" aria-hidden="true"></span><span class="screen-reader-text">Reddit</span></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div id="content" class="site-content">
+    <div class="inner">
+      <main id="main" class="site-main">
+          <article class="post post-full">
+    <header class="post-header">
+      <h1 class="post-title underline">Converting my main site to Jekyll</h1>
+    </header><!-- .post-header -->
+    
+    
+    
+    
+    <div class="post-thumbnail">
+      <img src="/images/2020-11-28-converting-my-main-site-to-jekyll.png" alt="Converting my main site to Jekyll" />
+    </div><!-- .post-thumbnail -->
+    
+    <div class="post-content">
+      <p><strong>After the success with the blog</strong> I decided to see how much trouble it would be to convert my main website to Jekyll. After all it is not a full blown web application or anything. I have started to really like being able to keep my content away from all the scaffolding in the HTML. Markdown is something I use quite frequently anyway. I use it in Jira/Confluence, GitHub, and Slack. I have even grown a bit attached to formatting my PRs at work in a aesthetically pleasing way. If it wasn’t enough that it is easy enough for me to use that I will actually update this blog, it certainly has a few other advantages.</p>
+
+<h2 id="go-big-or-go-home">Go big or go home</h2>
+
+<p>I started out small with the tests from before. This time I decided the best way to get really comfortable with Jekyll was to just jump right in. I opened a new branch on my personal site’s repository and followed a guide that the Jekyll website had to offer: <a href="https://jekyllrb.com/tutorials/convert-site-to-jekyll/">https://jekyllrb.com/tutorials/convert-site-to-jekyll/</a></p>
+
+<p>Following the article made the conversion a piece of cake. I spent a little time sorting through a silly YAML mistake but other than that it was smooth sailing to convert all of my site content to Markdown and the HTML scaffolding into HTML templates to include where needed. My Rubyist mind was delighted that I could easily use loops to simplify some of the templates. I can’t wait to try more of the features I now have at my fingertips.</p>
+
+<h2 id="whats-next">What’s next?</h2>
+
+<p>I will probably try to make it through some of the minor style issues and other bugs while I learn some more about Jekyll and try using it to generate some other websites. I have created sites for family members in the past, so maybe it is time I make a way for them to be able to update their own content without needing to know HTML. 🤔</p>
+
+<p>Mad kudos goes out to the <a href="https://jekyllrb.com/team/">Core Team</a> at Jekyll. It’s been a while since I have been this excited about a tool or technology. If you want to get started with Jekyll yourself take a look here: <a href="https://jekyllrb.com/docs/">https://jekyllrb.com/docs/</a></p>
+
+    </div><!-- .post-content -->
+    <footer class="post-meta">
+      <time class="published"
+        datetime="2020-11-28 00:00">Saturday, November 28, 2020</time>
+    </footer><!-- .post-meta -->
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="block read-next">
+    <h2 class="block-title underline">Read Next</h2>
+    <div class="post-feed">
+      <article class="post">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+          </header>
+          <div class="post-content">
+            <p>Previous post excerpt...</p>
+          </div>
+          <footer class="post-meta">
+            <time class="published" datetime="">Previous post date</time>
+          </footer>
+        </div>
+      </article>
+      <article class="post">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+          </header>
+          <div class="post-content">
+            <p>Next post excerpt...</p>
+          </div>
+          <footer class="post-meta">
+            <time class="published" datetime="">Next post date</time>
+          </footer>
+        </div>
+      </article>
+    </div>
+  </nav>
+  -->
+
+      </main>
+      <footer id="colophon" class="site-footer">
+  <p class="site-info">
+    &copy; 2020 Joe Sharp, all rights reserved.
+    &nbsp;
+    
+    <a href="https://joe-sharp.com" 
+      >joe-sharp.com</a>.
+    
+  </p><!-- .site-info -->
+  <a id="to-top" class="to-top" href="#page"><span class="icon-arrow-up" aria-hidden="true"></span><span
+      class="screen-reader-text">Back to top</span></a>
+</footer><!-- .site-footer -->
+
+    </div>
+  </div>
+</div>
+
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
