@@ -259,11 +259,8 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2025.2)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     uri (1.0.3)
-    wdm (0.1.1)
     webrick (1.9.1)
     zeitwerk (2.7.3)
 
@@ -273,13 +270,17 @@ PLATFORMS
 DEPENDENCIES
   bigdecimal (~> 3.1)
   github-pages
-  jekyll (~> 3.10)
+  http_parser.rb (~> 0.6)
+  jekyll (~> 3.5)
   jekyll-feed (~> 0.6)
+  jekyll-github-metadata
+  jekyll-seo-tag
+  jekyll-theme-primer
   kramdown-parser-gfm
   minima (~> 2.0)
-  tzinfo (~> 1.2)
+  tzinfo (>= 1, < 3)
   tzinfo-data
-  wdm (~> 0.1.0)
+  wdm (~> 0.1)
 
 BUNDLED WITH
    2.6.9
