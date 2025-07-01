@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Joe Sharp, Senior Software Engineer
+title: Joe Sharp
+subtitle: Senior Software Engineer
 sections:
   - section_id: hero
     component: hero_block.html
@@ -17,11 +18,8 @@ sections:
   - section_id: projects
     component: projects_block.html
     type: projects_block
-    title: Recent Posts
+    title: Projects
     num_posts_displayed: 50
-    actions:
-      - label: View Profile
-        url: https://github.com/joe-sharp
 ---
 
 # {{site.title}} ✨

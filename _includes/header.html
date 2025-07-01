@@ -12,8 +12,16 @@
         </div>
         <div class="social-links">
           {% for link in site.data.social.links %}
-          <a href="{{ link.url }}" target="_blank" rel="noopener"><span class="fab {{ link.icon }}" aria-hidden="true"></span><span class="screen-reader-text">{{ link.title }}</span></a>
+          <a href="{{ link.url }}" target="_blank" rel="noopener">
+            {% if link.icon contains 'http' %}
+              <img src="{{ link.icon }}" alt="{{ link.title }}" class="custom-icon" />
+            {% else %}
+              <span class="fab {{ link.icon }}" aria-hidden="true"></span>
+            {% endif %}
+            <span class="screen-reader-text">{{ link.title }}</span>
+          </a>
           {% endfor %}
+          <a href="https://github.com/joe-sharp" class="social-link" target="_blank" rel="noopener"><span class="fab fa-github" aria-hidden="true"></span> View Profile</a>
         </div>
       </div>
     </div>

@@ -13,34 +13,45 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sharpscription - a blog by Joe Sharp
+title: &title Joe Sharp
+subtitle: &subtitle Senior Software Engineer
 email: joesharp13@gmail.com
 description: >-
-  Joe Sharp a fullstack developer with expertise in Ruby,
+  I'm a fullstack developer with expertise in Ruby,
   SublimeText, Unix/Linux and a variety of knowledge on other
-  technologies & programming languages.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: '/:title/'
+  technologies & programming languages. 🩷💜💙
+baseurl: "" # the subpath of your site
+url: "" # the base hostname & protocol for your site
+github_username: joe-sharp
+
+# Content settings
+permalink: /:title/
 collections:
   posts:
-    permalink: '/posts/:title/'
+    output: true
+    permalink: /posts/:title/
+
+# Theme settings
+theme: jekyll-theme-primer
 layout_style: overflow
 palette: blue
+
+# Header settings
 header:
-  title: Sharpscription
-  tagline: a blog by Joe Sharp
-  profile_img: images/joe-sharp.png
   bg: dark
   has_nav: true
   has_social: true
+  profile_img: images/joe-sharp.png
+  title: *title
+  tagline: *subtitle
+
+# Footer settings
 footer:
   content: '&copy; 2020 Joe Sharp, all rights reserved.'
   links:
     - text: joe-sharp.com
       url: 'https://joe-sharp.com'
       new_window: false
-github_username:  joe-sharp
 
 # Build settings
 markdown: kramdown
@@ -48,18 +59,23 @@ sass:
   indentWidth: 4
   style: nested
   precision: 10
-plugins:
-  - jekyll-feed
+highlighter: rouge
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
+plugins:
+  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - 404.html
+  - vendor
+  - .git/
+  - .gitignore
+  - README.md
+  - LICENSE
+
+# GitHub Metadata
+repository: joe-sharp/joe-sharp.github.io

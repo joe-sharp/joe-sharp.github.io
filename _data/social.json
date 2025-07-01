@@ -1,10 +1,10 @@
 {
     "links": [
         {
-            "type": "github",
-            "title": "GitHub",
-            "icon": "fa-github",
-            "url": "https://github.com/joe-sharp"
+            "type": "exercism",
+            "title": "Exercism",
+            "icon": "https://raw.githubusercontent.com/joe-sharp/joe-sharp/main/exercism.svg",
+            "url": "https://exercism.org/profiles/joe-sharp"
         },
         {
             "type": "linkedin",
