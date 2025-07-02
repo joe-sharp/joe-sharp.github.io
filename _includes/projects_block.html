@@ -9,7 +9,7 @@
     {% for project in display_projects limit:include.section.num_posts_displayed %}
       <article class="project">
         <h3 class="project-title">
-          <a href="{{ project.html_url }}" target="_blank">{{ project.name }}</a>
+          <a href="{{ project.html_url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a>
         </h3>
         <div class="project-content">
           <p>{{ project.description }}</p>
