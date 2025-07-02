@@ -18,5 +18,9 @@
             "icon": "fa-reddit",
             "url": "https://www.reddit.com/user/joe-sharp"
         }
-    ]
+    ],
+    "github": {
+        "url": "https://github.com/joe-sharp",
+        "text": "View Profile"
+    }
 }
