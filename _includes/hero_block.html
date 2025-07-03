@@ -3,4 +3,11 @@
   <div class="hero-text">
     {{ include.section.content | markdownify }}
   </div>
+  {% if include.section.actions %}
+    <div class="hero-actions">
+      {% for action in include.section.actions %}
+        <a href="{{ action.url }}" class="button">{{ action.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>

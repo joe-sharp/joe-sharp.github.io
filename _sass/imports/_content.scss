@@ -224,9 +224,9 @@
 
 .block-title {
   color: _palette(secondary);
-  font-size: 1rem;
+  font-size: 1.33333em;
   letter-spacing: 0.11111em;
-  margin: 0 0 1.66667rem;
+  margin: 0 0 1.25em;
   text-transform: uppercase;
 }
 
@@ -238,6 +238,43 @@
   }
 }
 
+.block-cta {
+  margin: 1.875em 0 0;
+}
+
 .block-cta .button {
   margin-right: 15px;
+}
+
+// Projects specific styling
+.projects-feed {
+  margin-bottom: 1.66667em;
+}
+
+.project {
+  margin-bottom: 2em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.project-title {
+  font-size: 1.33333em;
+  margin: 0 0 0.83333em;
+
+  a {
+    color: inherit !important;
+    text-decoration: none;
+
+    &:hover {
+      color: _palette(accent) !important;
+    }
+  }
+}
+
+.project-meta {
+  color: _palette(meta);
+  font-size: 0.88889em;
+  margin: 0.5em 0 0;
 }
