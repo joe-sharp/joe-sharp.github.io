@@ -12,7 +12,7 @@
         </div>
         <div class="social-links">
           {% for link in site.data.social.links %}
-          <a href="{{ link.url }}" target="_blank" rel="noopener">
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
             {% if link.icon contains 'http' %}
               <img src="{{ link.icon }}" alt="{{ link.title }}" class="custom-icon" />
             {% else %}
@@ -21,7 +21,7 @@
             <span class="screen-reader-text">{{ link.title }}</span>
           </a>
           {% endfor %}
-          <a href="{{ site.data.social.github.url }}" class="social-link" target="_blank" rel="noopener"><span class="fab fa-github" aria-hidden="true"></span> {{ site.data.social.github.text }}</a>
+          <a href="{{ site.data.social.github.url }}" class="social-link" target="_blank" rel="noopener noreferrer"><span class="fab fa-github" aria-hidden="true"></span> {{ site.data.social.github.text }}</a>
         </div>
       </div>
     </div>
