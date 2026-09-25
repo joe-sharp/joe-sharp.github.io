@@ -1,4 +1,4 @@
-/* Override all default styling to match /links page aesthetic */
+/* === COMPLETE OVERRIDE FOR /LINKS AESTHETIC === */
 
 :root {
   --bg: #120b1a;
@@ -12,224 +12,104 @@
   --hairline: rgba(227, 178, 60, 0.18);
 }
 
-/* Reset and base styles */
 html, body {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  scroll-padding-top: env(safe-area-inset-top, 0px);
-}
-
-* {
-  box-sizing: inherit;
-}
-
-body {
-  padding-top: env(safe-area-inset-top, 0px);
-  padding-bottom: env(safe-area-inset-bottom, 0px);
+  margin: 0;
   min-height: 100vh;
   background:
     radial-gradient(circle at 12% 8%, rgba(139,63,209,0.35), transparent 40%),
     radial-gradient(circle at 88% 14%, rgba(31,162,98,0.22), transparent 38%),
     radial-gradient(circle at 50% 100%, rgba(227,178,60,0.12), transparent 45%),
-    var(--bg);
-  color: var(--ink);
+    var(--bg) !important;
+  color: var(--ink) !important;
   font-family: 'Inter', system-ui, sans-serif;
-  position: relative;
   overflow-x: hidden;
 }
 
-/* Decorative beads background */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background-image:
-    radial-gradient(7px circle at 18% 6%, var(--gold)),
-    radial-gradient(5px circle at 78% 12%, var(--purple)),
-    radial-gradient(6px circle at 8% 22%, var(--green)),
-    radial-gradient(4px circle at 88% 30%, var(--gold)),
-    radial-gradient(8px circle at 4% 48%, var(--purple)),
-    radial-gradient(5px circle at 92% 58%, var(--green)),
-    radial-gradient(6px circle at 14% 72%, var(--gold)),
-    radial-gradient(4px circle at 82% 80%, var(--purple)),
-    radial-gradient(5px circle at 22% 90%, var(--green)),
-    radial-gradient(6px circle at 70% 95%, var(--gold));
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  filter: blur(0.2px);
+/* Force override template background wrappers */
+#page, .site, .site-header, .site-content, .site-main {
+  background: transparent !important;
+  color: var(--ink) !important;
+  border: none !important;
 }
 
-/* Main content wrapper */
-#container {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
+/* Header & Branding Adaptation */
+.site-header {
+  border-bottom: 1px solid var(--hairline);
+  padding: 2rem 0;
 }
 
-main {
-  width: 100%;
-  max-width: 440px;
-  padding: 4.5rem 1.5rem 3.5rem;
-  position: relative;
-  z-index: 1;
-}
-
-/* Header/Hero section */
-#banner {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-#banner h1 {
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
+.site-identity .site-title a {
+  font-family: 'JetBrains Mono', 'Courier New', monospace !important;
   font-weight: 700;
-  font-size: clamp(1.7rem, 7.5vw, 2.25rem);
-  letter-spacing: -0.01em;
-  line-height: 1.05;
-  margin: 0 0 0.75rem;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 0.05em;
-}
-
-#banner h1::before {
-  content: '~$';
-  color: var(--green);
-  font-weight: 500;
-  opacity: 0.8;
-  margin-right: 0.05em;
-}
-
-/* Make the name text golden */
-#banner h1 {
+  font-size: 1.75rem;
   background: linear-gradient(100deg, var(--gold) 0%, #f0d98a 35%, var(--gold) 60%, #caa23a 100%);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
-}
-
-#banner .tagline,
-#banner p {
-  font-size: 0.9rem;
-  line-height: 1.55;
-  color: var(--ink-muted);
-  max-width: 34ch;
-  margin: 0.5rem auto;
-}
-
-#banner .role {
-  font-size: 0.95rem;
-  color: var(--ink-muted);
-  margin: 0 0 0.9rem;
-  font-weight: 500;
-}
-
-#banner .role strong {
-  color: var(--ink);
-  font-weight: 600;
-}
-
-/* Navigation / link rows */
-nav,
-#content {
-  display: flex;
-  flex-direction: column;
-}
-
-section h2,
-.post h2 {
-  display: none;
-}
-
-/* Project links styled as link-rows */
-article,
-.post,
-#content > div > a,
-#content a[href*="github"],
-.links-list a {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  padding: 1.05rem 0.25rem;
-  border-top: 1px solid var(--hairline);
+  color: transparent !important;
   text-decoration: none;
-  color: var(--ink);
-  transition: padding-left 0.18s ease, color 0.18s ease;
 }
 
-article:last-child,
-.post:last-child,
-#content a:last-child {
-  border-bottom: 1px solid var(--hairline);
-}
-
-article:hover,
-article:focus-visible,
-.post:hover,
-.post:focus-visible,
-#content a:hover,
-#content a:focus-visible {
-  padding-left: 0.6rem;
-  color: var(--gold);
-  outline: none;
-}
-
-/* Project titles and descriptions */
-article h3,
-.post h3 {
-  font-size: 0.98rem;
-  font-weight: 500;
-  margin: 0;
-  color: var(--ink);
-}
-
-article p,
-.post p {
-  font-size: 0.78rem;
+.site-identity .site-description {
   color: var(--ink-muted);
-  margin: 0.1rem 0 0;
+  font-size: 0.95rem;
 }
 
-/* Arrow indicator */
-article::after,
-.post::after {
-  content: '→';
-  flex: none;
-  opacity: 0;
-  margin-left: auto;
-  transform: translateX(-4px);
-  transition: opacity 0.18s ease, transform 0.18s ease;
-  color: var(--gold);
+/* Main Content Wrapper */
+.site-content .inner {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
 }
 
-article:hover::after,
-article:focus-visible::after,
-.post:hover::after,
-.post:focus-visible::after {
-  opacity: 1;
-  transform: translateX(0);
+/* Blocks / About Section styling */
+.block {
+  background: var(--bg-2);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
-footer {
+/* FIXED: Added !important to force Chrome to render JetBrains Mono on the About header */
+.block-title.underline {
+  font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+  color: var(--gold) !important;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.block-content p {
+  color: var(--ink-muted);
+  line-height: 1.6;
+}
+
+.block-content strong {
+  color: var(--ink);
+}
+
+/* Social Links styling */
+.social-links a {
+  color: var(--ink-muted) !important;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--gold) !important;
+}
+
+/* Footer & Glow Link */
+.site-footer {
+  border-top: 1px solid var(--hairline);
   text-align: center;
-  margin-top: 3rem;
-  font-size: 0.76rem;
-  width: 100%;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  color: var(--ink-muted);
 }
 
-footer a {
+.site-info a {
   color: #06b6d4;
   text-decoration: none;
   font-weight: 600;
@@ -239,67 +119,60 @@ footer a {
   transition: all 0.3s ease;
 }
 
-footer a:hover {
+.site-info a:hover {
   background-color: rgba(6, 182, 212, 0.1);
   text-shadow: 0 0 8px rgba(6, 182, 212, 0.6);
   color: #22d3ee;
 }
 
-/* Hide default styling elements */
-header,
-#header,
-.header-wrapper,
-.post-date,
-.post-meta,
-.post-author,
-.featured-image,
-img[alt="Author Avatar"],
-.avatar {
-  display: none !important;
+/* === HERO SECTION & BLINKING CURSOR FIX === */
+#hero {
+  text-align: center;
+  margin-bottom: 3rem !important;
 }
 
-/* Clean up typography */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+@keyframes blink {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-p {
-  margin: 0;
+.hero-title {
+  font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+  font-weight: 700 !important;
+  font-size: clamp(1.7rem, 7.5vw, 2.25rem) !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.05 !important;
+  margin: 0 0 0.75rem !important;
+  
+  background: linear-gradient(100deg, var(--gold) 0%, #f0d98a 35%, var(--gold) 60%, #caa23a 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+  
+  display: inline-block;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.hero-title::before {
+  content: '~$ ' !important;
+  color: var(--green) !important;
+  font-weight: 500 !important;
+  opacity: 0.8 !important;
+  margin-right: 0.05em !important;
+  -webkit-text-fill-color: var(--green) !important;
 }
 
-a:focus-visible {
-  outline: 2px solid var(--gold);
-  outline-offset: 2px;
+/* RESTORED: Blinking cursor pseudo-element */
+.hero-title::after {
+  content: '_' !important;
+  color: var(--gold) !important;
+  animation: blink 1.1s step-end infinite !important;
+  margin-left: 0.05em !important;
+  -webkit-text-fill-color: var(--gold) !important;
+  display: inline-block;
 }
 
-/* Reduce motion preference */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    transition: none !important;
-    animation: none !important;
-  }
-}
-
-/* Dark mode (invert handling) */
-@media (prefers-color-scheme: dark) {
-  html {
-    filter: invert(100%);
-  }
-  /* Selectively un-invert colored elements */
-  body::before {
-    filter: invert(100%);
-  }
-  article::after,
-  .post::after,
-  footer a,
-  h1 {
-    filter: invert(100%);
-  }
+  .hero-title::after { animation: none; opacity: 1; }
 }
