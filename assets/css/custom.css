@@ -1,14 +1,305 @@
+/* Override all default styling to match /links page aesthetic */
+
+:root {
+  --bg: #120b1a;
+  --bg-2: #1a1024;
+  --purple: #8b3fd1;
+  --purple-dim: #5c2a8c;
+  --green: #1fa262;
+  --gold: #e3b23c;
+  --ink: #f3eef9;
+  --ink-muted: #b6a9c9;
+  --hairline: rgba(227, 178, 60, 0.18);
+}
+
+/* Reset and base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(139,63,209,0.35), transparent 40%),
+    radial-gradient(circle at 88% 14%, rgba(31,162,98,0.22), transparent 38%),
+    radial-gradient(circle at 50% 100%, rgba(227,178,60,0.12), transparent 45%),
+    var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Decorative beads background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(7px circle at 18% 6%, var(--gold)),
+    radial-gradient(5px circle at 78% 12%, var(--purple)),
+    radial-gradient(6px circle at 8% 22%, var(--green)),
+    radial-gradient(4px circle at 88% 30%, var(--gold)),
+    radial-gradient(8px circle at 4% 48%, var(--purple)),
+    radial-gradient(5px circle at 92% 58%, var(--green)),
+    radial-gradient(6px circle at 14% 72%, var(--gold)),
+    radial-gradient(4px circle at 82% 80%, var(--purple)),
+    radial-gradient(5px circle at 22% 90%, var(--green)),
+    radial-gradient(6px circle at 70% 95%, var(--gold));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  filter: blur(0.2px);
+}
+
+/* Main content wrapper */
+#container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+  max-width: 440px;
+  padding: 4.5rem 1.5rem 3.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header/Hero section */
+#banner {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#banner h1 {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-weight: 700;
+  font-size: clamp(1.7rem, 7.5vw, 2.25rem);
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  margin: 0 0 0.75rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.05em;
+}
+
+#banner h1::before {
+  content: '~$';
+  color: var(--green);
+  font-weight: 500;
+  opacity: 0.8;
+  margin-right: 0.05em;
+}
+
+/* Make the name text golden */
+#banner h1 {
+  background: linear-gradient(100deg, var(--gold) 0%, #f0d98a 35%, var(--gold) 60%, #caa23a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#banner .tagline,
+#banner p {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ink-muted);
+  max-width: 34ch;
+  margin: 0.5rem auto;
+}
+
+#banner .role {
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+  margin: 0 0 0.9rem;
+  font-weight: 500;
+}
+
+#banner .role strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Navigation / link rows */
+nav,
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+section h2,
+.post h2 {
+  display: none;
+}
+
+/* Project links styled as link-rows */
+article,
+.post,
+#content > div > a,
+#content a[href*="github"],
+.links-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1.05rem 0.25rem;
+  border-top: 1px solid var(--hairline);
+  text-decoration: none;
+  color: var(--ink);
+  transition: padding-left 0.18s ease, color 0.18s ease;
+}
+
+article:last-child,
+.post:last-child,
+#content a:last-child {
+  border-bottom: 1px solid var(--hairline);
+}
+
+article:hover,
+article:focus-visible,
+.post:hover,
+.post:focus-visible,
+#content a:hover,
+#content a:focus-visible {
+  padding-left: 0.6rem;
+  color: var(--gold);
+  outline: none;
+}
+
+/* Project titles and descriptions */
+article h3,
+.post h3 {
+  font-size: 0.98rem;
+  font-weight: 500;
+  margin: 0;
+  color: var(--ink);
+}
+
+article p,
+.post p {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin: 0.1rem 0 0;
+}
+
+/* Arrow indicator */
+article::after,
+.post::after {
+  content: '→';
+  flex: none;
+  opacity: 0;
+  margin-left: auto;
+  transform: translateX(-4px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  color: var(--gold);
+}
+
+article:hover::after,
+article:focus-visible::after,
+.post:hover::after,
+.post:focus-visible::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.76rem;
+  width: 100%;
+}
+
+footer a {
+  color: #06b6d4;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  background-color: rgba(6, 182, 212, 0.1);
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.6);
+  color: #22d3ee;
+}
+
+/* Hide default styling elements */
+header,
+#header,
+.header-wrapper,
+.post-date,
+.post-meta,
+.post-author,
+.featured-image,
+img[alt="Author Avatar"],
+.avatar {
+  display: none !important;
+}
+
+/* Clean up typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Reduce motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Dark mode (invert handling) */
 @media (prefers-color-scheme: dark) {
   html {
     filter: invert(100%);
   }
-  .palette-blue {
+  /* Selectively un-invert colored elements */
+  body::before {
     filter: invert(100%);
   }
-  .hero-title, .block-title, .post-title {
-    color: #666!important;
-  }
-  .palette-blue a, #content {
-    color: #ddd;
+  article::after,
+  .post::after,
+  footer a,
+  h1 {
+    filter: invert(100%);
   }
 }
