@@ -173,6 +173,46 @@ html, body {
   display: inline-block;
 }
 
+/* 1. Fix the header alignment and underline style to match the About section */
+.block h2:first-of-type,
+.block h3:first-of-type {
+  font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+  color: var(--gold) !important;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  display: block;
+  width: 100%;
+}
+
+/* 2. Hide the redundant lowercase "Projects" subheading */
+.block h2 + h3, 
+.block h2 + p,
+.block h3 + p {
+  /* Targets the immediate duplicate header element */
+  display: none !important; 
+}
+
+/* 3. Re-style the site link header to look like a clean project link entry */
+.block h2:first-of-type + a,
+.block h2:first-of-type + h3 + a,
+.block h2 ~ a {
+  font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink) !important;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.block h2 ~ a:hover {
+  color: var(--gold) !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-title::after { animation: none; opacity: 1; }
 }
