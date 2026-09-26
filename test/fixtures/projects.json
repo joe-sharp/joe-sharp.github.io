@@ -1,0 +1,118 @@
+{
+  "username": "joe-sharp",
+  "projects_count": 9,
+  "projects": [
+    {
+      "name": "agreen.studio",
+      "description": "Website for Anita Green",
+      "languages": {
+        "HTML": 20187,
+        "CSS": 3964,
+        "JavaScript": 183
+      },
+      "forks_count": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/agreen.studio",
+      "created_at": "2020-12-02 17:18:04 UTC",
+      "updated_at": "2021-09-08 04:33:04 UTC"
+    },
+    {
+      "name": "appraisal",
+      "description": "A Ruby library for testing your library against different versions of dependencies.",
+      "languages": {
+        "Ruby": 77928
+      },
+      "forks_count": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/appraisal",
+      "created_at": "2021-10-14 19:37:25 UTC",
+      "updated_at": "2024-02-29 05:22:11 UTC"
+    },
+    {
+      "name": "exercism-solutions",
+      "description": "These are my solutions to the lessons I take on exercism.org",
+      "languages": {
+        "JavaScript": 50328,
+        "Ruby": 20677
+      },
+      "forks_count": 3,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/exercism-solutions",
+      "created_at": "2021-09-10 01:30:50 UTC",
+      "updated_at": "2021-10-21 02:42:51 UTC"
+    },
+    {
+      "name": "joe-sharp.github.io",
+      "description": "Projects",
+      "languages": {
+        "SCSS": 31756,
+        "HTML": 13988,
+        "Ruby": 5522,
+        "CSS": 5409,
+        "JavaScript": 689
+      },
+      "forks_count": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/joe-sharp.github.io",
+      "created_at": "2020-11-26 19:03:51 UTC",
+      "updated_at": "2026-09-25 03:13:44 UTC"
+    },
+    {
+      "name": "linter-configs",
+      "description": "Collection of config files for various linters. Can be used as remote configuration for Mega-Linter. https://github.com/nvuillam/mega-linter",
+      "languages": {},
+      "forks_count": 0,
+      "stargazers_count": 2,
+      "html_url": "https://github.com/joe-sharp/linter-configs",
+      "created_at": "2020-12-14 02:16:02 UTC",
+      "updated_at": "2025-06-30 22:49:37 UTC"
+    },
+    {
+      "name": "mtg_card_maker",
+      "description": "MTG Card Maker is a tool for creating fan-made Magic: The Gathering cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+      "languages": {
+        "Ruby": 332697,
+        "Shell": 131
+      },
+      "forks_count": 1,
+      "stargazers_count": 2,
+      "html_url": "https://github.com/joe-sharp/mtg_card_maker",
+      "created_at": "2025-07-12 23:29:10 UTC",
+      "updated_at": "2025-11-02 07:53:59 UTC"
+    },
+    {
+      "name": "UO-Macros",
+      "description": "Macros for Ultima Online & Classic Assist, may work with other assistants",
+      "languages": {
+        "Python": 40627
+      },
+      "forks_count": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/UO-Macros",
+      "created_at": "2025-02-11 21:57:27 UTC",
+      "updated_at": "2025-03-09 01:19:54 UTC"
+    },
+    {
+      "name": "ZoeDreams",
+      "description": null,
+      "languages": {},
+      "forks_count": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/ZoeDreams",
+      "created_at": "2020-11-28 02:06:04 UTC",
+      "updated_at": "2022-02-22 09:22:52 UTC"
+    },
+    {
+      "name": "zoom-close",
+      "description": null,
+      "languages": {
+        "JavaScript": 194
+      },
+      "forks_count": 0,
+      "stargazers_count": 0,
+      "html_url": "https://github.com/joe-sharp/zoom-close",
+      "created_at": "2021-03-29 21:40:46 UTC",
+      "updated_at": "2021-03-29 21:40:47 UTC"
+    }
+  ]
+}
