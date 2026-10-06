@@ -45,7 +45,7 @@ class GithubProjectCard
     }
   end
 
-  def to_add_card_command
+  def to_add_card_command(deck: 'deck.yml')
     args = to_add_card_args
     flags = []
     flags << %(--name="#{args[:name]}")
@@ -59,7 +59,7 @@ class GithubProjectCard
     flags << %(--rules-text="#{args[:rules_text]}")
     flags << %(--flavor-text="#{args[:flavor_text]}")
 
-    "mtg_card_maker add_card deck.yml #{flags.join(' ')}"
+    "mtg_card_maker add_card #{deck} #{flags.join(' ')}"
   end
 
   private
