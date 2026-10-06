@@ -20,7 +20,6 @@ sections:
     component: projects_block.html
     type: projects_block
     title: Projects
-    num_posts_displayed: 50
 ---
 
 # {{site.title}} ✨
