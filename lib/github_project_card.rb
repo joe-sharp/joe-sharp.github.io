@@ -8,11 +8,11 @@ class GithubProjectCard
 
   # Maps color name -> mana symbol short code
   COLOR_MANA_CODE = {
-    'blue' => 'b',
-    'black' => 'k',
-    'white' => 'w',
-    'red' => 'r',
-    'green' => 'g'
+    'blue' => 'U',
+    'black' => 'B',
+    'white' => 'W',
+    'red' => 'R',
+    'green' => 'G'
   }.freeze
 
   MULTICOLOR_THRESHOLD = 0.15
