@@ -39,7 +39,7 @@ describe GithubProjectCards do
 
       _(command).must_match(/\Amtg_card_maker add_card deck.yml /)
       _(command).must_include '--name="mtg_card_maker"'
-      _(command).must_include '--art="595f103c608631e0049772bf3ad48b06.png"'
+      _(command).must_include '--art="https://res.cloudinary.com/uv7kncpy/image/upload/595f103c608631e0049772bf3ad48b06.jpg"'
       _(command).must_include '--mana-cost="5RW"'
       _(command).must_include '--type-line="Ruby, Shell"'
       _(command).must_include '--color="red"'
@@ -54,7 +54,7 @@ describe GithubProjectCards do
       command = command_for('joe-sharp.github.io')
 
       _(command).must_include '--name="joe-sharp.github.io"'
-      _(command).must_include '--art="faa79416b855ca1c82b6b5aeb3c3235a.png"'
+      _(command).must_include '--art="https://res.cloudinary.com/uv7kncpy/image/upload/faa79416b855ca1c82b6b5aeb3c3235a.jpg"'
       _(command).must_include '--type-line="SCSS, HTML, Ruby, CSS, JavaScript"'
       _(command).must_include '--color="gold"'
     end

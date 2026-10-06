@@ -10,13 +10,14 @@ describe GithubProjectCard do
     GithubProjectCard.new(fixture_project(name).merge(overrides.transform_keys(&:to_s))).to_add_card_args
   end
 
-  it 'maps language names to mana pips in a constant' do
-    _(GithubProjectCard::LANGUAGE_MANA).must_equal(
+  it 'maps color names to mana pips in a constant' do
+    _(GithubProjectCard::COLOR_MANA_CODE).must_equal(
       {
-        'Ruby' => 'R',
-        'Python' => 'B',
-        'JavaScript' => 'G',
-        'Shell' => 'W'
+        'blue' => 'U',
+        'black' => 'B',
+        'white' => 'W',
+        'red' => 'R',
+        'green' => 'G'
       }
     )
   end
@@ -27,31 +28,33 @@ describe GithubProjectCard do
       _(args_for('joe-sharp.github.io')[:name]).must_equal 'joe-sharp.github.io'
     end
 
-    it 'uses an MD5 checksum of the repo name as the PNG art filename' do
+    it 'uses a Cloudinary URL with an MD5 checksum of the repo name as the art' do
+      base = 'https://res.cloudinary.com/uv7kncpy/image/upload'
       # Digest::MD5.hexdigest('joe-sharp.github.io')
-      _(args_for('joe-sharp.github.io')[:art]).must_equal 'faa79416b855ca1c82b6b5aeb3c3235a.png'
-      _(args_for('mtg_card_maker')[:art]).must_equal '595f103c608631e0049772bf3ad48b06.png'
+      _(args_for('joe-sharp.github.io')[:art]).must_equal "#{base}/faa79416b855ca1c82b6b5aeb3c3235a.jpg"
+      _(args_for('mtg_card_maker')[:art]).must_equal "#{base}/595f103c608631e0049772bf3ad48b06.jpg"
     end
 
     it 'builds --mana-cost from rounded log10 of top language bytes minus 1, then mapped pips by usage' do
-      # (Math.log10(77928) - 1).round => 4, then R
+      # (Math.log10(77928) - 1).round => 4, Ruby (red) => R
       _(args_for('appraisal')[:mana_cost]).must_equal '4R'
-      # (Math.log10(332697) - 1).round => 5, Ruby then Shell => RW
+      # (Math.log10(332697) - 1).round => 5, Ruby (red) then Shell (white) => RW
       _(args_for('mtg_card_maker')[:mana_cost]).must_equal '5RW'
-      # (Math.log10(50328) - 1).round => 4, JavaScript then Ruby => GR
-      _(args_for('exercism-solutions')[:mana_cost]).must_equal '4GR'
-      # (Math.log10(40627) - 1).round => 4, Python => B
-      _(args_for('UO-Macros')[:mana_cost]).must_equal '4B'
-      # (Math.log10(194) - 1).round => 1, JavaScript => G
-      _(args_for('zoom-close')[:mana_cost]).must_equal '1G'
+      # (Math.log10(50328) - 1).round => 4, JavaScript (blue) then Ruby (red) => UR
+      _(args_for('exercism-solutions')[:mana_cost]).must_equal '4UR'
+      # (Math.log10(40627) - 1).round => 4, Python (green) => G
+      _(args_for('UO-Macros')[:mana_cost]).must_equal '4G'
+      # (Math.log10(194) - 1).round => 1, JavaScript (blue) => U
+      _(args_for('zoom-close')[:mana_cost]).must_equal '1U'
     end
 
-    it 'skips unmapped languages in pips but still uses the top language bytes for generic mana' do
-      # Top language is SCSS (31756, unmapped). (Math.log10(31756) - 1).round => 4
-      # Mapped pips in bytes-desc order: Ruby, JavaScript => RG
-      _(args_for('joe-sharp.github.io')[:mana_cost]).must_equal '4RG'
-      # Top language HTML (unmapped). (Math.log10(20187) - 1).round => 3, then JavaScript => G
-      _(args_for('agreen.studio')[:mana_cost]).must_equal '3G'
+    it 'groups identical pips together, ordered by first appearance in usage order' do
+      # Top language is SCSS (31756). (Math.log10(31756) - 1).round => 4
+      # SCSS W, HTML W, Ruby R, CSS U, JavaScript U => WW R UU
+      _(args_for('joe-sharp.github.io')[:mana_cost]).must_equal '4WWRUU'
+      # Top language HTML (20187). (Math.log10(20187) - 1).round => 3
+      # HTML W, CSS U, JavaScript U => W UU
+      _(args_for('agreen.studio')[:mana_cost]).must_equal '3WUU'
     end
 
     it 'omits mana cost when there are no languages' do
@@ -73,12 +76,12 @@ describe GithubProjectCard do
       _(args_for('zoom-close')[:rules_text]).must_equal ''
     end
 
-    it 'builds --flavor-text as a markdown short link plus a labeled date without UTC time' do
+    it 'builds --flavor-text as the repo URL plus a labeled date without UTC time' do
       _(args_for('agreen.studio')[:flavor_text]).must_equal(
-        "[joe-sharp/agreen.studio](https://github.com/joe-sharp/agreen.studio)\nCreated: 2020-12-02"
+        "https://github.com/joe-sharp/agreen.studio\nCreated: 2020-12-02"
       )
       _(args_for('joe-sharp.github.io')[:flavor_text]).must_equal(
-        "[joe-sharp/joe-sharp.github.io](https://github.com/joe-sharp/joe-sharp.github.io)\nCreated: 2020-11-26"
+        "https://github.com/joe-sharp/joe-sharp.github.io\nCreated: 2020-11-26"
       )
     end
 
@@ -100,8 +103,8 @@ describe GithubProjectCard do
 
     it 'uses the most-used language color unless two or more languages are at least 15% of bytes' do
       _(args_for('appraisal')[:color]).must_equal 'red'
-      _(args_for('UO-Macros')[:color]).must_equal 'black'
-      _(args_for('zoom-close')[:color]).must_equal 'green'
+      _(args_for('UO-Macros')[:color]).must_equal 'green'
+      _(args_for('zoom-close')[:color]).must_equal 'blue'
       # Shell is 131 / 332828 of mtg_card_maker, well under 15%
       _(args_for('mtg_card_maker')[:color]).must_equal 'red'
       # JavaScript 50328 and Ruby 20677 are both >= 15% of 71005
