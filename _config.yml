@@ -60,7 +60,6 @@ sass:
 highlighter: rouge
 
 plugins:
-  - jekyll-github-metadata
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -74,6 +73,9 @@ exclude:
   - .gitignore
   - README.md
   - LICENSE
-
-# GitHub Metadata
-repository: joe-sharp/joe-sharp.github.io
+  - languages.yml
+  - language_colors.yml
+  - lib
+  - bin
+  - test
+  - Rakefile
