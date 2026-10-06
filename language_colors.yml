@@ -1,0 +1,636 @@
+# Generated from Linguist languages.yml (sha256 183243e30496ba53f5f8743b0e39c9f0e0bccc5a32639f7b541cc2285db0e043).
+# 634 programming/markup languages.
+1C Enterprise: blue
+4D: green
+ABAP: white
+ABAP CDS: white
+ActionScript: blue
+Ada: green
+Agda: red
+AGS Script: green
+AIDL: red
+Aiken: blue
+AL: white
+Aleo: red
+ALGOL: black
+Alloy: red
+Alpine Abuild: blue
+AMPL: red
+AngelScript: white
+Answer Set Programming: white
+Antlers: red
+ANTLR: black
+Apex: black
+API Blueprint: blue
+APL: black
+Apollo Guidance Computer: blue
+AppleScript: black
+Arc: red
+ArkTS: blue
+ASL: red
+ASP.NET: green
+AspectJ: white
+Assembly: black
+Astro: red
+Asymptote: black
+ATS: white
+Augeas: green
+AutoHotkey: blue
+AutoIt: blue
+Awk: black
+B: black
+B (Formal Method): blue
+B4X: blue
+Ballerina: white
+BAML: white
+BASIC: white
+Batchfile: red
+BBCode: blue
+Beef: red
+Befunge: white
+Bend: green
+Berry: white
+BibTeX: black
+BibTeX Style: black
+Bicep: blue
+Bikeshed: blue
+Bison: red
+BitBake: green
+Blade: white
+BlitzBasic: blue
+BlitzMax: white
+Blueprint: red
+Bluespec: red
+Bluespec BH: white
+Boo: black
+Boogie: white
+BQN: green
+Brainfuck: red
+BrighterScript: black
+Brightscript: black
+Bru: black
+C: red
+C#: blue
+C++: white
+C2hs Haskell: red
+C3: green
+Cadence: black
+Cairo: red
+Cairo Zero: red
+CameLIGO: blue
+Cangjie: blue
+CAP CDS: red
+Cap'n Proto: black
+Carbon: blue
+CartoCSS: red
+Ceylon: blue
+Chapel: blue
+Charity: black
+ChucK: white
+Circom: black
+Cirru: blue
+Clarion: blue
+Clarity: blue
+Classic ASP: black
+Clean: black
+Click: green
+CLIPS: black
+Clojure: white
+Closure Templates: blue
+Clue: green
+CMake: white
+COBOL: black
+CodeQL: white
+CoffeeScript: red
+ColdFusion: red
+ColdFusion CFC: green
+Common Lisp: blue
+Common Workflow Language: black
+Component Pascal: red
+Cooklang: red
+Cool: black
+CQL: white
+Crystal: green
+Csound: red
+Csound Document: black
+Csound Score: white
+CSS: blue
+Cuda: blue
+CUE: black
+Curry: red
+CWeb: green
+Cycript: green
+Cypher: blue
+Cython: black
+D: black
+D2: white
+Dafny: blue
+Dart: blue
+Daslang: red
+DataWeave: blue
+DenizenScript: red
+Dhall: black
+DIGITAL Command Language: green
+DM: blue
+Dockerfile: blue
+Dogescript: white
+DTrace: green
+Dune: green
+Dylan: red
+E: black
+Earthly: green
+eC: black
+ECL: blue
+ECLiPSe: black
+Ecmarkup: white
+Edge: white
+EdgeQL: green
+Eiffel: red
+EJS: white
+Elixir: black
+Elm: green
+Elvish: green
+Elvish Transcript: red
+Emacs Lisp: green
+EmberScript: green
+EQ: blue
+Erlang: black
+Euphoria: blue
+F#: black
+F*: red
+Factor: blue
+Fancy: blue
+Fantom: blue
+Faust: blue
+Fennel: white
+Filebench WML: white
+Filterscript: red
+FIRRTL: blue
+fish: red
+Flix: green
+Fluent: green
+FLUX: white
+Forth: white
+Fortran: white
+Fortran Free Form: blue
+FPP: blue
+FreeBASIC: green
+FreeMarker: black
+Frege: white
+Futhark: black
+G-code: red
+Game Maker Language: blue
+GAML: black
+GAMS: blue
+GAP: green
+GCC Machine Description: red
+GDB: white
+GDScript: white
+GDShader: black
+Genero 4gl: red
+Genero per: green
+Genie: blue
+Genshi: white
+Gentoo Ebuild: green
+Gentoo Eclass: red
+Gherkin: black
+Gleam: black
+Glimmer JS: red
+Glimmer TS: black
+GLSL: red
+Glyph: green
+Gno: white
+Gnuplot: blue
+Go: blue
+Go Template: blue
+Golo: green
+Gosu: white
+Grace: white
+Grammatical Framework: green
+Groovy: blue
+Groovy Server Pages: white
+GSC: white
+Hack: black
+Haml: green
+Handlebars: green
+Harbour: white
+Hare: green
+Haskell: red
+Haxe: blue
+HCL: blue
+HIP: blue
+HiveQL: red
+HLSL: black
+HolyC: green
+hoon: red
+HTML: white
+HTML+ECR: red
+HTML+EEX: black
+HTML+ERB: green
+HTML+PHP: green
+HTML+Razor: black
+Hurl: black
+Hy: black
+HyPhy: green
+IDL: blue
+Idris: blue
+IGOR Pro: blue
+IL Assembly: white
+ImageJ Macro: blue
+Imba: red
+ImHex Pattern Language: blue
+Inform 7: blue
+Ink: blue
+Inno Setup: red
+Io: white
+Ioke: blue
+Isabelle: white
+Isabelle ROOT: black
+ISPC: blue
+J: white
+Jac: blue
+Jai: blue
+Janet: black
+Jasmin: white
+JASS: white
+Java: green
+Java Server Pages: black
+Java Template Engine: green
+JavaScript: blue
+JavaScript+ERB: blue
+JCL: green
+JetBrains MPS: red
+JFlex: green
+Jinja: blue
+Jison: red
+Jison Lex: blue
+Jolie: blue
+jq: red
+JSONiq: white
+Jsonnet: blue
+Julia: white
+Julia REPL: red
+Jupyter Notebook: green
+Just: green
+Kaitai Struct: red
+KakouneScript: black
+KCL: blue
+KerboScript: red
+KFramework: blue
+Kit: white
+Koka: white
+KoLmafia ASH: black
+Kotlin: black
+KRL: green
+kvlang: white
+LabVIEW: red
+Lambdapi: green
+Langium: white
+Lasso: green
+Latte: blue
+Lean: red
+Lean 4: blue
+Leo: blue
+Less: red
+Lex: black
+LFE: white
+LigoLANG: blue
+LilyPond: green
+Limbo: blue
+Linear Programming: blue
+Linker Script: blue
+Liquid: white
+Liquidsoap: black
+Literate Agda: white
+Literate CoffeeScript: white
+Literate Haskell: black
+LiveCode Script: blue
+LiveScript: white
+LLVM: green
+LLVM TableGen: green
+Lobster: red
+Logos: blue
+Logtalk: blue
+LOLCODE: white
+LookML: green
+LoomScript: green
+LSL: red
+Lua: white
+Luau: black
+M: green
+M4: red
+M4Sugar: blue
+Macaulay2: green
+Makefile: blue
+Mako: blue
+Marko: blue
+Mask: blue
+Mathematical Programming System: green
+MATLAB: blue
+Max: red
+MAXScript: green
+mcfunction: white
+mdsvex: black
+MDX: white
+Mercury: red
+Mermaid: red
+Meson: white
+Metal: green
+MeTTa: blue
+MiniD: green
+MiniScript: white
+MiniZinc: white
+Mint: red
+Mirah: white
+mIRC Script: white
+MLIR: white
+Modelica: black
+Modula-2: green
+Modula-3: green
+Module Management System: blue
+Mojo: blue
+Monkey: white
+Monkey C: red
+Moocode: white
+MoonBit: green
+MoonScript: green
+Motoko: white
+Motorola 68K Assembly: red
+Move: black
+MQL4: red
+MQL5: black
+MTML: green
+MUF: green
+mupad: red
+Mustache: black
+Myghty: red
+Nasal: blue
+NASL: blue
+NCL: white
+Nearley: blue
+Nemerle: black
+nesC: black
+NetLinx: black
+NetLinx+ERB: red
+NetLogo: red
+NewLisp: white
+Nextflow: red
+Nickel: blue
+Nim: black
+Nit: blue
+Nix: blue
+NMODL: green
+Noir: white
+NSIS: red
+Nu: blue
+NumPy: white
+Nunjucks: blue
+Nushell: red
+NWScript: white
+Oberon: green
+Objective-C: red
+Objective-C++: blue
+Objective-J: red
+ObjectScript: white
+OCaml: blue
+Odin: green
+Omgrofl: red
+OMNeT++ MSG: black
+OMNeT++ NED: black
+ooc: blue
+Opa: green
+Opal: red
+Open Policy Agent: blue
+OpenCL: black
+OpenEdge ABL: black
+OpenQASM: red
+OpenRC runscript: red
+OpenSCAD: red
+OverpassQL: white
+OverPy: blue
+Ox: green
+Oxygene: green
+Oz: blue
+P4: white
+Pact: green
+Pan: green
+Papyrus: green
+Parrot: white
+Parrot Assembly: green
+Parrot Internal Representation: white
+Pascal: blue
+Pawn: green
+PDDL: black
+PEG.js: blue
+Pep8: blue
+Perl: black
+PHP: black
+Pic: white
+PicoLisp: red
+PigLatin: red
+Pike: white
+Pkl: red
+PLpgSQL: white
+PLSQL: red
+PogoScript: black
+Polar: white
+Pony: blue
+Portugol: black
+PostCSS: black
+PostScript: green
+POV-Ray SDL: green
+Power Query: black
+PowerBuilder: black
+PowerShell: red
+Praat: black
+Pro*C: red
+Processing: blue
+Procfile: red
+Prolog: blue
+Promela: green
+Propeller Spin: green
+Pug: green
+Puppet: blue
+PureBasic: white
+PureScript: white
+Pyret: blue
+Python: green
+Python console: green
+q: red
+Q#: blue
+QMake: blue
+QML: red
+Qt Script: white
+Quake: blue
+QuakeC: red
+QuickBASIC: red
+Quint: white
+R: blue
+Racket: blue
+Ragel: black
+Raku: black
+RAML: white
+Rascal: white
+RAScript: blue
+REALbasic: green
+Reason: white
+ReasonLIGO: green
+Rebol: white
+Red: white
+Redcode: black
+Redscript: blue
+Ren'Py: red
+RenderScript: black
+ReScript: white
+REXX: black
+Rez: red
+Rhai: green
+Rich Text Format: blue
+Ring: blue
+Riot: green
+RobotFramework: red
+Roc: blue
+Rocq Prover: green
+Roff: red
+Roff Manpage: red
+Rouge: white
+RouterOS Script: white
+RPC: white
+RPGLE: blue
+Ruby: red
+RUNOFF: blue
+Rust: red
+Sage: blue
+Sail: red
+Salt: black
+SAS: blue
+Sass: black
+Scala: blue
+Scaml: black
+Scenic: green
+Scheme: blue
+Scilab: red
+SCSS: white
+sed: black
+Self: white
+ShaderLab: red
+Shell: white
+ShellSession: blue
+Shen: white
+Sieve: red
+Singularity: blue
+SIP: blue
+Slang: red
+Slash: green
+Slice: blue
+Slim: red
+Slint: black
+Smali: red
+Smalltalk: red
+Smarty: white
+Smithy: green
+SmPL: white
+SMT: black
+Snakemake: red
+Solidity: white
+SourcePawn: white
+SQF: black
+SQLPL: red
+Squirrel: green
+SRecode Template: blue
+Stan: black
+Standard ML: black
+Starlark: blue
+Stata: red
+StringTemplate: white
+Stylus: red
+SugarSS: black
+SuperCollider: white
+SurrealQL: black
+Svelte: red
+Sway: black
+Swift: green
+SWIG: green
+SystemVerilog: green
+Tact: black
+Talon: black
+Tape: black
+Tcl: red
+Tcsh: blue
+Tea: black
+Teal: blue
+templ: white
+Terra: red
+Terraform Template: blue
+TeX: green
+Thrift: green
+TI Program: black
+TL-Verilog: red
+TLA: red
+Toit: red
+Tolk: green
+Tree-sitter Query: blue
+TSQL: green
+TSX: white
+Turing: red
+Twig: black
+TXL: red
+TypeScript: blue
+TypeSpec: black
+Typst: white
+ucode: black
+Unified Parallel C: green
+Unix Assembly: black
+Uno: white
+UnrealScript: black
+Untyped Plutus Core: white
+UrWeb: white
+V: blue
+Vala: blue
+VBA: red
+VBScript: green
+VCL: red
+Velocity Template Language: green
+Vento: green
+Verilog: white
+Verse: white
+VHDL: green
+Vim script: blue
+Vim Snippet: red
+Visual Basic .NET: blue
+Visual Basic 6.0: black
+Volt: white
+Vue: black
+Vyper: red
+WDL: white
+WebAssembly: green
+WebIDL: green
+WGSL: red
+Whiley: green
+wisp: red
+Witcher Script: white
+Wolfram Language: black
+Wollok: blue
+Wren: black
+X10: black
+xBase: white
+XC: black
+Xmake: black
+Xojo: blue
+Xonsh: blue
+XProc: black
+XQuery: black
+XS: black
+XSLT: black
+Xtend: blue
+Yacc: white
+YARA: white
+YASnippet: blue
+Yul: white
+ZAP: green
+Zeek: green
+ZenScript: green
+Zephir: white
+Zig: white
+ZIL: black
+Zimpl: blue
