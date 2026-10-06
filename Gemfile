@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -26,3 +28,9 @@ group :test do
   gem 'minitest', '~> 5.25'
   gem 'rake', '~> 13.2'
 end
+
+gem 'cloudinary', '~> 2.4'
+
+gem 'dotenv', '~> 3.2'
+
+gem 'debug', '~> 1.11', require: 'debug'
