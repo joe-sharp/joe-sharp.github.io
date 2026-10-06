@@ -97,23 +97,20 @@ linter_configs:
   flavor_text: https://github.com/joe-sharp/linter-configs
 mega_linter:
   name: mega-linter
-  type_line: Python, Dockerfile, JavaScript, Shell, Swift, TeX, HTML, CoffeeScript,
-    Perl, Ruby, TypeScript, HCL, PowerShell, Clojure, Go, Apex, R, Rust, CSS, Kotlin,
-    Groovy, Java, PHP, Gherkin, Puppet, SCSS, Visual Basic .NET, C#, Lua, Scala, C,
-    C++, Dart, Raku
+  type_line: Python, Dockerfile, JavaScript, Shell, Swift
   rules_text: Mega-Linter analyzes 40 languages, 19 formats, 16 tooling formats ,
     abusive copy-pastes and spelling mistakes in your repository sources , with a
     GitHub Action or other CI tools
-  mana_cost: 5GGGGUUUUUUUUUUUUUWWWWWWRRRRRBBBBBB
+  mana_cost: 29GGUUWWRRBB
   border_color: white
   color: gold
   art: https://res.cloudinary.com/uv7kncpy/image/upload/68366e2a01ac7ace4572c4055642349f.jpg
   flavor_text: https://github.com/joe-sharp/mega-linter
 mpxj:
   name: mpxj
-  type_line: Java, Ruby, VBA, CSS, Batchfile, Python, Shell
+  type_line: Java, Ruby, VBA, CSS, Batchfile
   rules_text: Primary repository for MPXJ library
-  mana_cost: 6GGRRRUW
+  mana_cost: 7GGRRUW
   border_color: white
   color: green
   art: https://res.cloudinary.com/uv7kncpy/image/upload/123ab3d8c58d996a96bda0be784022d3.jpg
@@ -193,7 +190,7 @@ sift:
   flavor_text: https://github.com/joe-sharp/sift
 telfers_ultima_adventures:
   name: Telfers-Ultima-Adventures
-  type_line: C#, GLSL, HLSL, Python, HTML, Shell, Batchfile
+  type_line: C#, GLSL, HLSL, Python, HTML
   rules_text: Telfer's Fork of UOA
   mana_cost: 7URRBGWW
   border_color: white
