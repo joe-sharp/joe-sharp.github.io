@@ -57,6 +57,30 @@ describe GithubProjectCard do
       _(args_for('agreen.studio')[:mana_cost]).must_equal '3WUU'
     end
 
+    describe 'with more than 5 languages' do
+      # Ruby R, Shell W, SCSS W, HTML W, CSS U, JavaScript U, Python G
+      let(:languages) do
+        { 'Ruby' => 70_000, 'Shell' => 60_000, 'SCSS' => 50_000, 'HTML' => 40_000,
+          'CSS' => 30_000, 'JavaScript' => 20_000, 'Python' => 10_000 }
+      end
+
+      it 'limits --type-line to the top 5 languages' do
+        _(args_for('appraisal', languages: languages)[:type_line]).must_equal 'Ruby, Shell, SCSS, HTML, CSS'
+      end
+
+      it 'caps each color at two pips and adds one generic mana per skipped pip' do
+        # (Math.log10(70000) - 1).round => 4; W appears 3 times => 1 skipped => 5
+        # Pips by first appearance: R, WW, UU, G
+        _(args_for('appraisal', languages: languages)[:mana_cost]).must_equal '5RWWUUG'
+      end
+    end
+
+    it 'does not cap pips when the type-line is not truncated' do
+      languages = { 'Ruby' => 50_000, 'Shell' => 40_000, 'SCSS' => 30_000, 'HTML' => 20_000, 'CSS' => 10_000 }
+      # W appears 3 times and is kept; (Math.log10(50000) - 1).round => 4
+      _(args_for('appraisal', languages: languages)[:mana_cost]).must_equal '4RWWWU'
+    end
+
     it 'omits mana cost when there are no languages' do
       _(args_for('linter-configs')[:mana_cost]).must_be_nil
       _(args_for('ZoeDreams')[:mana_cost]).must_be_nil

@@ -17,6 +17,11 @@ class GithubProjectCard
 
   MULTICOLOR_THRESHOLD = 0.15
 
+  # Type line shows only the top languages; when it is truncated, each color
+  # is capped at MAX_PIPS_PER_COLOR pips and every skipped pip adds 1 generic mana.
+  MAX_TYPE_LINE_LANGUAGES = 5
+  MAX_PIPS_PER_COLOR = 2
+
   ART_BASE_URL = 'https://res.cloudinary.com/uv7kncpy/image/upload'
 
   attr_reader :attributes
@@ -106,18 +111,26 @@ class GithubProjectCard
     return nil if languages.empty?
 
     generic = (Math.log10(top_language_bytes) - 1).round
-    pips = languages_by_usage
-           .filter_map { |lang, _bytes| language_mana_code(lang) }
-           .group_by(&:itself)
-           .values
-           .flatten
-           .join
+    groups = languages_by_usage
+             .filter_map { |lang, _bytes| language_mana_code(lang) }
+             .group_by(&:itself)
+             .values
 
-    "#{generic}#{pips}"
+    if type_line_truncated?
+      skipped = groups.sum { |group| [group.size - MAX_PIPS_PER_COLOR, 0].max }
+      generic += skipped
+      groups = groups.map { |group| group.first(MAX_PIPS_PER_COLOR) }
+    end
+
+    "#{generic}#{groups.flatten.join}"
+  end
+
+  def type_line_truncated?
+    languages.size > MAX_TYPE_LINE_LANGUAGES
   end
 
   def type_line
-    languages_by_usage.map(&:first).join(', ')
+    languages_by_usage.first(MAX_TYPE_LINE_LANGUAGES).map(&:first).join(', ')
   end
 
   def rules_text
