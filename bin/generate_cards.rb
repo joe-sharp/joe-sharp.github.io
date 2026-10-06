@@ -46,5 +46,5 @@ end
 
 if ARGV.include?('--run')
   puts "Regenerating Sprite:"
-  system("mtg_card_maker generate_sprite deck.yml deck.svg")
+  system("mtg_card_maker generate_sprite deck.yml deck.svg --cards-per-row=5")
 end
