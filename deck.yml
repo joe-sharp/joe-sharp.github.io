@@ -1,0 +1,246 @@
+---
+agreen_studio:
+  name: agreen.studio
+  type_line: HTML, CSS, JavaScript
+  rules_text: Website for Anita Green
+  mana_cost: 3wbb
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f79aba9b01e199b3debf38f3c3218d11.jpg
+  flavor_text: https://github.com/joe-sharp/agreen.studio
+appraisal:
+  name: appraisal
+  type_line: Ruby
+  rules_text: A Ruby library for testing your library against different versions of
+    dependencies.
+  mana_cost: 4r
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/7592a7909b6662f6fff382e2c854a165.jpg
+  flavor_text: https://github.com/joe-sharp/appraisal
+customatreus:
+  name: CustomAtreus
+  type_line: C++, Makefile
+  rules_text: Custom Firmware for Keyboardio Atreus
+  mana_cost: 3wb
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/69c95f8fe9347ab05332f0ab2a6c2010.jpg
+  flavor_text: https://github.com/joe-sharp/CustomAtreus
+dotfiles:
+  name: dotfiles
+  type_line: Vim Script, Shell, Ruby
+  rules_text: Various config files
+  mana_cost: 3wr
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/c3ae06f70363066574dc6f52338df7f5.jpg
+  flavor_text: https://github.com/joe-sharp/dotfiles
+exercism_solutions:
+  name: exercism-solutions
+  type_line: JavaScript, Ruby
+  rules_text: These are my solutions to the lessons I take on exercism.org
+  mana_cost: 4br
+  power: '0'
+  toughness: '3'
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/9877723b058feacc4ebfa6e541ba8241.jpg
+  flavor_text: https://github.com/joe-sharp/exercism-solutions
+github_readme_stats:
+  name: github-readme-stats
+  type_line: JavaScript, Shell
+  rules_text: ":zap: Dynamically generated stats for your github readmes"
+  mana_cost: 5bw
+  border_color: white
+  color: blue
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/9b440a7f28bc95f4c5559b9fe489c995.jpg
+  flavor_text: https://github.com/joe-sharp/github-readme-stats
+github_project_fetch:
+  name: github_project_fetch
+  type_line: Ruby
+  rules_text: A Ruby serverless application that fetches public repositories along
+    with their language data from GitHub users, deployed on Vercel.
+  mana_cost: 4r
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/4cbe2cfff1bc4222e612ebdd5df0ec69.jpg
+  flavor_text: https://github.com/joe-sharp/github_project_fetch
+joe_sharp:
+  name: joe-sharp
+  type_line: ''
+  rules_text: 'joe-sharp/joe-sharp is a special repository. Its README.md appears
+    on my profile: https://github.com/joe-sharp'
+  border_color: white
+  color: colorless
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/d1d006d3b2a44c8955c7d02b7fc193e4.jpg
+  flavor_text: https://github.com/joe-sharp/joe-sharp
+joe_sharp_github_io:
+  name: joe-sharp.github.io
+  type_line: SCSS, HTML, Ruby, CSS, JavaScript
+  rules_text: Projects
+  mana_cost: 4wwrbb
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/faa79416b855ca1c82b6b5aeb3c3235a.jpg
+  flavor_text: https://github.com/joe-sharp/joe-sharp.github.io
+linter_configs:
+  name: linter-configs
+  type_line: ''
+  rules_text: Collection of config files for various linters. Can be used as remote
+    configuration for Mega-Linter. https://github.com/nvuillam/mega-linter
+  power: '2'
+  toughness: '0'
+  border_color: white
+  color: colorless
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/88366c922d20dc5aa0ff3de52d3f6cec.jpg
+  flavor_text: https://github.com/joe-sharp/linter-configs
+mega_linter:
+  name: mega-linter
+  type_line: Python, Dockerfile, JavaScript, Shell, Swift, TeX, HTML, CoffeeScript,
+    Perl, Ruby, TypeScript, HCL, PowerShell, Clojure, Go, Apex, R, Rust, CSS, Kotlin,
+    Groovy, Java, PHP, Gherkin, Puppet, SCSS, Visual Basic .NET, C#, Lua, Scala, C,
+    C++, Dart, Raku
+  rules_text: Mega-Linter analyzes 40 languages, 19 formats, 16 tooling formats ,
+    abusive copy-pastes and spelling mistakes in your repository sources , with a
+    GitHub Action or other CI tools
+  mana_cost: 5ggggbbbbbbbbbbbbbwwwwwwrrrrrkkkkkk
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/68366e2a01ac7ace4572c4055642349f.jpg
+  flavor_text: https://github.com/joe-sharp/mega-linter
+mpxj:
+  name: mpxj
+  type_line: Java, Ruby, VBA, CSS, Batchfile, Python, Shell
+  rules_text: Primary repository for MPXJ library
+  mana_cost: 6ggrrrbw
+  border_color: white
+  color: green
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/123ab3d8c58d996a96bda0be784022d3.jpg
+  flavor_text: https://github.com/joe-sharp/mpxj
+mtg_card_maker:
+  name: mtg_card_maker
+  type_line: Ruby, Shell
+  rules_text: 'MTG Card Maker is a tool for creating fan-made Magic: The Gathering
+    cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content
+    Policy. Not approved/endorsed by Wizards. Portions of the materials used are property
+    of Wizards of the Coast. ©Wizards of the Coast LLC.'
+  mana_cost: 5rw
+  power: '2'
+  toughness: '1'
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/595f103c608631e0049772bf3ad48b06.jpg
+  flavor_text: https://github.com/joe-sharp/mtg_card_maker
+multidb:
+  name: multidb
+  type_line: Ruby
+  rules_text: An ActiveRecord extension to switch between multiple databases, such
+    as in a master/slave setup
+  mana_cost: 4r
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/3fe60785b296afd688501782a73917ee.jpg
+  flavor_text: https://github.com/joe-sharp/multidb
+ninja_switches:
+  name: ninja-switches
+  type_line: CSS, JavaScript, HTML
+  rules_text: Defunct web application used to configure a Pebble watch to make HTTP
+    requests
+  mana_cost: 3bbw
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/67d5d041b286fce9ebbbf9e1ef8967ce.jpg
+  flavor_text: https://github.com/joe-sharp/ninja-switches
+old_arduino_projects:
+  name: old-arduino-projects
+  type_line: C++
+  rules_text: Old Arduino Projects
+  mana_cost: 3w
+  power: '0'
+  toughness: '1'
+  border_color: white
+  color: white
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/d15053a257b3824cc1a577228438a009.jpg
+  flavor_text: https://github.com/joe-sharp/old-arduino-projects
+rubocop:
+  name: rubocop
+  type_line: Ruby, HTML, Emacs Lisp, Shell
+  rules_text: A Ruby static code analyzer and formatter, based on the community Ruby
+    style guide.
+  mana_cost: 6rwwg
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/984eddbbc013e25cbb6379bf68aa05c1.jpg
+  flavor_text: https://github.com/joe-sharp/rubocop
+rubygems:
+  name: rubygems
+  type_line: Ruby, Roff, Rust, Shell
+  rules_text: Library packaging and distribution for Ruby.
+  mana_cost: 6rrrw
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/a2b42015bc2d55385451f2f047531ff5.jpg
+  flavor_text: https://github.com/joe-sharp/rubygems
+sift:
+  name: sift
+  type_line: Ruby, HTML, JavaScript, CSS
+  rules_text: Enables easily adding filtering in rails controllers
+  mana_cost: 4rwbb
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/a54956cea274f302e66eadfc566dc90c.jpg
+  flavor_text: https://github.com/joe-sharp/sift
+telfers_ultima_adventures:
+  name: Telfers-Ultima-Adventures
+  type_line: C#, GLSL, HLSL, Python, HTML, Shell, Batchfile
+  rules_text: Telfer's Fork of UOA
+  mana_cost: 7brrkgww
+  border_color: white
+  color: blue
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/6edf1d8410830cf57931dc598e1bf32a.jpg
+  flavor_text: https://github.com/joe-sharp/Telfers-Ultima-Adventures
+treehouse_points:
+  name: treehouse-points
+  type_line: Liquid, JavaScript, SCSS, HTML, Ruby
+  rules_text: Widget to display Treehouse points on the web
+  mana_cost: 3wwwbr
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/2464f2fe6495760016f9a3247ffb9c17.jpg
+  flavor_text: https://github.com/joe-sharp/treehouse-points
+treehouse_vue:
+  name: treehouse-vue
+  type_line: Vue, Ruby, JavaScript, HTML
+  rules_text: About Widget to display Treehouse points on the web, rewritten in Vue.js
+  mana_cost: 3krbw
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/340152f140c1e6f3aac7bcb7b58c94fd.jpg
+  flavor_text: https://github.com/joe-sharp/treehouse-vue
+uo_macros:
+  name: UO-Macros
+  type_line: Python
+  rules_text: Macros for Ultima Online & Classic Assist, may work with other assistants
+  mana_cost: 4g
+  border_color: white
+  color: green
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/c766858fceaed60510f18f0368f28bd2.jpg
+  flavor_text: https://github.com/joe-sharp/UO-Macros
+zoedreams:
+  name: ZoeDreams
+  type_line: ''
+  rules_text: ''
+  border_color: white
+  color: colorless
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/cb36a59f2753dafde339e196419d7f37.jpg
+  flavor_text: https://github.com/joe-sharp/ZoeDreams
+zoom_close:
+  name: zoom-close
+  type_line: JavaScript
+  rules_text: ''
+  mana_cost: 1b
+  border_color: white
+  color: blue
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/1445604355d549511026d7a41a90da6a.jpg
+  flavor_text: https://github.com/joe-sharp/zoom-close
