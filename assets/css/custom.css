@@ -327,14 +327,67 @@ body {
   .projects-cards { grid-template-columns: repeat(3, 1fr); }
 }
 
+.projects-cards { position: relative; }
+
 .project-card {
   display: block;
+  position: relative;
+  aspect-ratio: 630 / 880;
+  perspective: 1000px;
   transition: transform 0.2s ease;
+  /* Keep each card on its own compositor layer so the SVG (filters, mask,
+     gradients) is rasterized once instead of on every animation frame. */
+  will-change: transform;
+}
+
+/* Gold glow while a card is in flight. Opacity-only, so it never repaints the SVG. */
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4%;
+  box-shadow: 0 0 22px 4px var(--gold);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-card.is-dealing::after { animation: card-glow 1.15s ease-out; }
+
+@keyframes card-glow {
+  0%   { opacity: 0.4; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .project-card:hover,
 .project-card:focus-visible {
   transform: translateY(-4px);
+}
+
+.project-card-tilt,
+.project-card-flip {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.project-card-tilt { transition: transform 0.15s ease-out; }
+.project-card-flip { transition: transform 0.7s ease-out; }
+
+.project-card-face {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 4%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.project-card-face.back {
+  transform: rotateY(180deg);
+  background: var(--card-back) center / cover no-repeat;
 }
 
 .project-card svg {
@@ -343,6 +396,33 @@ body {
   height: auto;
 }
 
+/* Armed by assets/js/deal.js: cards wait face down until they are dealt */
+.deal-armed .project-card:not(.is-dealt) { opacity: 0; }
+.deal-armed .project-card:not(.is-flipped) .project-card-flip { transform: rotateY(180deg); }
+
+.deal-ring {
+  position: absolute;
+  width: 8rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  box-shadow: 0 0 16px var(--gold);
+  pointer-events: none;
+  z-index: 100;
+  will-change: transform, opacity;
+}
+
+.deal-spark {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 100;
+  will-change: transform, opacity;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .project-card { transition: none; }
+  .project-card.is-dealing::after { animation: none; }
 }

@@ -14,7 +14,7 @@
   {% assign cell_h = 910 %}
   {% capture deck_svg %}{% include deck.svg %}{% endcapture %}
   {{ deck_svg | replace: '<?xml version="1.0"?>', '' }}
-  <div class="projects-cards">
+  <div class="projects-cards" style="--card-back: url('{{ 'images/back.webp' | relative_url }}')">
     {% for entry in site.data.deck %}
       {% assign card = entry[1] %}
       {% assign i = forloop.index0 %}
@@ -25,12 +25,18 @@
       {% assign url = card.flavor_text | split: "
 " | first %}
       <a class="project-card" href="{{ url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ card.name | escape }}">
-        <svg viewBox="{{ x }} {{ y }} 630 880" role="img" aria-label="{{ card.name | escape }} card">
-          <use href="#deck-card-{{ i }}"/>
-        </svg>
+        <span class="project-card-tilt"><span class="project-card-flip">
+          <span class="project-card-face front">
+            <svg viewBox="{{ x }} {{ y }} 630 880" role="img" aria-label="{{ card.name | escape }} card">
+              <use href="#deck-card-{{ i }}"/>
+            </svg>
+          </span>
+          <span class="project-card-face back" aria-hidden="true"></span>
+        </span></span>
       </a>
     {% endfor %}
   </div>
+  <script src="{{ 'assets/js/deal.js' | relative_url }}"></script>
   {% assign actions = include.section.actions %}
   {% if actions %}
   <p class="block-cta">
