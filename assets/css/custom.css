@@ -90,7 +90,7 @@ body {
 .site-content .inner {
   max-width: none;
   margin: 0;
-  padding: 2rem 0;
+  padding: 0;
 }
 
 /* Masthead capped at 250px; content offset matches */
@@ -103,13 +103,19 @@ body {
   }
 }
 
-/* Single-column cards: drop the title/tagline */
-@media (max-width: 639px) {
-  .site-identity { display: none; }
-  .site-branding { justify-content: center; }
-  .site-header-inside { text-align: center; }
-  .social-links { justify-content: center; text-align: center; }
+/* Masthead is only a sidebar at 801px and up; below that, hide the title and tagline and center the rest */
+@media (max-width: 800px) {
+  #page .site-identity { display: none; }
+  #page .site-branding { justify-content: center; gap: 1rem; }
+  #page .site-header-inside { text-align: center; }
+  #page .profile { margin: 0; }
+  #page .social-links { justify-content: center; margin: 0; gap: 0.5rem 1rem; }
+  #page .social-links a { margin: 0; }
+  /* The first block's 2rem top margin is the gap under the masthead */
+  #page .site-content { padding-top: 0; }
 }
+
+#page .site-main { margin-bottom: 0; }
 
 #page .site-main {
   max-width: 1400px;
@@ -125,6 +131,11 @@ body {
   padding: 2rem;
   margin-top: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* The theme sets .block margin-bottom to 5em and loads after this file, so this needs #page to win */
+#page .block {
+  margin-bottom: 2em;
 }
 
 /* FIXED: Added !important to force Chrome to render JetBrains Mono on the About header */
@@ -159,8 +170,7 @@ body {
 .site-footer {
   border-top: 1px solid var(--hairline);
   text-align: center;
-  padding: 2rem 0;
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: var(--ink-muted);
 }
 
