@@ -24,3 +24,12 @@ document.querySelector('#to-top').addEventListener('click', function (e) {
   e.preventDefault();
   document.querySelector('#page').scrollIntoView({ behavior: 'smooth' });
 });
+
+// Always start at the top on refresh instead of restoring the previous scroll position
+// (links with a #hash still jump to their anchor).
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+if (!window.location.hash) {
+  window.scrollTo(0, 0);
+}
