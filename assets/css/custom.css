@@ -12,18 +12,26 @@
   --hairline: rgba(227, 178, 60, 0.18);
 }
 
+html {
+  background: var(--bg) !important;
+}
+
 html, body {
   box-sizing: border-box;
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at 12% 8%, rgba(139,63,209,0.35), transparent 40%),
-    radial-gradient(circle at 88% 14%, rgba(31,162,98,0.22), transparent 38%),
-    radial-gradient(circle at 50% 100%, rgba(227,178,60,0.12), transparent 45%),
-    var(--bg) !important;
   color: var(--ink) !important;
   font-family: 'Inter', system-ui, sans-serif;
   overflow-x: hidden;
+}
+
+/* Full-length purple-to-teal gradient on body (sized to the page, scrolls with it), with glows at the top */
+body {
+  background:
+    radial-gradient(circle 700px at 12% 0, rgba(176,110,255,0.35), transparent),
+    radial-gradient(circle 600px at 88% 0, rgba(31,162,98,0.30), transparent),
+    linear-gradient(180deg, #2e164f 0%, #1d314b 50%, #0e4f45 100%) !important;
+  background-repeat: no-repeat !important;
 }
 
 /* Force override template background wrappers */
