@@ -30,7 +30,8 @@ body {
   background:
     radial-gradient(circle 700px at 12% 0, rgba(176,110,255,0.35), transparent),
     radial-gradient(circle 600px at 88% 0, rgba(31,162,98,0.30), transparent),
-    linear-gradient(180deg, #2e164f 0%, #1d314b 50%, #0e4f45 100%) !important;
+    radial-gradient(ellipse 70% 600px at 50% 100%, rgba(139,63,209,0.35), transparent),
+    linear-gradient(180deg, #25123f 0%, #17273c 50%, #0b3f37 100%) !important;
   background-repeat: no-repeat !important;
 }
 
