@@ -110,6 +110,7 @@ body {
   #page .site-header-inside { text-align: center; }
   #page .profile { margin: 0; }
   #page .social-links { justify-content: center; margin: 0; gap: 0.5rem 1rem; }
+  #page .social-icons { gap: 0.5rem 1rem; }
   #page .social-links a { margin: 0; }
   /* The first block's 2rem top margin is the gap under the masthead */
   #page .site-content { padding-top: 0; }
@@ -164,6 +165,18 @@ body {
 
 .social-links a:hover {
   color: var(--gold) !important;
+}
+
+/* Circles on one row, with the pill-shaped profile link on its own row below, at every width */
+#page .social-links {
+  flex-direction: column;
+  align-items: center;
+}
+
+#page .social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Image icons (e.g. Exercism) are drawn as a mask over currentColor so they take the same hover color as the font icons */
