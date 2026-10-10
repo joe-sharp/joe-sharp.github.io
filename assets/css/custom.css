@@ -12,18 +12,49 @@
   --hairline: rgba(227, 178, 60, 0.18);
 }
 
+html {
+  background: var(--bg) !important;
+}
+
 html, body {
   box-sizing: border-box;
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at 12% 8%, rgba(139,63,209,0.35), transparent 40%),
-    radial-gradient(circle at 88% 14%, rgba(31,162,98,0.22), transparent 38%),
-    radial-gradient(circle at 50% 100%, rgba(227,178,60,0.12), transparent 45%),
-    var(--bg) !important;
   color: var(--ink) !important;
   font-family: 'Inter', system-ui, sans-serif;
   overflow-x: hidden;
+}
+
+/* Full-length purple-to-teal gradient on body (sized to the page, scrolls with it), with glows at the top */
+body {
+  background:
+    radial-gradient(circle 700px at 12% 0, rgba(176,110,255,0.35), transparent),
+    radial-gradient(circle 600px at 88% 0, rgba(31,162,98,0.30), transparent),
+    radial-gradient(ellipse 70% 600px at 50% 100%, rgba(139,63,209,0.35), transparent),
+    linear-gradient(180deg, #25123f 0%, #17273c 50%, #0b3f37 100%) !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Remove the theme's blue link underline (a 2px border-bottom); buttons and social icons keep theirs */
+#page a:not(.button):not(.social-links a) {
+  border-bottom: none;
+}
+
+/* Section-title separators: the theme's short blue accent bar becomes purple */
+#page .underline:after {
+  border-color: var(--purple);
+}
+
+/* Avatar ring is teal (the rest of the former blue accent is purple, set in main.scss's palette) */
+#page .profile .avatar {
+  border-color: #1fa262;
+  box-shadow: 0 0 1px 7px rgba(31, 162, 98, 0.2);
+}
+
+@media (min-width: 801px) {
+  #page .profile .avatar {
+    box-shadow: 0 0 1px 11px rgba(31, 162, 98, 0.2);
+  }
 }
 
 /* Force override template background wrappers */
@@ -57,9 +88,40 @@ html, body {
 
 /* Main Content Wrapper */
 .site-content .inner {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Masthead capped at 250px; content offset matches */
+@media (min-width: 801px) {
+  #page .site-header { width: min(30vw, 250px); }
+  #page .site-content {
+    margin-left: min(30vw, 250px);
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+}
+
+/* Masthead is only a sidebar at 801px and up; below that, hide the title and tagline and center the rest */
+@media (max-width: 800px) {
+  #page .site-identity { display: none; }
+  #page .site-branding { justify-content: center; gap: 1rem; }
+  #page .site-header-inside { text-align: center; }
+  #page .profile { margin: 0; }
+  #page .social-links { justify-content: center; margin: 0; gap: 0.5rem 1rem; }
+  #page .social-icons { gap: 0.5rem 1rem; }
+  #page .social-links a { margin: 0; }
+  /* The first block's 2rem top margin is the gap under the masthead */
+  #page .site-content { padding-top: 0; }
+}
+
+#page .site-main { margin-bottom: 0; }
+
+#page .site-main {
+  max-width: 1400px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Blocks / About Section styling */
@@ -70,6 +132,11 @@ html, body {
   padding: 2rem;
   margin-top: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* The theme sets .block margin-bottom to 5em and loads after this file, so this needs #page to win */
+#page .block {
+  margin-bottom: 2em;
 }
 
 /* FIXED: Added !important to force Chrome to render JetBrains Mono on the About header */
@@ -100,17 +167,39 @@ html, body {
   color: var(--gold) !important;
 }
 
+/* Circles on one row, with the pill-shaped profile link on its own row below, at every width */
+#page .social-links {
+  flex-direction: column;
+  align-items: center;
+}
+
+#page .social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Image icons (e.g. Exercism) are drawn as a mask over currentColor so they take the same hover color as the font icons */
+.social-links .custom-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+  filter: none;
+}
+
 /* Footer & Glow Link */
 .site-footer {
   border-top: 1px solid var(--hairline);
   text-align: center;
-  padding: 2rem 0;
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: var(--ink-muted);
 }
 
 .site-info a {
-  color: #06b6d4;
+  color: var(--green);
   text-decoration: none;
   font-weight: 600;
   padding: 4px 8px;
@@ -120,9 +209,9 @@ html, body {
 }
 
 .site-info a:hover {
-  background-color: rgba(6, 182, 212, 0.1);
-  text-shadow: 0 0 8px rgba(6, 182, 212, 0.6);
-  color: #22d3ee;
+  background-color: rgba(31, 162, 98, 0.1);
+  text-shadow: 0 0 8px rgba(31, 162, 98, 0.6);
+  color: #34c982;
 }
 
 /* === HERO SECTION & BLINKING CURSOR FIX === */
@@ -145,7 +234,7 @@ html, body {
   line-height: 1.05 !important;
   margin: 0 0 0.75rem !important;
   
-  background: linear-gradient(100deg, var(--gold) 0%, #f0d98a 35%, var(--gold) 60%, #caa23a 100%) !important;
+  background: linear-gradient(100deg, var(--gold) 0%, var(--gold) 35%, #f0d98a 50%, var(--gold) 70%, #caa23a 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -155,10 +244,9 @@ html, body {
 }
 
 .hero-title::before {
-  content: '~$ ' !important;
+  content: '~$' !important;
   color: var(--green) !important;
   font-weight: 500 !important;
-  opacity: 0.8 !important;
   margin-right: 0.05em !important;
   -webkit-text-fill-color: var(--green) !important;
 }
@@ -217,20 +305,25 @@ html, body {
   .hero-title::after { animation: none; opacity: 1; }
 }
 
+/* The theme gives #projects 3vw side padding; tighten it so cards sit near the sidebar */
+#page.style-overflow #projects {
+  padding: 2rem;
+}
+
 /* Projects: cards cropped from the sprite generated by bin/generate_cards.rb */
 .projects-cards {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
 }
 
 @media (min-width: 640px) {
   .projects-cards { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1100px) {
   .projects-cards { grid-template-columns: repeat(3, 1fr); }
 }
 
