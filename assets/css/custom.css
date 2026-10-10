@@ -166,6 +166,17 @@ body {
   color: var(--gold) !important;
 }
 
+/* Image icons (e.g. Exercism) are drawn as a mask over currentColor so they take the same hover color as the font icons */
+.social-links .custom-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+  filter: none;
+}
+
 /* Footer & Glow Link */
 .site-footer {
   border-top: 1px solid var(--hairline);

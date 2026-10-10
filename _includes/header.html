@@ -14,7 +14,7 @@
           {% for link in site.data.social.links %}
           <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
             {% if link.icon contains 'http' %}
-              <img src="{{ link.icon }}" alt="{{ link.title }}" class="custom-icon" />
+              <span class="custom-icon" style="--icon: url('{{ link.icon }}')" aria-hidden="true"></span>
             {% else %}
               <span class="fab {{ link.icon }}" aria-hidden="true"></span>
             {% endif %}
