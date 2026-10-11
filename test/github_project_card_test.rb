@@ -91,7 +91,7 @@ describe GithubProjectCard do
       _(args_for('mtg_card_maker')[:type_line]).must_equal 'Ruby, Shell'
       _(args_for('exercism-solutions')[:type_line]).must_equal 'JavaScript, Ruby'
       _(args_for('joe-sharp.github.io')[:type_line]).must_equal 'SCSS, HTML, Ruby, CSS, JavaScript'
-      _(args_for('linter-configs')[:type_line]).must_equal 'Markdown'
+      _(args_for('linter-configs')[:type_line]).must_equal ''
     end
 
     it 'uses description as --rules-text and empty string when description is nil' do

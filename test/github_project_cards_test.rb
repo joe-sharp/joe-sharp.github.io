@@ -64,7 +64,7 @@ describe GithubProjectCards do
 
       _(command).wont_include '--mana-cost='
       _(command).wont_include '--rules-text='
-      _(command).must_include '--type-line="Markdown"'
+      _(command).must_include '--type-line=""'
       _(command).must_include '--color="colorless"'
     end
   end
