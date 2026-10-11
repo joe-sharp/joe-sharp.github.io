@@ -1,6 +1,6 @@
 # Joe Sharp's Personal Site ✨
 
-A minimalist Jekyll-powered portfolio: an About section and a grid of my GitHub projects, each shown as a collectible card.
+A Jekyll-powered portfolio: an About section and a grid of my GitHub projects, each shown as a collectible card.
 
 ## 🚀 Quick Start
 
