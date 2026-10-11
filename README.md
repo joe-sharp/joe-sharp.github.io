@@ -1,8 +1,16 @@
-# Joe Sharp's Personal Site ✨
+# Joe Sharp's Projects Portfolio ✨
 
-A Jekyll-powered portfolio: an About section and a grid of my GitHub projects, each shown as a collectible card.
+[![CI](https://github.com/joe-sharp/joe-sharp.github.io/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/joe-sharp/joe-sharp.github.io/actions/workflows/ci.yml)
+[![Deploy](https://github.com/joe-sharp/joe-sharp.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/joe-sharp/joe-sharp.github.io/actions/workflows/deploy.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+The source for [projects.joe-sharp.com](https://projects.joe-sharp.com): a Jekyll-powered portfolio with an About section and a grid of my GitHub projects, each shown as a collectible card.
+
+CI runs the unit tests, the production build and the Playwright E2E tests on every pull request and push to `main`.
 
 ## 🚀 Quick Start
+
+Requires Ruby 3.4 (see `.tool-versions`) and, for the E2E tests, Node 22 (see `.nvmrc`).
 
 ```bash
 # Install dependencies
@@ -51,8 +59,11 @@ To build a preview locally: `BASEURL=/pr-preview/pr-1 bundle exec rake build:pre
 - SCSS
 - JavaScript
 - Font Awesome
+- Ruby, for the card generator and unit tests
 - [MTG Card Maker](https://github.com/joe-sharp/mtg_card_maker) for the cards
-- Playwright
+- Cloudinary, for card art
+- Playwright, for E2E tests
+- GitHub Actions and GitHub Pages, for CI, deploys and PR previews
 
 ## 📝 License
 
