@@ -28,6 +28,16 @@ hand-edited. The "Refresh project cards" workflow regenerates them daily and
 opens a pull request with any change; a repo whose card art has not been uploaded to
 Cloudinary yet shows placeholder art and a warning in that run's summary.
 
+## 🔍 Deploys and PR previews
+
+`main` is built by `deploy.yml` and published to the root of the `gh-pages` branch,
+which GitHub Pages serves. Every pull request is built under `/pr-preview/pr-<N>/`
+by `preview.yml` (noindexed, with the link posted on the PR) and removed again when
+the PR closes. Preview builds run the E2E suite against the deployed preview, and
+`E2E_BASE_URL=<url> npx playwright test` points it at any deployed copy.
+
+To build a preview locally: `BASEURL=/pr-preview/pr-1 bundle exec rake build:preview`.
+
 ## 🧙‍♂️ Features
 
 - Clean, minimalist design

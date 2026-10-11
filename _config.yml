@@ -79,6 +79,7 @@ exclude:
   - bin
   - test
   - Rakefile
+  - _config.preview.yml
   - e2e
   - package.json
   - package-lock.json
