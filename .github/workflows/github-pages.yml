@@ -2,7 +2,8 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["main"] # Change to "main" if your default branch is main
+    branches: ["main"]
+  workflow_dispatch: # also started by refresh-deck.yml after it commits new cards
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

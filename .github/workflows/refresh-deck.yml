@@ -1,0 +1,82 @@
+name: Refresh project cards
+
+# Regenerates _data/deck.yml and _includes/deck.svg from GitHub and commits any
+# change as a pull request against main. Builds only ever read committed files.
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-deck
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Generate deck and sprite
+        run: bundle exec rake deck
+
+      # Never commit generated files that the tests or the build reject.
+      - run: bundle exec rake test
+
+      - run: bundle exec rake build
+
+      - name: Open or update the refresh PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: bot/refresh-deck
+        run: |
+          if git diff --quiet -- _data/deck.yml _includes/deck.svg; then
+            echo "Deck is up to date."
+            # Nothing left to refresh, so a PR from an earlier run is stale.
+            if gh pr view "$BRANCH" --json state --jq '.state' 2>/dev/null | grep -qx OPEN; then
+              gh pr close "$BRANCH" --delete-branch --comment "Deck is up to date again; closing."
+            fi
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add _data/deck.yml _includes/deck.svg
+          git commit -m "Refresh project cards"
+          # The branch is rebuilt from main on every run, so it is bot-owned.
+          git push --force origin "$BRANCH"
+
+          missing=$(ruby -ryaml -e '
+            placeholder = "c21f969b5f03d33d43e04f8f136e7682"
+            YAML.load_file("_data/deck.yml").each_value { |c| puts "- #{c["name"]}" if c["art"].to_s.include?(placeholder) }
+          ')
+          {
+            echo "Regenerated from GitHub by the scheduled refresh. The tests and a production build passed before this was pushed."
+            echo
+            echo '```'
+            git diff --stat HEAD~1 HEAD
+            echo '```'
+            if [ -n "$missing" ]; then
+              echo
+              echo "### Cards using placeholder art"
+              echo "$missing"
+            fi
+          } > "$RUNNER_TEMP/body.md"
+
+          if gh pr view "$BRANCH" --json state --jq '.state' 2>/dev/null | grep -qx OPEN; then
+            gh pr edit "$BRANCH" --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr create --head "$BRANCH" --base main --title "Refresh project cards" \
+              --body-file "$RUNNER_TEMP/body.md"
+          fi
