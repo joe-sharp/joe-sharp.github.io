@@ -153,6 +153,13 @@ body {
   line-height: 1.6;
 }
 
+/* The three hearts in About sit centered on their own line */
+.block-content p.about-hearts {
+  text-align: center;
+  margin-top: -1.6667em;
+  margin-bottom: 0;
+}
+
 .block-content strong {
   color: var(--ink);
 }
