@@ -4,7 +4,9 @@ const { defineConfig, devices } = require('@playwright/test');
 // E2E_BASE_URL points the suite at an already-deployed site (e.g. a PR preview).
 // Without it, the prebuilt _site is served locally.
 const remote = process.env.E2E_BASE_URL;
-const port = 4000;
+// Not 4000, which `jekyll serve` uses; a dev server there would be reused by mistake.
+const port = 4173;
+const siteDir = process.env.E2E_SITE_DIR || '_site';
 const baseURL = (remote || `http://127.0.0.1:${port}/`).replace(/\/?$/, '/');
 
 module.exports = defineConfig({
@@ -24,7 +26,7 @@ module.exports = defineConfig({
   webServer: remote
     ? undefined
     : {
-        command: `node e2e/static-server.js _site ${port}`,
+        command: `node e2e/static-server.js ${siteDir} ${port}`,
         url: baseURL,
         reuseExistingServer: !process.env.CI,
       },

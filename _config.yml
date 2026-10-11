@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
+# This config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
@@ -17,17 +17,13 @@ title: &title joe-sharp
 subtitle: &subtitle Staff Software Engineer
 email: joesharp13@gmail.com
 description: >-
-  I’m a fullstack developer with expertise in Ruby, Unix/Linux, and dependency maintenance / pipeline security. 🩷💜💙
+  Staff Software Engineer at Procore keeping a 20-year-old Rails monolith modern, plus the open-source Ruby projects behind it.
 baseurl: "" # the subpath of your site
-url: "" # the base hostname & protocol for your site
+url: "https://projects.joe-sharp.com" # the base hostname & protocol for your site
 github_username: joe-sharp
 
 # Content settings
 permalink: /:title/
-collections:
-  posts:
-    output: true
-    permalink: /posts/:title/
 
 # Theme settings
 theme: jekyll-theme-primer
@@ -60,7 +56,6 @@ sass:
 highlighter: rouge
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 # Exclude from processing

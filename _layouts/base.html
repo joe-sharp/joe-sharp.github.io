@@ -6,16 +6,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
-        <meta name="description" content="a Blog by Joe Sharp" />
+        <meta name="description" content="{{ site.description | strip_html | strip | escape }}" />
         <meta name="keywords" content="Joe Sharp, Programming, Programmer, Guru, Genius, Mac Genius, Hacker, Engineer" />
         <meta name="author" content="Joe Sharp" />
         <meta name="robots" content="{% if site.noindex %}noindex, nofollow{% else %}index, follow{% endif %}" />
         <meta name="revisit-after" content="1 month" />
         <meta property="og:title" content="{% if title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}">
-        <meta property="og:description" content="{% if subtitle_is_not_empty %}{{ page.subtitle }}{% else %}a Blog by Joe Sharp{% endif %}">
-        <meta property="og:image" content="https://blog.joe-sharp.com/images/thumbnail.jpg">
-        <meta property="og:url" content="https://blog.joe-sharp.com/index.html">
-        <meta name="twitter:card" content="summary_large_image">
+        <meta property="og:description" content="{{ site.description | strip_html | strip | escape }}">
+        <meta property="og:image" content="{{ 'images/joe-sharp.png' | absolute_url }}">
+        <meta property="og:url" content="{{ '/' | absolute_url }}">
+        <meta name="twitter:card" content="summary">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
