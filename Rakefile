@@ -16,4 +16,18 @@ task :build do
   sh 'bundle exec jekyll build --safe'
 end
 
+GITHUB_USERNAME = 'joe-sharp'
+
+desc 'Regenerate _data/deck.yml and _includes/deck.svg from GitHub'
+task :deck do
+  sh 'ruby', 'bin/generate_cards.rb', GITHUB_USERNAME, '--run'
+end
+
+namespace :deck do
+  desc 'Rebuild only the sprite from the existing deck file'
+  task :sprite do
+    sh 'ruby', 'bin/generate_cards.rb', '--sprite-only'
+  end
+end
+
 task default: :test

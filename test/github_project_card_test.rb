@@ -141,4 +141,26 @@ describe GithubProjectCard do
       _(args_for('ZoeDreams')[:color]).must_equal 'colorless'
     end
   end
+  describe '#to_add_card_argv' do
+    def argv_for(name, **kwargs)
+      GithubProjectCard.new(fixture_project(name)).to_add_card_argv(**kwargs)
+    end
+
+    it 'returns one unquoted --flag=value entry per flag, with no shell quoting' do
+      argv = argv_for('mtg_card_maker', deck: 'out.yml')
+
+      _(argv.first(3)).must_equal %w[mtg_card_maker add_card out.yml]
+      _(argv).must_include '--name=mtg_card_maker'
+      _(argv).must_include '--type-line=Ruby, Shell'
+      _(argv).must_include '--power=2'
+    end
+
+    it 'swaps in the given art and exposes the expected art url' do
+      card = GithubProjectCard.new(fixture_project('appraisal'))
+
+      _(card.art_url).must_match %r{\Ahttps://res\.cloudinary\.com/uv7kncpy/image/upload/\h{32}\.jpg\z}
+      _(argv_for('appraisal', art: 'https://example.com/x.jpg')).must_include '--art=https://example.com/x.jpg'
+      _(argv_for('appraisal')).must_include "--art=#{card.art_url}"
+    end
+  end
 end
