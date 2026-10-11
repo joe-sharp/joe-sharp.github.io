@@ -16,6 +16,18 @@ task :build do
   sh 'bundle exec jekyll build --safe'
 end
 
+# Builds for a PR preview served under a subpath, e.g. BASEURL=/pr-preview/pr-12.
+# _config.preview.yml marks the pages noindex.
+namespace :build do
+  desc 'Build a noindexed preview under BASEURL'
+  task :preview do
+    baseurl = ENV.fetch('BASEURL') { abort 'Set BASEURL, e.g. BASEURL=/pr-preview/pr-12' }
+    ENV['JEKYLL_ENV'] = 'production'
+    sh 'bundle exec jekyll build --safe --config _config.yml,_config.preview.yml ' \
+       "--baseurl #{baseurl}"
+  end
+end
+
 desc 'Run the Playwright end-to-end tests against a fresh production build'
 task e2e: :build do
   sh 'npx playwright test'

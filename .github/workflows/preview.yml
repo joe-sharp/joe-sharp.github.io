@@ -1,0 +1,83 @@
+name: PR preview
+
+# Builds each pull request under /pr-preview/pr-<N>/ on the Pages site and removes
+# it again when the PR closes. Previews are noindexed.
+#
+# Enabled by the repository variable PREVIEWS_ENABLED=true, which is set once
+# Pages is switched to deploy from the gh-pages branch.
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    name: Deploy preview
+    # Forks get a read-only token and cannot push to gh-pages.
+    if: vars.PREVIEWS_ENABLED == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.preview.outputs.preview-url }}
+      action: ${{ steps.preview.outputs.deployment-action }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        if: github.event.action != 'closed'
+        with:
+          bundler-cache: true
+
+      - name: Build preview
+        if: github.event.action != 'closed'
+        run: bundle exec rake build:preview
+        env:
+          BASEURL: /pr-preview/pr-${{ github.event.number }}
+
+      - name: Deploy or remove preview
+        id: preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _site
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          # The site is served from its custom domain, not joe-sharp.github.io.
+          pages-base-url: projects.joe-sharp.com
+          wait-for-pages-deployment: true
+          qr-code: false
+
+  e2e:
+    name: E2E against preview
+    needs: preview
+    if: github.event.action != 'closed' && needs.preview.outputs.action == 'deploy'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - run: npx playwright test
+        env:
+          E2E_BASE_URL: ${{ needs.preview.outputs.url }}
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report-preview
+          path: |
+            playwright-report
+            test-results
+          retention-days: 7

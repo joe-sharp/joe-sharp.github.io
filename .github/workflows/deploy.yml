@@ -1,0 +1,39 @@
+name: Deploy site
+
+# Publishes the built site to the root of the gh-pages branch, which GitHub Pages
+# serves. PR previews live under gh-pages/pr-preview/ and must survive deploys.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - run: bundle exec rake test
+
+      - run: bundle exec rake build
+
+      # Serve the built files as-is; Pages must not run Jekyll over them again.
+      - run: touch _site/.nojekyll
+
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          branch: gh-pages
+          clean-exclude: pr-preview/
+          force: false
