@@ -24,16 +24,19 @@ class GithubProjectCard
 
   ART_BASE_URL = 'https://res.cloudinary.com/uv7kncpy/image/upload'
 
+  # Shown for a repo whose art has not been uploaded to Cloudinary yet.
+  PLACEHOLDER_ART_URL = "#{ART_BASE_URL}/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg"
+
   attr_reader :attributes
 
   def initialize(attributes)
     @attributes = attributes
   end
 
-  def to_add_card_args
+  def to_add_card_args(art: nil)
     {
       name: name,
-      art: art,
+      art: art || art_url,
       mana_cost: mana_cost,
       type_line: type_line,
       rules_text: rules_text,
@@ -45,21 +48,25 @@ class GithubProjectCard
     }
   end
 
+  # Human-readable (dry-run) form. Never hand this to a shell: values come from
+  # third-party repo descriptions. Use #to_add_card_argv to actually run it.
   def to_add_card_command(deck: 'deck.yml')
-    args = to_add_card_args
-    flags = []
-    flags << %(--name="#{args[:name]}")
-    flags << %(--art="#{args[:art]}")
-    flags << %(--mana-cost="#{args[:mana_cost]}") if args[:mana_cost]
-    flags << %(--type-line="#{args[:type_line]}")
-    flags << %(--color="#{args[:color]}")
-    flags << %(--border-color="#{args[:border_color]}")
-    flags << %(--power="#{args[:power]}") if args[:power]
-    flags << %(--toughness="#{args[:toughness]}") if args[:toughness]
-    flags << %(--rules-text="#{args[:rules_text]}")
-    flags << %(--flavor-text="#{args[:flavor_text]}")
+    flags = add_card_flags.map { |flag, value| %(--#{flag}="#{value}") }
 
     "mtg_card_maker add_card #{deck} #{flags.join(' ')}"
+  end
+
+  # Argument vector for `mtg_card_maker add_card`, safe to pass to Kernel#system
+  # with no shell involved.
+  def to_add_card_argv(deck: 'deck.yml', art: nil)
+    flags = add_card_flags(art: art).map { |flag, value| "--#{flag}=#{value}" }
+
+    ['mtg_card_maker', 'add_card', deck, *flags]
+  end
+
+  # The Cloudinary URL this repo's card art is expected to live at.
+  def art_url
+    "#{ART_BASE_URL}/#{Digest::MD5.hexdigest(name)}.jpg"
   end
 
   private
@@ -68,9 +75,20 @@ class GithubProjectCard
     attributes['name']
   end
 
-  def art
-    md5 = Digest::MD5.hexdigest(name)
-    "#{ART_BASE_URL}/#{md5}.jpg"
+  def add_card_flags(art: nil)
+    args = to_add_card_args(art: art)
+    flags = []
+    flags << ['name', args[:name]]
+    flags << ['art', args[:art]]
+    flags << ['mana-cost', args[:mana_cost]] if args[:mana_cost]
+    flags << ['type-line', args[:type_line]]
+    flags << ['color', args[:color]]
+    flags << ['border-color', args[:border_color]]
+    flags << ['power', args[:power]] if args[:power]
+    flags << ['toughness', args[:toughness]] if args[:toughness]
+    flags << ['rules-text', args[:rules_text]]
+    flags << ['flavor-text', args[:flavor_text]]
+    flags
   end
 
   def languages
