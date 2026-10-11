@@ -17,6 +17,8 @@ bundle exec jekyll serve
 ```bash
 bundle exec rake test        # unit tests
 bundle exec rake build       # production-parity build into _site
+npm ci && npx playwright install chromium   # once, for the E2E tests
+bundle exec rake e2e         # build, then run the Playwright tests
 bundle exec rake deck        # regenerate the project cards from GitHub
 bundle exec rake deck:sprite # rebuild only the sprite from _data/deck.yml
 ```
