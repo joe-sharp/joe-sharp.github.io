@@ -356,7 +356,6 @@ DEPENDENCIES
   dotenv (~> 3.2)
   github-pages
   http_parser.rb (~> 0.6)
-  jekyll-feed (~> 0.6)
   jekyll-seo-tag
   jekyll-theme-primer
   minima (~> 2.0)

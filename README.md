@@ -1,6 +1,6 @@
 # Joe Sharp's Personal Site ✨
 
-A minimalist Jekyll-powered project display.
+A Jekyll-powered portfolio: an About section and a grid of my GitHub projects, each shown as a collectible card.
 
 ## 🚀 Quick Start
 
@@ -40,10 +40,10 @@ To build a preview locally: `BASEURL=/pr-preview/pr-1 bundle exec rake build:pre
 
 ## 🧙‍♂️ Features
 
-- Clean, minimalist design
-- Responsive layout
-- Blog support
-- Easy customization
+- Project cards generated from my GitHub repositories (language colors become mana, stars and forks become power and toughness)
+- Cards dealt and flipped as they scroll into view, with reduced-motion support
+- Responsive layout, with a dark-mode 404 page
+- Unit tests, Playwright E2E tests and per-PR previews
 
 ## 🛠️ Tech Stack
 
@@ -51,6 +51,8 @@ To build a preview locally: `BASEURL=/pr-preview/pr-1 bundle exec rake build:pre
 - SCSS
 - JavaScript
 - Font Awesome
+- [MTG Card Maker](https://github.com/joe-sharp/mtg_card_maker) for the cards
+- Playwright
 
 ## 📝 License
 

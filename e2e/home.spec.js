@@ -13,6 +13,21 @@ test.describe('home page', () => {
     expect(problems).toEqual([]);
   });
 
+  test('describes a projects portfolio, not a blog', async ({ page }) => {
+    await page.goto('./');
+
+    const meta = (selector) => page.locator(selector).getAttribute('content');
+    expect(await meta('meta[name="description"]')).toMatch(/Staff Software Engineer/);
+    expect(await meta('meta[property="og:description"]')).toMatch(/Staff Software Engineer/);
+    expect(await meta('meta[property="og:url"]')).toMatch(/^https:\/\/projects\.joe-sharp\.com\//);
+    expect(await page.content()).not.toMatch(/blog/i);
+
+    // The share image must exist on this build.
+    const image = await meta('meta[property="og:image"]');
+    expect(new URL(image).pathname.endsWith('/images/joe-sharp.png')).toBe(true);
+    expect((await page.request.get('images/joe-sharp.png')).status()).toBe(200);
+  });
+
   test('has no horizontal scroll', async ({ page }) => {
     await page.goto('./');
     const overflow = await page.evaluate(

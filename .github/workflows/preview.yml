@@ -50,7 +50,7 @@ jobs:
           # The site is served from its custom domain, not joe-sharp.github.io.
           pages-base-url: projects.joe-sharp.com
           wait-for-pages-deployment: true
-          qr-code: false
+          qr-code: true
 
   e2e:
     name: E2E against preview
