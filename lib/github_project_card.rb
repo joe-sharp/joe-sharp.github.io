@@ -20,6 +20,8 @@ class GithubProjectCard
   # Type line shows only the top languages; when it is truncated, each color
   # is capped at MAX_PIPS_PER_COLOR pips and every skipped pip adds 1 generic mana.
   MAX_TYPE_LINE_LANGUAGES = 5
+  # Repos with no detected languages (e.g. README-only) get a placeholder type line.
+  DEFAULT_TYPE_LINE = 'Markdown'
   MAX_PIPS_PER_COLOR = 2
 
   ART_BASE_URL = 'https://res.cloudinary.com/uv7kncpy/image/upload'
@@ -86,7 +88,7 @@ class GithubProjectCard
     flags << ['border-color', args[:border_color]]
     flags << ['power', args[:power]] if args[:power]
     flags << ['toughness', args[:toughness]] if args[:toughness]
-    flags << ['rules-text', args[:rules_text]]
+    flags << ['rules-text', args[:rules_text]] unless args[:rules_text].empty?
     flags << ['flavor-text', args[:flavor_text]]
     flags
   end
@@ -148,7 +150,8 @@ class GithubProjectCard
   end
 
   def type_line
-    languages_by_usage.first(MAX_TYPE_LINE_LANGUAGES).map(&:first).join(', ')
+    names = languages_by_usage.first(MAX_TYPE_LINE_LANGUAGES).map(&:first).join(', ')
+    names.empty? ? DEFAULT_TYPE_LINE : names
   end
 
   def rules_text

@@ -68,7 +68,7 @@ github_project_fetch:
   flavor_text: https://github.com/joe-sharp/github_project_fetch
 joe_sharp:
   name: joe-sharp
-  type_line: ''
+  type_line: Markdown
   rules_text: 'joe-sharp/joe-sharp is a special repository. Its README.md appears
     on my profile: https://github.com/joe-sharp'
   border_color: white
@@ -86,7 +86,7 @@ joe_sharp_github_io:
   flavor_text: https://github.com/joe-sharp/joe-sharp.github.io
 linter_configs:
   name: linter-configs
-  type_line: ''
+  type_line: Markdown
   rules_text: Collection of config files for various linters. Can be used as remote
     configuration for Mega-Linter. https://github.com/nvuillam/mega-linter
   power: '2'
@@ -226,8 +226,7 @@ uo_macros:
   flavor_text: https://github.com/joe-sharp/UO-Macros
 zoedreams:
   name: ZoeDreams
-  type_line: ''
-  rules_text: ''
+  type_line: Markdown
   border_color: white
   color: colorless
   art: https://res.cloudinary.com/uv7kncpy/image/upload/cb36a59f2753dafde339e196419d7f37.jpg
@@ -235,7 +234,6 @@ zoedreams:
 zoom_close:
   name: zoom-close
   type_line: JavaScript
-  rules_text: ''
   mana_cost: 1U
   border_color: white
   color: blue

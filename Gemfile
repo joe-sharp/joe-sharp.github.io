@@ -19,7 +19,7 @@ end
 # do not have a Java counterpart.
 gem 'http_parser.rb', '~> 0.6', platforms: [:jruby]
 
-gem 'mtg_card_maker', '~> 0.1.0'
+gem 'mtg_card_maker', '~> 0.2.1'
 
 group :test do
   gem 'minitest', '~> 5.25'
