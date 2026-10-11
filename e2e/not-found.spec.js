@@ -11,12 +11,14 @@ test('unknown paths show the 404 page with its illustration', async ({ page }) =
   expect(await image.evaluate((img) => img.naturalWidth)).toBeGreaterThan(0);
 });
 
+// Request 404.html itself: on GitHub Pages an unknown path under a PR preview is
+// answered by the production site's root 404.html, not the preview's copy.
 test.describe('404 colour scheme', () => {
   test.describe('light', () => {
     test.use({ colorScheme: 'light' });
 
     test('uses the light background', async ({ page }) => {
-      await page.goto('definitely-not-a-page/');
+      await page.goto('404.html');
       expect(await rgb(page.locator('body'), 'backgroundColor')).toBe('rgb(221, 221, 221)');
     });
   });
@@ -25,7 +27,7 @@ test.describe('404 colour scheme', () => {
     test.use({ colorScheme: 'dark' });
 
     test('uses a dark background with light text', async ({ page }) => {
-      await page.goto('definitely-not-a-page/');
+      await page.goto('404.html');
       expect(await rgb(page.locator('body'), 'backgroundColor')).toBe('rgb(22, 18, 28)');
       expect(await rgb(page.locator('body'), 'color')).toBe('rgb(233, 223, 240)');
       await expect(page.getByRole('link', { name: 'Back to Home' })).toBeVisible();
