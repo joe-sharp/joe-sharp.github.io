@@ -16,6 +16,11 @@ task :build do
   sh 'bundle exec jekyll build --safe'
 end
 
+desc 'Run the Playwright end-to-end tests against a fresh production build'
+task e2e: :build do
+  sh 'npx playwright test'
+end
+
 GITHUB_USERNAME = 'joe-sharp'
 
 desc 'Regenerate _data/deck.yml and _includes/deck.svg from GitHub'

@@ -1,0 +1,16 @@
+{
+  "name": "joe-sharp-github-io",
+  "private": true,
+  "description": "End-to-end tests for the site. The site itself is built with Jekyll.",
+  "scripts": {
+    "e2e": "playwright test",
+    "e2e:report": "playwright show-report"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "yaml": "^2.8.0"
+  }
+}
