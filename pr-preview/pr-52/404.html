@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+    id="bootstrap-css">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root {
+      --bg: #ddd;
+      --text: #404;
+      --accent: #007bff;
+      --accent-text: #fff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16121c;
+        --text: #e9dff0;
+        --accent: #9db8ff;
+        --accent-text: #16121c;
+      }
+
+      /* The carton's drop shadow is black, so lift it off the dark background. */
+      img {
+        filter: drop-shadow(0 0 18px rgba(233, 223, 240, 0.18));
+      }
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    .btn-outline-primary {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-outline-primary:hover,
+    .btn-outline-primary:focus {
+      background-color: var(--accent);
+      border-color: var(--accent);
+      color: var(--accent-text);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-wrap d-flex flex-row align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center mt-5">
+          <span class="display-1 d-block font-weight-bold">404</span>
+          <img style="width: 60%;max-width: 404px;" src="/pr-preview/pr-52/images/paige_not_found.png" alt="Illustration of a milk carton with a picture of a missing person">
+          <div class="mb-4 lead">Paige Not Found 😒</div>
+          <p>Paige lived with us for a couple years, but has since moved to Oklahoma. The page we couldn't find is dedicated to her.</p>
+          <a class="btn btn-outline-primary" href="https://joe-sharp.com/" class="btn btn-link">Back to Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
