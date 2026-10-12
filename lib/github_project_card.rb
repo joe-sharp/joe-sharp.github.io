@@ -86,7 +86,7 @@ class GithubProjectCard
     flags << ['border-color', args[:border_color]]
     flags << ['power', args[:power]] if args[:power]
     flags << ['toughness', args[:toughness]] if args[:toughness]
-    flags << ['rules-text', args[:rules_text]]
+    flags << ['rules-text', args[:rules_text]] unless args[:rules_text].empty?
     flags << ['flavor-text', args[:flavor_text]]
     flags
   end

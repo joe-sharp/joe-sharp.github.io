@@ -63,7 +63,7 @@ describe GithubProjectCards do
       command = command_for('ZoeDreams')
 
       _(command).wont_include '--mana-cost='
-      _(command).must_include '--rules-text=""'
+      _(command).wont_include '--rules-text='
       _(command).must_include '--type-line=""'
       _(command).must_include '--color="colorless"'
     end

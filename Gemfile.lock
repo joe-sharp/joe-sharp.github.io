@@ -262,7 +262,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.27.0)
-    mtg_card_maker (0.1.0)
+    mtg_card_maker (0.2.1)
       addressable (~> 2.8)
       nokogiri (~> 1.15)
       thor (~> 1.3)
@@ -360,7 +360,7 @@ DEPENDENCIES
   jekyll-theme-primer
   minima (~> 2.0)
   minitest (~> 5.25)
-  mtg_card_maker (~> 0.1.0)
+  mtg_card_maker (~> 0.2.1)
   rake (~> 13.2)
 
 CHECKSUMS
@@ -453,7 +453,7 @@ CHECKSUMS
   mercenary (0.3.6) sha256=2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82
   minima (2.5.1) sha256=520e52bc631fb16cbb8100660f6caa44f97859e2fa7e397d508deb18739567be
   minitest (5.27.0) sha256=2d3b17f8a36fe7801c1adcffdbc38233b938eb0b4966e97a6739055a45fa77d5
-  mtg_card_maker (0.1.0) sha256=becb13bbd71b81d2b407cc571d4fc574fb23d7fbf79f276ad1b2cd7407d4a564
+  mtg_card_maker (0.2.1) sha256=5ccc047e16d5a52496c9b71a070a9b2d22a516711147d82f1a618b29aeaaa4b1
   multipart-post (2.4.1) sha256=9872d03a8e552020ca096adadbf5e3cb1cd1cdd6acd3c161136b8a5737cdb4a8
   net-http (0.9.1) sha256=25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996
   nokogiri (1.19.4-aarch64-linux-gnu) sha256=1269fb644a6de405057a53dd5c762b1209b43ca7424f839454d3dbc677c31a8f
