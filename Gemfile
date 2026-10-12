@@ -22,7 +22,7 @@ gem 'http_parser.rb', '~> 0.6', platforms: [:jruby]
 gem 'mtg_card_maker', '~> 0.2.1'
 
 group :test do
-  gem 'minitest', '~> 5.25'
+  gem 'minitest', '~> 6.0'
   gem 'rake', '~> 13.2'
 end
 
