@@ -8,7 +8,7 @@ gem 'minima', '~> 2.0'
 # The site is built in GitHub Actions and deployed to gh-pages, so the
 # github-pages meta-gem is not needed. Its jekyll-remote-theme dependency also
 # capped rubyzip below 3.0.
-gem 'jekyll', '~> 3.10'
+gem 'jekyll', '~> 4.4'
 
 # Jekyll 3.x relies on these, which stopped being default gems in Ruby 3.4.
 gem 'base64'
