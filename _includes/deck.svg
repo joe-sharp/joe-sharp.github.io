@@ -736,6 +736,12 @@ GitHub users, deployed on Vercel.
 https://github.com/joe-sharp/github_project_fetch
 </text>
 </g>
+<g>
+<rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
+1/0
+</text>
+</g>
 </svg>
   </g>
   <g id="deck-card-8" transform="translate(1980, 910)">
@@ -856,6 +862,12 @@ collectible card.
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/joe-sharp.github.io
+</text>
+</g>
+<g>
+<rect x="535" y="790" width="60" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
+1/0
 </text>
 </g>
 </svg>

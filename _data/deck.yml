@@ -77,6 +77,8 @@ github_project_fetch:
   name: github_project_fetch
   type_line: Ruby
   mana_cost: 4R
+  power: '1'
+  toughness: '0'
   border_color: white
   color: red
   art: https://res.cloudinary.com/uv7kncpy/image/upload/4cbe2cfff1bc4222e612ebdd5df0ec69.jpg
@@ -99,6 +101,8 @@ joe_sharp_github_io:
   name: joe-sharp.github.io
   type_line: Ruby, SCSS, JavaScript, CSS, HTML
   mana_cost: 4RWWUU
+  power: '1'
+  toughness: '0'
   border_color: white
   color: gold
   art: https://res.cloudinary.com/uv7kncpy/image/upload/faa79416b855ca1c82b6b5aeb3c3235a.jpg
