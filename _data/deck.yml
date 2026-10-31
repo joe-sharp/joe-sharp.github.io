@@ -20,17 +20,16 @@ appraisal:
   rules_text: A Ruby library for testing your library against different versions of
     dependencies.
   flavor_text: https://github.com/joe-sharp/appraisal
-artcraft:
-  name: artcraft
-  type_line: Rust, TypeScript, JavaScript, Python, CSS
-  mana_cost: 7RRUUGWWB
+boondoc:
+  name: boondoc
+  type_line: Ruby, Shell
+  mana_cost: 4RW
   border_color: white
-  color: gold
+  color: red
   art: https://res.cloudinary.com/uv7kncpy/image/upload/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
   embed_font: true
-  rules_text: ArtCraft is an intentional crafting engine for artists, designers, and
-    filmmakers
-  flavor_text: https://github.com/joe-sharp/artcraft
+  rules_text: Markdown-only API documentation for Ruby, written from YARD-style comments
+  flavor_text: https://github.com/joe-sharp/boondoc
 customatreus:
   name: CustomAtreus
   type_line: C++, Makefile
@@ -86,6 +85,37 @@ github_project_fetch:
   rules_text: A Ruby serverless application that fetches public repositories along
     with their language data from GitHub users, deployed on Vercel.
   flavor_text: https://github.com/joe-sharp/github_project_fetch
+guard:
+  name: guard
+  type_line: Ruby, Gherkin
+  mana_cost: 4RB
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard is a command line tool to easily handle events on file system
+    modifications.
+  flavor_text: https://github.com/joe-sharp/guard
+guard_boondoc:
+  name: guard-boondoc
+  type_line: Ruby
+  mana_cost: 3R
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard plugin that regenerates your boondoc docs when their sources change
+  flavor_text: https://github.com/joe-sharp/guard-boondoc
+guard_status:
+  name: guard-status
+  type_line: Ruby
+  mana_cost: 4R
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard plugin that prints one status line for all your other guards
+  flavor_text: https://github.com/joe-sharp/guard-status
 joe_sharp:
   name: joe-sharp
   type_line: Markdown
@@ -216,6 +246,16 @@ rubygems:
   embed_font: true
   rules_text: Library packaging and distribution for Ruby.
   flavor_text: https://github.com/joe-sharp/rubygems
+sharp_style_rubocop:
+  name: sharp_style_rubocop
+  type_line: Ruby, Shell
+  mana_cost: 3RW
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Default Rubocop configuration with some Sharp Style tweaks
+  flavor_text: https://github.com/joe-sharp/sharp_style_rubocop
 sift:
   name: sift
   type_line: Ruby, HTML, JavaScript, CSS
