@@ -5,7 +5,7 @@ agreen_studio:
   mana_cost: 3WUU
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f79aba9b01e199b3debf38f3c3218d11.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/f79aba9b01e199b3debf38f3c3218d11.jpg
   embed_font: true
   rules_text: Website for Anita Green
   flavor_text: https://github.com/joe-sharp/agreen.studio
@@ -15,39 +15,50 @@ appraisal:
   mana_cost: 4R
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/7592a7909b6662f6fff382e2c854a165.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/7592a7909b6662f6fff382e2c854a165.jpg
   embed_font: true
   rules_text: A Ruby library for testing your library against different versions of
     dependencies.
   flavor_text: https://github.com/joe-sharp/appraisal
-artcraft:
-  name: artcraft
-  type_line: Rust, TypeScript, JavaScript, Python, CSS
-  mana_cost: 7RRUUGWWB
+boondoc:
+  name: boondoc
+  type_line: Ruby, Shell
+  mana_cost: 4RW
+  power: '1'
+  toughness: '0'
   border_color: white
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
   embed_font: true
-  rules_text: ArtCraft is an intentional crafting engine for artists, designers, and
-    filmmakers
-  flavor_text: https://github.com/joe-sharp/artcraft
+  rules_text: Markdown-only API documentation for Ruby, written from YARD-style comments
+  flavor_text: https://github.com/joe-sharp/boondoc
 customatreus:
   name: CustomAtreus
   type_line: C++, Makefile
   mana_cost: 3WU
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/69c95f8fe9347ab05332f0ab2a6c2010.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/69c95f8fe9347ab05332f0ab2a6c2010.jpg
   embed_font: true
   rules_text: Custom Firmware for Keyboardio Atreus
   flavor_text: https://github.com/joe-sharp/CustomAtreus
+debug:
+  name: debug
+  type_line: Ruby, C, Shell
+  mana_cost: 5RRW
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Debugging functionality for Ruby
+  flavor_text: https://github.com/joe-sharp/debug
 dotfiles:
   name: dotfiles
   type_line: Vim Script, Shell, Ruby
   mana_cost: 3WR
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/c3ae06f70363066574dc6f52338df7f5.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/c3ae06f70363066574dc6f52338df7f5.jpg
   embed_font: true
   rules_text: Various config files
   flavor_text: https://github.com/joe-sharp/dotfiles
@@ -59,7 +70,7 @@ exercism_solutions:
   toughness: '3'
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/9877723b058feacc4ebfa6e541ba8241.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9877723b058feacc4ebfa6e541ba8241.jpg
   embed_font: true
   rules_text: These are my solutions to the lessons I take on exercism.org
   flavor_text: https://github.com/joe-sharp/exercism-solutions
@@ -69,7 +80,7 @@ github_readme_stats:
   mana_cost: 5UW
   border_color: white
   color: blue
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/9b440a7f28bc95f4c5559b9fe489c995.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9b440a7f28bc95f4c5559b9fe489c995.jpg
   embed_font: true
   rules_text: ":zap: Dynamically generated stats for your github readmes"
   flavor_text: https://github.com/joe-sharp/github-readme-stats
@@ -81,18 +92,59 @@ github_project_fetch:
   toughness: '0'
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/4cbe2cfff1bc4222e612ebdd5df0ec69.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/4cbe2cfff1bc4222e612ebdd5df0ec69.jpg
   embed_font: true
   rules_text: A Ruby serverless application that fetches public repositories along
     with their language data from GitHub users, deployed on Vercel.
   flavor_text: https://github.com/joe-sharp/github_project_fetch
+guard:
+  name: guard
+  type_line: Ruby, Gherkin
+  mana_cost: 4RB
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard is a command line tool to easily handle events on file system
+    modifications.
+  flavor_text: https://github.com/joe-sharp/guard
+guard_boondoc:
+  name: guard-boondoc
+  type_line: Ruby
+  mana_cost: 3R
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard plugin that regenerates your boondoc docs when their sources change
+  flavor_text: https://github.com/joe-sharp/guard-boondoc
+guard_status:
+  name: guard-status
+  type_line: Ruby
+  mana_cost: 4R
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard plugin that prints one status line for all your other guards
+  flavor_text: https://github.com/joe-sharp/guard-status
+irb:
+  name: irb
+  type_line: Ruby, Shell
+  mana_cost: 5RW
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: interactive Ruby
+  flavor_text: https://github.com/joe-sharp/irb
 joe_sharp:
   name: joe-sharp
   type_line: Markdown
   mana_cost: '3'
   border_color: white
   color: colorless
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/d1d006d3b2a44c8955c7d02b7fc193e4.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/d1d006d3b2a44c8955c7d02b7fc193e4.jpg
   embed_font: true
   rules_text: 'joe-sharp/joe-sharp is a special repository. Its README.md appears
     on my profile: https://github.com/joe-sharp'
@@ -105,7 +157,7 @@ joe_sharp_github_io:
   toughness: '0'
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/faa79416b855ca1c82b6b5aeb3c3235a.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/faa79416b855ca1c82b6b5aeb3c3235a.jpg
   embed_font: true
   rules_text: 'The source for projects.joe-sharp.com: a Jekyll-powered portfolio with
     an About section and a grid of my GitHub projects, each shown as a collectible
@@ -119,7 +171,7 @@ linter_configs:
   toughness: '0'
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/88366c922d20dc5aa0ff3de52d3f6cec.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/88366c922d20dc5aa0ff3de52d3f6cec.jpg
   embed_font: true
   rules_text: Collection of config files for various linters. Can be used as remote
     configuration for Mega-Linter. https://github.com/nvuillam/mega-linter
@@ -130,7 +182,7 @@ mega_linter:
   mana_cost: 29GGUUWWRRBB
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/68366e2a01ac7ace4572c4055642349f.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/68366e2a01ac7ace4572c4055642349f.jpg
   embed_font: true
   rules_text: Mega-Linter analyzes 40 languages, 19 formats, 16 tooling formats ,
     abusive copy-pastes and spelling mistakes in your repository sources , with a
@@ -142,7 +194,7 @@ mpxj:
   mana_cost: 7GGRRUW
   border_color: white
   color: green
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/123ab3d8c58d996a96bda0be784022d3.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/123ab3d8c58d996a96bda0be784022d3.jpg
   embed_font: true
   rules_text: Primary repository for MPXJ library
   flavor_text: https://github.com/joe-sharp/mpxj
@@ -154,7 +206,7 @@ mtg_card_maker:
   toughness: '1'
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/595f103c608631e0049772bf3ad48b06.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/595f103c608631e0049772bf3ad48b06.jpg
   embed_font: true
   rules_text: 'MTG Card Maker is a tool for creating fan-made Magic: The Gathering
     cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content
@@ -167,7 +219,7 @@ multidb:
   mana_cost: 4R
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/3fe60785b296afd688501782a73917ee.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/3fe60785b296afd688501782a73917ee.jpg
   embed_font: true
   rules_text: An ActiveRecord extension to switch between multiple databases, such
     as in a master/slave setup
@@ -178,7 +230,7 @@ ninja_switches:
   mana_cost: 3UUW
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/67d5d041b286fce9ebbbf9e1ef8967ce.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/67d5d041b286fce9ebbbf9e1ef8967ce.jpg
   embed_font: true
   rules_text: Defunct web application used to configure a Pebble watch to make HTTP
     requests
@@ -191,7 +243,7 @@ old_arduino_projects:
   toughness: '1'
   border_color: white
   color: white
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/d15053a257b3824cc1a577228438a009.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/d15053a257b3824cc1a577228438a009.jpg
   embed_font: true
   rules_text: Old Arduino Projects
   flavor_text: https://github.com/joe-sharp/old-arduino-projects
@@ -201,7 +253,7 @@ rubocop:
   mana_cost: 6RWWG
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/984eddbbc013e25cbb6379bf68aa05c1.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/984eddbbc013e25cbb6379bf68aa05c1.jpg
   embed_font: true
   rules_text: A Ruby static code analyzer and formatter, based on the community Ruby
     style guide.
@@ -212,17 +264,27 @@ rubygems:
   mana_cost: 6RRRW
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/a2b42015bc2d55385451f2f047531ff5.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/a2b42015bc2d55385451f2f047531ff5.jpg
   embed_font: true
   rules_text: Library packaging and distribution for Ruby.
   flavor_text: https://github.com/joe-sharp/rubygems
+sharp_style_rubocop:
+  name: sharp_style_rubocop
+  type_line: Ruby, Shell
+  mana_cost: 3RW
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Default Rubocop configuration with some Sharp Style tweaks
+  flavor_text: https://github.com/joe-sharp/sharp_style_rubocop
 sift:
   name: sift
   type_line: Ruby, HTML, JavaScript, CSS
   mana_cost: 4RWUU
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/a54956cea274f302e66eadfc566dc90c.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/a54956cea274f302e66eadfc566dc90c.jpg
   embed_font: true
   rules_text: Enables easily adding filtering in rails controllers
   flavor_text: https://github.com/joe-sharp/sift
@@ -232,7 +294,7 @@ telfers_ultima_adventures:
   mana_cost: 7URRBGWW
   border_color: white
   color: blue
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/6edf1d8410830cf57931dc598e1bf32a.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/6edf1d8410830cf57931dc598e1bf32a.jpg
   embed_font: true
   rules_text: Telfer's Fork of UOA
   flavor_text: https://github.com/joe-sharp/Telfers-Ultima-Adventures
@@ -242,7 +304,7 @@ treehouse_points:
   mana_cost: 3WWWUR
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/2464f2fe6495760016f9a3247ffb9c17.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/2464f2fe6495760016f9a3247ffb9c17.jpg
   embed_font: true
   rules_text: Widget to display Treehouse points on the web
   flavor_text: https://github.com/joe-sharp/treehouse-points
@@ -252,7 +314,7 @@ treehouse_vue:
   mana_cost: 3BRUW
   border_color: white
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/340152f140c1e6f3aac7bcb7b58c94fd.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/340152f140c1e6f3aac7bcb7b58c94fd.jpg
   embed_font: true
   rules_text: About Widget to display Treehouse points on the web, rewritten in Vue.js
   flavor_text: https://github.com/joe-sharp/treehouse-vue
@@ -262,17 +324,27 @@ uo_macros:
   mana_cost: 4G
   border_color: white
   color: green
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/c766858fceaed60510f18f0368f28bd2.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/c766858fceaed60510f18f0368f28bd2.jpg
   embed_font: true
   rules_text: Macros for Ultima Online & Classic Assist, may work with other assistants
   flavor_text: https://github.com/joe-sharp/UO-Macros
+version_gem:
+  name: version_gem
+  type_line: Ruby, Shell
+  mana_cost: 4RW
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: "\U0001F516 Enhance that VERSION! Sugar for boring Version modules"
+  flavor_text: https://github.com/joe-sharp/version_gem
 zoedreams:
   name: ZoeDreams
   type_line: Markdown
   mana_cost: '2'
   border_color: white
   color: colorless
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/cb36a59f2753dafde339e196419d7f37.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/cb36a59f2753dafde339e196419d7f37.jpg
   embed_font: true
   flavor_text: https://github.com/joe-sharp/ZoeDreams
 zoom_close:
@@ -281,6 +353,6 @@ zoom_close:
   mana_cost: 1U
   border_color: white
   color: blue
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/1445604355d549511026d7a41a90da6a.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/1445604355d549511026d7a41a90da6a.jpg
   embed_font: true
   flavor_text: https://github.com/joe-sharp/zoom-close

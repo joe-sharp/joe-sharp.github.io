@@ -24,8 +24,12 @@ class GithubProjectCard
 
   ART_BASE_URL = 'https://res.cloudinary.com/uv7kncpy/image/upload'
 
+  # Card art is shown in a 550x400 slot, so it is delivered at 660x480 (a 1.2x
+  # margin) and cropped the same way the SVG's preserveAspectRatio crops it.
+  ART_TRANSFORMATION = 'f_auto,q_auto,c_fill,g_center,w_660,h_480'
+
   # Shown for a repo whose art has not been uploaded to Cloudinary yet.
-  PLACEHOLDER_ART_URL = "#{ART_BASE_URL}/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg"
+  PLACEHOLDER_ART_URL = "#{ART_BASE_URL}/#{ART_TRANSFORMATION}/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg"
 
   attr_reader :attributes
 
@@ -64,9 +68,20 @@ class GithubProjectCard
     ['mtg_card_maker', 'add_card', deck, *flags]
   end
 
-  # The Cloudinary URL this repo's card art is expected to live at.
-  def art_url
+  # The untransformed original. Checking this does not create derived images.
+  def art_source_url
     "#{ART_BASE_URL}/#{Digest::MD5.hexdigest(name)}.jpg"
+  end
+
+  # The Cloudinary URL this repo's card art is expected to live at, resized for the card.
+  def art_url
+    "#{ART_BASE_URL}/#{ART_TRANSFORMATION}/#{Digest::MD5.hexdigest(name)}.jpg"
+  end
+
+  # The 32-character id at the end of a Cloudinary art URL. It is also the file
+  # name of that art's copy in images/art/.
+  def self.art_id(url)
+    url[%r{/(\h{32})\.jpg\z}, 1]
   end
 
   private
