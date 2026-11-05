@@ -52,7 +52,7 @@ class DeckGenerator
   def add_cards(cards, deck)
     cards.each_with_object([]) do |card, missing|
       art = card.art_url
-      unless @art_checker.call(art)
+      unless @art_checker.call(card.art_source_url)
         name = card.to_add_card_args[:name]
         @out.puts "::warning title=Missing card art::No card art for #{name} (#{art}); using the placeholder"
         missing << name
