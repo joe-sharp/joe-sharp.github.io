@@ -6,9 +6,11 @@ require_relative '../lib/deck_sprite'
 require_relative '../lib/deck_generator'
 require_relative '../lib/endpoint_fetcher'
 require_relative '../lib/art_checker'
+require_relative '../lib/art_mirror'
 
 DECK_FILE = '_data/deck.yml'
 SPRITE_FILE = '_includes/deck.svg'
+ART_DIR = 'images/art'
 CARDS_PER_ROW = 5
 
 USAGE = "Usage: #{$PROGRAM_NAME} <github-username> [--run | --sprite-only]".freeze
@@ -33,7 +35,8 @@ if ARGV.include?('--run')
   begin
     result = DeckGenerator.new(
       username: username, fetcher: EndpointFetcher.new, art_checker: ArtChecker.new,
-      deck_file: DECK_FILE, sprite_file: SPRITE_FILE, cards_per_row: CARDS_PER_ROW
+      deck_file: DECK_FILE, sprite_file: SPRITE_FILE, cards_per_row: CARDS_PER_ROW,
+      art_mirror: ArtMirror.new(dir: ART_DIR)
     ).call
   rescue DeckGenerator::Error, EndpointFetcher::Error => e
     warn e.message

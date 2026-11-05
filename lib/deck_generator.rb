@@ -6,6 +6,7 @@ require_relative 'github_project_cards'
 require_relative 'deck_sprite'
 
 # Rebuilds the deck YAML and the card sprite from a GitHub user's repositories.
+# With an art_mirror, also keeps a local copy of every card's art for the site's fallback.
 #
 # Everything is generated in a temp directory and only copied over the real files
 # once every step has succeeded, so a failed fetch or card never leaves a
@@ -20,7 +21,7 @@ class DeckGenerator
   end
 
   def initialize(username:, fetcher:, art_checker:, deck_file:, sprite_file:, cards_per_row: 5,
-                 runner: self.class.default_runner, out: $stdout)
+                 runner: self.class.default_runner, out: $stdout, art_mirror: nil)
     @username = username
     @fetcher = fetcher
     @art_checker = art_checker
@@ -29,9 +30,11 @@ class DeckGenerator
     @cards_per_row = cards_per_row
     @runner = runner
     @out = out
+    @art_mirror = art_mirror
   end
 
   def call
+    @art_urls = []
     cards = GithubProjectCards.fetch(username: @username, fetcher: @fetcher)
     raise Error, "No projects returned for #{@username}; leaving the deck untouched" if cards.empty?
 
@@ -42,6 +45,7 @@ class DeckGenerator
       missing = add_cards(cards, deck)
       build_sprite(deck, sprite)
       install(deck, sprite)
+      @art_mirror&.call(@art_urls.uniq)
 
       Result.new(cards: cards, missing_art: missing)
     end
@@ -60,6 +64,7 @@ class DeckGenerator
       end
 
       @out.puts "Adding #{card.to_add_card_args[:name]}"
+      @art_urls << art
       @runner.call(*card.to_add_card_argv(deck: deck, art: art))
     end
   end

@@ -40,7 +40,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           BRANCH: bot/refresh-deck
         run: |
-          if git diff --quiet -- _data/deck.yml _includes/deck.svg; then
+          if [ -z "$(git status --porcelain -- _data/deck.yml _includes/deck.svg images/art)" ]; then
             echo "Deck is up to date."
             # Nothing left to refresh, so a PR from an earlier run is stale.
             if gh pr view "$BRANCH" --json state --jq '.state' 2>/dev/null | grep -qx OPEN; then
@@ -52,7 +52,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
-          git add _data/deck.yml _includes/deck.svg
+          git add _data/deck.yml _includes/deck.svg images/art
           git commit -m "Refresh project cards"
           # The branch is rebuilt from main on every run, so it is bot-owned.
           git push --force origin "$BRANCH"

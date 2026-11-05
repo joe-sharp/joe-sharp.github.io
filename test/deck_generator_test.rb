@@ -119,6 +119,15 @@ describe DeckGenerator do
     let(:missing_name) { fixture_projects.first['name'] }
     let(:art_checker) { ->(url) { !url.include?(Digest::MD5.hexdigest(missing_name)) } }
 
+    it 'hands the art it used to the mirror, including the placeholder' do
+      mirrored = []
+
+      generator(art_mirror: ->(urls) { mirrored.concat(urls) }).call
+
+      _(mirrored).must_include GithubProjectCard::PLACEHOLDER_ART_URL
+      _(mirrored).wont_include GithubProjectCard.new(fixture_project(missing_name)).art_url
+    end
+
     it 'uses the placeholder art, reports it, and still builds the deck' do
       result = generator.call
 
