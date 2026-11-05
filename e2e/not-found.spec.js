@@ -29,4 +29,8 @@ test('404 page follows the colour scheme', async ({ page }) => {
     expect(await rgb(body, 'color')).toBe('rgb(233, 223, 240)');
     await expect(page.getByRole('link', { name: 'Back to Home' })).toBeVisible();
   });
+
+  await test.step('Back to Home returns to the projects site', async () => {
+    await expect(page.getByRole('link', { name: 'Back to Home' })).toHaveAttribute('href', 'https://projects.joe-sharp.com/');
+  });
 });
