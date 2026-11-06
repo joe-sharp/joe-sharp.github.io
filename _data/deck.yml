@@ -1,4 +1,32 @@
 ---
+boondoc:
+  name: boondoc
+  type_line: Ruby, Shell
+  mana_cost: 4RW
+  power: '1'
+  toughness: '0'
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/786ce262cf3afb246a205dc5217bdfe1.jpg
+  embed_font: true
+  rules_text: Markdown-only API documentation for Ruby, written from YARD-style comments
+  flavor_text: |-
+    https://github.com/joe-sharp/boondoc
+    Created: 2026-10-26
+rubocop:
+  name: rubocop
+  type_line: Ruby, HTML, Emacs Lisp, Shell
+  mana_cost: 6RWWG
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/984eddbbc013e25cbb6379bf68aa05c1.jpg
+  embed_font: true
+  rules_text: |-
+    ●: [Fix #8191] Add `AllowedReceivers` option to `…
+    ✓: Add markdown formatter
+  flavor_text: |-
+    https://github.com/joe-sharp/rubocop
+    rubocop, forked from rubocop/rubocop
 joe_sharp_github_io:
   name: joe-sharp.github.io
   type_line: Ruby, SCSS, JavaScript, CSS, HTML
@@ -30,20 +58,6 @@ github_project_fetch:
   flavor_text: |-
     https://github.com/joe-sharp/github_project_fetch
     Created: 2025-07-01
-boondoc:
-  name: boondoc
-  type_line: Ruby, Shell
-  mana_cost: 4RW
-  power: '1'
-  toughness: '0'
-  border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/786ce262cf3afb246a205dc5217bdfe1.jpg
-  embed_font: true
-  rules_text: Markdown-only API documentation for Ruby, written from YARD-style comments
-  flavor_text: |-
-    https://github.com/joe-sharp/boondoc
-    Created: 2026-10-26
 treehouse_points:
   name: treehouse-points
   type_line: Liquid, JavaScript, SCSS, HTML, Ruby
@@ -145,20 +159,6 @@ guard_status:
   flavor_text: |-
     https://github.com/joe-sharp/guard-status
     Created: 2026-10-26
-rubocop:
-  name: rubocop
-  type_line: Ruby, HTML, Emacs Lisp, Shell
-  mana_cost: 6RWWG
-  border_color: white
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/984eddbbc013e25cbb6379bf68aa05c1.jpg
-  embed_font: true
-  rules_text: |-
-    ●: [Fix #8191] Add `AllowedReceivers` option to `…
-    ✓: Add markdown formatter
-  flavor_text: |-
-    https://github.com/joe-sharp/rubocop
-    rubocop, forked from rubocop/rubocop
 guard:
   name: guard
   type_line: Ruby, Gherkin

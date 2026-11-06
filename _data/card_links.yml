@@ -1,4 +1,13 @@
 ---
+rubocop:
+- href: https://github.com/rubocop/rubocop/pull/16193
+  label: "[Fix #8191] Add `AllowedReceivers` option to `Style/MethodCallWithArgsParentheses`"
+  top: 69.583
+  height: 3.011
+- href: https://github.com/rubocop/rubocop/pull/10542
+  label: Add markdown formatter
+  top: 72.595
+  height: 3.011
 irb:
 - href: https://github.com/ruby/irb/pull/1266
   label: Preserve an existing `_` local when creating a WorkSpace
@@ -12,15 +21,6 @@ version_gem:
 debug:
 - href: https://github.com/ruby/debug/pull/1188
   label: Set evaluation result to `_` without clobbering the debuggee's `_`
-  top: 72.595
-  height: 3.011
-rubocop:
-- href: https://github.com/rubocop/rubocop/pull/16193
-  label: "[Fix #8191] Add `AllowedReceivers` option to `Style/MethodCallWithArgsParentheses`"
-  top: 69.583
-  height: 3.011
-- href: https://github.com/rubocop/rubocop/pull/10542
-  label: Add markdown formatter
   top: 72.595
   height: 3.011
 guard:
