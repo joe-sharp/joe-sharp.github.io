@@ -290,7 +290,10 @@
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -335,6 +338,9 @@ Website for Anita Green
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/agreen.studio
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-12-02
+</text>
 </g>
 </svg>
   </g>
@@ -345,7 +351,7 @@ https://github.com/joe-sharp/agreen.studio
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -381,14 +387,20 @@ Ruby
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
+<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+&#x2713;: Add gemfile variables
+</text>
 <text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-A Ruby library for testing your library against
+&#x2713;: Fix #216, extra newline with customize_gemfiles
 </text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-different versions of dependencies.
+&#x2713;: Add options to customize generated gemfiles
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/appraisal
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+appraisal, forked from thoughtbot/appraisal
 </text>
 </g>
 </svg>
@@ -400,7 +412,10 @@ https://github.com/joe-sharp/appraisal
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -445,6 +460,9 @@ from YARD-style comments
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/boondoc
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2026-10-26
+</text>
 </g>
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -461,7 +479,10 @@ https://github.com/joe-sharp/boondoc
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -506,6 +527,9 @@ Custom Firmware for Keyboardio Atreus
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/CustomAtreus
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2021-07-05
+</text>
 </g>
 </svg>
   </g>
@@ -516,7 +540,7 @@ https://github.com/joe-sharp/CustomAtreus
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -553,10 +577,13 @@ Ruby, C, Shell
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-Debugging functionality for Ruby
+&#x25CF;: Set evaluation result to `_` without clobberin&#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/debug
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+debug, forked from ruby/debug
 </text>
 </g>
 </svg>
@@ -568,7 +595,10 @@ https://github.com/joe-sharp/debug
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -613,6 +643,9 @@ Various config files
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/dotfiles
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2021-01-23
+</text>
 </g>
 </svg>
   </g>
@@ -623,7 +656,10 @@ https://github.com/joe-sharp/dotfiles
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -671,6 +707,9 @@ exercism.org
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/exercism-solutions
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2021-09-10
+</text>
 </g>
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -687,7 +726,7 @@ https://github.com/joe-sharp/exercism-solutions
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -723,14 +762,17 @@ JavaScript, Shell
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#blue_text_box_gradient)" stroke="#42A5F5" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#42A5F5" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-:zap: Dynamically generated stats for your github
-</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-readmes
+&#x2715;: Add manual offset env vars for stats not visib&#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/github-readme-stats
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+github-readme-stats, forked from
+</text>
+<text x="55" y="765.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
+anuraghazra/github-readme-stats
 </text>
 </g>
 </svg>
@@ -742,7 +784,10 @@ https://github.com/joe-sharp/github-readme-stats
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -790,6 +835,9 @@ GitHub users, deployed on Vercel.
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/github_project_fetch
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2025-07-01
+</text>
 </g>
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -806,7 +854,7 @@ https://github.com/joe-sharp/github_project_fetch
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -842,14 +890,14 @@ Ruby, Gherkin
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-Guard is a command line tool to easily handle
-</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-events on file system modifications.
+&#x25CF;: Replace OpenStruct in DslDescriber#show with S&#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/guard
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+guard, forked from guard/guard
 </text>
 </g>
 </svg>
@@ -861,7 +909,10 @@ https://github.com/joe-sharp/guard
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -906,6 +957,9 @@ when their sources change
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/guard-boondoc
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2026-10-26
+</text>
 </g>
 </svg>
   </g>
@@ -916,7 +970,10 @@ https://github.com/joe-sharp/guard-boondoc
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -961,6 +1018,9 @@ your other guards
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/guard-status
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2026-10-26
+</text>
 </g>
 </svg>
   </g>
@@ -971,7 +1031,7 @@ https://github.com/joe-sharp/guard-status
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1008,10 +1068,13 @@ Ruby, Shell
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-interactive Ruby
+&#x25CF;: Preserve an existing `_` local when creating a&#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/irb
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+irb, forked from ruby/irb
 </text>
 </g>
 </svg>
@@ -1023,7 +1086,10 @@ https://github.com/joe-sharp/irb
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1040,9 +1106,6 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
 joe-sharp
 </text>
-<g transform="translate(575, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g></g>
-</g>
 </g>
 <g>
 <rect x="37" y="92" width="556" height="406" fill="none" stroke="#8B8B8B" stroke-width="2" rx="8" ry="8"/>
@@ -1051,9 +1114,6 @@ joe-sharp
 </g>
 <g>
 <rect x="30" y="500" width="570" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Markdown
-</text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
@@ -1071,6 +1131,9 @@ https://github.com/joe-sharp
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/joe-sharp
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-11-26
+</text>
 </g>
 </svg>
   </g>
@@ -1081,7 +1144,10 @@ https://github.com/joe-sharp/joe-sharp
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1135,6 +1201,9 @@ collectible card.
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/joe-sharp.github.io
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-11-26
+</text>
 </g>
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -1151,7 +1220,10 @@ https://github.com/joe-sharp/joe-sharp.github.io
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1162,34 +1234,25 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 &#xA9; Wizards of the Coast LLC
 </text>
-<rect x="25" y="25" width="580" height="740" fill="url(#gold_frame_gradient)" stroke="#FFD700" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
-<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_highlight_gradient)" stroke="#FFD700" stroke-width="2"/>
-<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_pattern)" opacity="0.3"/>
-<rect x="27" y="27" width="576" height="736" mask="url(#artWindowMask)" rx="8" ry="8" fill="url(#gold_metallic_shadow_gradient)" opacity="0.4"/>
+<rect x="25" y="25" width="580" height="740" fill="url(#colorless_frame_gradient)" stroke="#8B8B8B" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
 <g>
-<rect x="30" y="40" width="570" height="50" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<rect x="30" y="40" width="570" height="50" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
 linter-configs
 </text>
-<g transform="translate(575, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g></g>
-</g>
 </g>
 <g>
-<rect x="37" y="92" width="556" height="406" fill="none" stroke="#FFD700" stroke-width="2" rx="8" ry="8"/>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#8B8B8B" stroke-width="2" rx="8" ry="8"/>
 <rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
 <image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/88366c922d20dc5aa0ff3de52d3f6cec.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
 </g>
 <g>
-<rect x="30" y="500" width="570" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="45" y="528" fill="#111" font-size="22" class="card-type">
-YAML, JSON, Markdown
-</text>
+<rect x="30" y="500" width="570" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
-<rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
-<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
+<rect x="40" y="545" width="550" height="265" fill="url(#colorless_text_box_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#8B8B8B" stroke-width="1"/>
 <text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
 Collection of config files for various linters. Can
 </text>
@@ -1202,9 +1265,12 @@ https://github.com/nvuillam/mega-linter
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/linter-configs
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-12-14
+</text>
 </g>
 <g>
-<rect x="535" y="790" width="60" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<rect x="535" y="790" width="60" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
 <text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
 2/0
 </text>
@@ -1218,7 +1284,7 @@ https://github.com/joe-sharp/linter-configs
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1260,20 +1326,17 @@ Swift
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
-<text x="55" y="580.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-Mega-Linter analyzes 40 languages, 19 formats, 16
-</text>
-<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-tooling formats , abusive copy-pastes and spelling
-</text>
 <text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-mistakes in your repository sources , with a GitHub
+&#x2715;: DRAFT: Fix issue #302
 </text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-Action or other CI tools
+&#x2713;: Prevent `unexpected token` error on old node v&#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/mega-linter
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+mega-linter, forked from oxsecurity/megalinter
 </text>
 </g>
 </svg>
@@ -1285,7 +1348,7 @@ https://github.com/joe-sharp/mega-linter
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1321,11 +1384,20 @@ Java, Ruby, VBA, CSS, Batchfile
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#green_text_box_gradient)" stroke="#4CAF50" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#4CAF50" stroke-width="1"/>
+<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+&#x2713;: Update jackson-databind to mitigate CVE-2026-1&#x2026;
+</text>
+<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
+&#x2713;: Update to jsoup 1.23.2 to fix High-severity CVE
+</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-Primary repository for MPXJ library
+&#x2713;: Update to Jackson 2.22.3 to fix High-severity &#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/mpxj
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+mpxj, forked from joniles/mpxj
 </text>
 </g>
 </svg>
@@ -1337,7 +1409,10 @@ https://github.com/joe-sharp/mpxj
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1394,6 +1469,9 @@ Wizards of the Coast. &#xA9;Wizards of the Coast LLC.
 <text x="55" y="765.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/mtg_card_maker
 </text>
+<text x="55" y="792.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2025-07-12
+</text>
 </g>
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -1410,7 +1488,7 @@ https://github.com/joe-sharp/mtg_card_maker
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1446,14 +1524,20 @@ Ruby
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
+<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+&#x2715;: Add support and testing for new versions
+</text>
 <text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-An ActiveRecord extension to switch between
+&#x2713;: Add support for Active Record 7.1
 </text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-multiple databases, such as in a master/slave setup
+&#x2713;: Fix license issues
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/multidb
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+multidb, forked from OutOfOrder/multidb
 </text>
 </g>
 </svg>
@@ -1465,7 +1549,10 @@ https://github.com/joe-sharp/multidb
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1513,6 +1600,9 @@ watch to make HTTP requests
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/ninja-switches
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-12-03
+</text>
 </g>
 </svg>
   </g>
@@ -1523,7 +1613,10 @@ https://github.com/joe-sharp/ninja-switches
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1565,6 +1658,9 @@ Old Arduino Projects
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/old-arduino-projects
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-12-14
+</text>
 </g>
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#white_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -1581,7 +1677,7 @@ https://github.com/joe-sharp/old-arduino-projects
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1618,13 +1714,16 @@ Ruby, HTML, Emacs Lisp, Shell
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
 <text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-A Ruby static code analyzer and formatter, based on
+&#x25CF;: [Fix #8191] Add `AllowedReceivers` option to `&#x2026;
 </text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-the community Ruby style guide.
+&#x2713;: Add markdown formatter
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/rubocop
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+rubocop, forked from rubocop/rubocop
 </text>
 </g>
 </svg>
@@ -1636,7 +1735,7 @@ https://github.com/joe-sharp/rubocop
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1678,6 +1777,9 @@ Library packaging and distribution for Ruby.
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/rubygems
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+rubygems, forked from ruby/rubygems
+</text>
 </g>
 </svg>
   </g>
@@ -1688,7 +1790,10 @@ https://github.com/joe-sharp/rubygems
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1733,6 +1838,9 @@ tweaks
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/sharp_style_rubocop
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2026-10-27
+</text>
 </g>
 </svg>
   </g>
@@ -1743,7 +1851,7 @@ https://github.com/joe-sharp/sharp_style_rubocop
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1779,14 +1887,14 @@ Ruby, HTML, JavaScript, CSS
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-Enables easily adding filtering in rails
-</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-controllers
+&#x25CF;: Add Rails 8.1 to the testing matrix
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/sift
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+sift, forked from procore-oss/sift
 </text>
 </g>
 </svg>
@@ -1798,7 +1906,7 @@ https://github.com/joe-sharp/sift
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1840,6 +1948,12 @@ Telfer's Fork of UOA
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/Telfers-Ultima-Adventures
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Telfers-Ultima-Adventures, forked from
+</text>
+<text x="55" y="765.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
+FinalTwist/Ultima-Adventures
+</text>
 </g>
 </svg>
   </g>
@@ -1850,7 +1964,10 @@ https://github.com/joe-sharp/Telfers-Ultima-Adventures
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1895,6 +2012,9 @@ Widget to display Treehouse points on the web
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/treehouse-points
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-11-29
+</text>
 </g>
 </svg>
   </g>
@@ -1905,7 +2025,10 @@ https://github.com/joe-sharp/treehouse-points
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -1953,6 +2076,9 @@ web, rewritten in Vue.js
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/treehouse-vue
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-12-02
+</text>
 </g>
 </svg>
   </g>
@@ -1963,7 +2089,10 @@ https://github.com/joe-sharp/treehouse-vue
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -2008,6 +2137,9 @@ with other assistants
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/UO-Macros
 </text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2025-02-11
+</text>
 </g>
 </svg>
   </g>
@@ -2018,7 +2150,7 @@ https://github.com/joe-sharp/UO-Macros
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -2057,14 +2189,14 @@ Ruby, Shell
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-&#x1F516; Enhance that VERSION! Sugar for boring Version
-</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-modules
+&#x25CF;: Memoize version lookups in VersionGem::Api
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/version_gem
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+version_gem, forked from ruby-oauth/version_gem
 </text>
 </g>
 </svg>
@@ -2076,7 +2208,10 @@ https://github.com/joe-sharp/version_gem
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -2093,9 +2228,6 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
 ZoeDreams
 </text>
-<g transform="translate(575, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">2</text></svg></g></g>
-</g>
 </g>
 <g>
 <rect x="37" y="92" width="556" height="406" fill="none" stroke="#8B8B8B" stroke-width="2" rx="8" ry="8"/>
@@ -2104,9 +2236,6 @@ ZoeDreams
 </g>
 <g>
 <rect x="30" y="500" width="570" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Markdown
-</text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
@@ -2114,6 +2243,9 @@ Markdown
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#8B8B8B" stroke-width="1"/>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/ZoeDreams
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-11-28
 </text>
 </g>
 </svg>
@@ -2125,7 +2257,7 @@ https://github.com/joe-sharp/ZoeDreams
 
 
 
-<rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" style="fill: var(--fork-frame, #EEE)" rx="25" ry="25" mask="url(#artWindowMask)"/>
 <path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
 <text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 MTG Card Maker by Joe Sharp
@@ -2163,6 +2295,9 @@ JavaScript
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#42A5F5" stroke-width="1"/>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/zoom-close
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+zoom-close, forked from seanstar12/zoom-close
 </text>
 </g>
 </svg>

@@ -138,11 +138,17 @@ class GithubProjectCard
       ["border-color", args[:border_color]],
       ["power", args[:power]],
       ["toughness", args[:toughness]],
-      ["rules-text", args[:rules_text]],
-      ["flavor-text", args[:flavor_text]]
+      ["rules-text", cli_text(args[:rules_text])],
+      ["flavor-text", cli_text(args[:flavor_text])]
     ]
     present = flags.reject { |flag, value| OPTIONAL_FLAGS.include?(flag) && !value }
     present.reject { |flag, value| flag == "rules-text" && value.empty? }
+  end
+
+  # The mtg_card_maker CLI only keeps the first line of a multi-line argument, and
+  # it turns a literal backslash-n back into a newline, so newlines are sent that way.
+  def cli_text(text)
+    text&.gsub("\n") { '\\n' }
   end
 
   def languages

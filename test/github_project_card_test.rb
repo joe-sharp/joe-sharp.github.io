@@ -224,7 +224,9 @@ describe GithubProjectCard do
     end
 
     it "keeps the repo description when a fork has no PR data" do
-      _(GithubProjectCard.new(fork_attributes).to_add_card_args[:rules_text]).must_equal fixture_project("appraisal")["description"]
+      _(GithubProjectCard.new(fork_attributes).to_add_card_args[:rules_text]).must_equal(
+        fixture_project("appraisal")["description"]
+      )
     end
 
     it "keeps the repo description when a fork has no PRs into its parent" do
@@ -257,6 +259,21 @@ describe GithubProjectCard do
           "label" => "6 PRs to thoughtbot/appraisal: 6 merged"
         }]
       )
+    end
+
+    it "sends each PR on its own line to the card CLI as an escaped newline" do
+      card = card_with([pull_request("One", "merged"), pull_request("Two", "open")])
+      flag = card.to_add_card_argv.find { |arg| arg.start_with?("--rules-text=") }
+
+      _(flag).must_equal "--rules-text=\u2713: One\\n\u25CF: Two"
+    end
+
+    it "sends a multi-line flavor text as an escaped newline" do
+      flag = GithubProjectCard.new(fixture_project("appraisal")).to_add_card_argv.find { |arg|
+        arg.start_with?("--flavor-text=")
+      }
+
+      _(flag).must_equal "--flavor-text=https://github.com/joe-sharp/appraisal\\nCreated: 2021-10-14"
     end
 
     it "has no links without PR data" do
