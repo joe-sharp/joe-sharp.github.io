@@ -14,7 +14,7 @@
   {% assign cell_h = 910 %}
   {% capture deck_svg %}{% include deck.svg %}{% endcapture %}
   {{ deck_svg | replace: '<?xml version="1.0"?>', '' }}
-  <div class="projects-cards" style="--card-back: url('{{ 'images/back.webp' | relative_url }}')">
+  <div class="projects-cards" data-art-fallback="{{ 'images/art/' | relative_url }}" style="--card-back: url('{{ 'images/back.webp' | relative_url }}')">
     {% for entry in site.data.deck %}
       {% assign card = entry[1] %}
       {% assign i = forloop.index0 %}
@@ -36,6 +36,7 @@
       </a>
     {% endfor %}
   </div>
+  <script src="{{ 'assets/js/art-fallback.js' | relative_url }}"></script>
   <script src="{{ 'assets/js/deal.js' | relative_url }}"></script>
   {% assign actions = include.section.actions %}
   {% if actions %}

@@ -28,11 +28,22 @@ describe GithubProjectCard do
       _(args_for('joe-sharp.github.io')[:name]).must_equal 'joe-sharp.github.io'
     end
 
-    it 'uses a Cloudinary URL with an MD5 checksum of the repo name as the art' do
-      base = 'https://res.cloudinary.com/uv7kncpy/image/upload'
+    it 'uses a resized Cloudinary URL with an MD5 checksum of the repo name as the art' do
+      base = "https://res.cloudinary.com/uv7kncpy/image/upload/#{GithubProjectCard::ART_TRANSFORMATION}"
       # Digest::MD5.hexdigest('joe-sharp.github.io')
       _(args_for('joe-sharp.github.io')[:art]).must_equal "#{base}/faa79416b855ca1c82b6b5aeb3c3235a.jpg"
       _(args_for('mtg_card_maker')[:art]).must_equal "#{base}/595f103c608631e0049772bf3ad48b06.jpg"
+    end
+
+    it 'keeps the untransformed original for the existence check' do
+      card = GithubProjectCard.new(fixture_project('joe-sharp.github.io'))
+
+      _(card.art_source_url).must_equal 'https://res.cloudinary.com/uv7kncpy/image/upload/faa79416b855ca1c82b6b5aeb3c3235a.jpg'
+    end
+
+    it 'reads the art id from any Cloudinary art url, with or without a version or transformation' do
+      _(GithubProjectCard.art_id(GithubProjectCard::PLACEHOLDER_ART_URL)).must_equal 'c21f969b5f03d33d43e04f8f136e7682'
+      _(GithubProjectCard.art_id('https://res.cloudinary.com/uv7kncpy/image/upload/faa79416b855ca1c82b6b5aeb3c3235a.jpg')).must_equal 'faa79416b855ca1c82b6b5aeb3c3235a'
     end
 
     it 'builds --mana-cost from rounded log10 of top language bytes minus 1, then mapped pips by usage' do
@@ -158,7 +169,7 @@ describe GithubProjectCard do
     it 'swaps in the given art and exposes the expected art url' do
       card = GithubProjectCard.new(fixture_project('appraisal'))
 
-      _(card.art_url).must_match %r{\Ahttps://res\.cloudinary\.com/uv7kncpy/image/upload/\h{32}\.jpg\z}
+      _(card.art_url).must_match %r{\Ahttps://res\.cloudinary\.com/uv7kncpy/image/upload/#{GithubProjectCard::ART_TRANSFORMATION}/\h{32}\.jpg\z}
       _(argv_for('appraisal', art: 'https://example.com/x.jpg')).must_include '--art=https://example.com/x.jpg'
       _(argv_for('appraisal')).must_include "--art=#{card.art_url}"
     end

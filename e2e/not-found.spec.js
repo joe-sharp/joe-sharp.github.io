@@ -13,24 +13,24 @@ test('unknown paths show the 404 page with its illustration', async ({ page }) =
 
 // Request 404.html itself: on GitHub Pages an unknown path under a PR preview is
 // answered by the production site's root 404.html, not the preview's copy.
-test.describe('404 colour scheme', () => {
-  test.describe('light', () => {
-    test.use({ colorScheme: 'light' });
+// The colour scheme is a media query, so it can be switched without reloading.
+test('404 page follows the colour scheme', async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'light' });
+  await page.goto('404.html');
+  const body = page.locator('body');
 
-    test('uses the light background', async ({ page }) => {
-      await page.goto('404.html');
-      expect(await rgb(page.locator('body'), 'backgroundColor')).toBe('rgb(221, 221, 221)');
-    });
+  await test.step('light uses the light background', async () => {
+    expect(await rgb(body, 'backgroundColor')).toBe('rgb(221, 221, 221)');
   });
 
-  test.describe('dark', () => {
-    test.use({ colorScheme: 'dark' });
+  await test.step('dark uses a dark background with light text', async () => {
+    await page.emulateMedia({ colorScheme: 'dark' });
+    expect(await rgb(body, 'backgroundColor')).toBe('rgb(22, 18, 28)');
+    expect(await rgb(body, 'color')).toBe('rgb(233, 223, 240)');
+    await expect(page.getByRole('link', { name: 'Back to Home' })).toBeVisible();
+  });
 
-    test('uses a dark background with light text', async ({ page }) => {
-      await page.goto('404.html');
-      expect(await rgb(page.locator('body'), 'backgroundColor')).toBe('rgb(22, 18, 28)');
-      expect(await rgb(page.locator('body'), 'color')).toBe('rgb(233, 223, 240)');
-      await expect(page.getByRole('link', { name: 'Back to Home' })).toBeVisible();
-    });
+  await test.step('Back to Home returns to the projects site', async () => {
+    await expect(page.getByRole('link', { name: 'Back to Home' })).toHaveAttribute('href', 'https://projects.joe-sharp.com/');
   });
 });
