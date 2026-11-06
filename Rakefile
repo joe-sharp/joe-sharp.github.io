@@ -1,49 +1,49 @@
 # frozen_string_literal: true
 
-require 'rake/testtask'
+require "rake/testtask"
 
 Rake::TestTask.new(:test) do |t|
-  t.libs << 'test'
-  t.libs << 'lib'
-  t.test_files = FileList['test/**/*_test.rb']
+  t.libs << "test"
+  t.libs << "lib"
+  t.test_files = FileList["test/**/*_test.rb"]
   t.warning = true
 end
 
 # Builds like GitHub Pages does: production environment, safe mode (no _plugins).
-desc 'Build the site into _site the way production does'
+desc "Build the site into _site the way production does"
 task :build do
-  ENV['JEKYLL_ENV'] = 'production'
-  sh 'bundle exec jekyll build --safe'
+  ENV["JEKYLL_ENV"] = "production"
+  sh "bundle exec jekyll build --safe"
 end
 
 # Builds for a PR preview served under a subpath, e.g. BASEURL=/pr-preview/pr-12.
 # _config.preview.yml marks the pages noindex.
 namespace :build do
-  desc 'Build a noindexed preview under BASEURL'
+  desc "Build a noindexed preview under BASEURL"
   task :preview do
-    baseurl = ENV.fetch('BASEURL') { abort 'Set BASEURL, e.g. BASEURL=/pr-preview/pr-12' }
-    ENV['JEKYLL_ENV'] = 'production'
-    sh 'bundle exec jekyll build --safe --config _config.yml,_config.preview.yml ' \
+    baseurl = ENV.fetch("BASEURL") { abort "Set BASEURL, e.g. BASEURL=/pr-preview/pr-12" }
+    ENV["JEKYLL_ENV"] = "production"
+    sh "bundle exec jekyll build --safe --config _config.yml,_config.preview.yml " \
        "--baseurl #{baseurl}"
   end
 end
 
-desc 'Run the Playwright end-to-end tests against a fresh production build'
+desc "Run the Playwright end-to-end tests against a fresh production build"
 task e2e: :build do
-  sh 'npx playwright test'
+  sh "npx playwright test"
 end
 
-GITHUB_USERNAME = 'joe-sharp'
+GITHUB_USERNAME = "joe-sharp"
 
-desc 'Regenerate _data/deck.yml and _includes/deck.svg from GitHub'
+desc "Regenerate _data/deck.yml and _includes/deck.svg from GitHub"
 task :deck do
-  sh 'ruby', 'bin/generate_cards.rb', GITHUB_USERNAME, '--run'
+  sh "ruby", "bin/generate_cards.rb", GITHUB_USERNAME, "--run"
 end
 
 namespace :deck do
-  desc 'Rebuild only the sprite from the existing deck file'
+  desc "Rebuild only the sprite from the existing deck file"
   task :sprite do
-    sh 'ruby', 'bin/generate_cards.rb', '--sprite-only'
+    sh "ruby", "bin/generate_cards.rb", "--sprite-only"
   end
 end
 

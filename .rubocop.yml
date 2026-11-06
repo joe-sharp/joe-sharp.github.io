@@ -1,0 +1,12 @@
+inherit_gem:
+  sharp_style_rubocop: config/default.yml
+
+# Liquid filter names can't end in "?" (Liquid parses names as \w+), so these
+# filters keep their names and the predicate naming cops don't apply to them
+Naming/PredicateMethod:
+  Exclude:
+    - _plugins/filters.rb
+
+Naming/PredicatePrefix:
+  Exclude:
+    - _plugins/filters.rb

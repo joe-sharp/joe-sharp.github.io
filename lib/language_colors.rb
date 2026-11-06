@@ -51,8 +51,12 @@ end
 def resolve(key, languages)
   k = key.downcase
   languages.find { |name, _| name.downcase == k }&.first ||
-    languages.find { |_, d| Array(d["aliases"]).map(&:downcase).include?(k) }&.first ||
-    languages.find { |_, d| Array(d["interpreters"]).map(&:downcase).include?(k) }&.first
+    find_by_list_field(languages, "aliases", k) ||
+    find_by_list_field(languages, "interpreters", k)
+end
+
+def find_by_list_field(languages, field, wanted)
+  languages.find { |_, d| Array(d[field]).map(&:downcase).include?(wanted) }&.first
 end
 
 remote = fetch(SOURCE_URL)
@@ -68,7 +72,7 @@ if remote_sha == local_sha
   puts "languages.yml unchanged; regenerating #{OUTPUT_FILE}."
 else
   File.write(LOCAL_FILE, remote)
-  puts "Updated #{LOCAL_FILE} (sha256 #{local_sha&.slice(0, 12) || 'none'} -> #{remote_sha[0, 12]})."
+  puts "Updated #{LOCAL_FILE} (sha256 #{local_sha&.slice(0, 12) || "none"} -> #{remote_sha[0, 12]})."
 end
 
 languages = YAML.safe_load(remote).select { |_, d| TYPES.include?(d["type"]) }
@@ -92,5 +96,5 @@ mapping.merge!(overrides)
 sorted = mapping.sort_by { |name, _| name.downcase }.to_h
 header = "# Generated from Linguist languages.yml (sha256 #{remote_sha}).\n" \
          "# #{sorted.size} programming/markup languages.\n"
-File.write(OUTPUT_FILE, header + sorted.to_yaml.sub(/\A---\n/, ""))
+File.write(OUTPUT_FILE, header + sorted.to_yaml.delete_prefix("---\n"))
 puts "Wrote #{sorted.size} languages to #{OUTPUT_FILE}."

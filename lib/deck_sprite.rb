@@ -11,7 +11,7 @@ module DeckSprite
     return svg if svg.include?('id="deck-card-0"')
 
     index = -1
-    svg = svg.gsub(CARD_GROUP) { |tag| tag.sub('<g ', %(<g id="deck-card-#{index += 1}" )) }
+    svg = svg.gsub(CARD_GROUP) { |tag| tag.sub("<g ", %(<g id="deck-card-#{index += 1}" )) }
     svg = svg.sub(/(<svg[^>]*?) width="\d+" height="\d+"/, '\1 width="0" height="0" aria-hidden="true"')
     first_card = svg.index(/^  <g id="deck-card-0"/)
     return svg unless first_card
