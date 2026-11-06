@@ -21,7 +21,7 @@ class EndpointFetcher
 
   def call(username:)
     uri = URI(@endpoint)
-    uri.query = URI.encode_www_form(username: username)
+    uri.query = URI.encode_www_form(username: username, include_fork_metadata: true)
 
     with_retries { parse(@http_get.call(uri)) }
   end

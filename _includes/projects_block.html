@@ -24,16 +24,22 @@
       {% assign y = row | times: cell_h %}
       {% assign url = card.flavor_text | split: "
 " | first %}
-      <a class="project-card" href="{{ url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ card.name | escape }}">
+      <div class="project-card">
         <span class="project-card-tilt"><span class="project-card-flip">
           <span class="project-card-face front">
-            <svg viewBox="{{ x }} {{ y }} 630 880" role="img" aria-label="{{ card.name | escape }} card">
-              <use href="#deck-card-{{ i }}"/>
-            </svg>
+            <a class="project-card-link" href="{{ url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ card.name | escape }}">
+              <svg viewBox="{{ x }} {{ y }} 630 880" role="img" aria-label="{{ card.name | escape }} card">
+                <use href="#deck-card-{{ i }}"/>
+              </svg>
+            </a>
+            {% assign rule_links = site.data.card_links[card.name] %}
+            {% for link in rule_links %}
+            <a class="project-card-rule-link" href="{{ link.href }}" target="_blank" rel="noopener noreferrer" aria-label="{{ link.label | escape }}" style="top: {{ link.top }}%; height: {{ link.height }}%"></a>
+            {% endfor %}
           </span>
           <span class="project-card-face back" aria-hidden="true"></span>
         </span></span>
-      </a>
+      </div>
     {% endfor %}
   </div>
   <script src="{{ 'assets/js/art-fallback.js' | relative_url }}"></script>

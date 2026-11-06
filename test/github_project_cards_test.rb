@@ -43,7 +43,7 @@ describe GithubProjectCards do
       _(command).must_include '--mana-cost="5RW"'
       _(command).must_include '--type-line="Ruby, Shell"'
       _(command).must_include '--color="red"'
-      _(command).must_include '--border-color="white"'
+      _(command).must_include '--border-color="silver"'
       _(command).must_include '--power="2"'
       _(command).must_include '--toughness="1"'
       _(command).must_include '--rules-text="'

@@ -42,4 +42,32 @@ describe DeckSprite do
   it 'is idempotent' do
     _(DeckSprite.prepare(prepared)).must_equal prepared
   end
+
+  describe 'fork frames' do
+    let(:framed_sprite) do
+      <<~SVG
+        <?xml version="1.0"?>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 910" width="1320" height="910">
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+          </g>
+          <g transform="translate(660, 0)">
+            <rect x="0" y="0" width="630" height="880" fill="#EEE" rx="25" ry="25" mask="url(#artWindowMask)"/>
+          </g>
+        </svg>
+      SVG
+    end
+
+    it 'fills only the listed cards\' frames from the --fork-frame variable' do
+      prepared = DeckSprite.prepare(framed_sprite, fork_indices: [1])
+
+      _(prepared.scan('var(--fork-frame, #EEE)').size).must_equal 1
+      _(prepared.index('var(--fork-frame')).must_be :>, prepared.index('deck-card-1')
+      _(prepared).must_include 'fill="#EEE" rx="25" ry="25"'
+    end
+
+    it 'leaves the frames alone when no fork indices are given' do
+      _(DeckSprite.prepare(framed_sprite)).wont_include 'var(--fork-frame'
+    end
+  end
 end

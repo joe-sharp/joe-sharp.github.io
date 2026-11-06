@@ -65,6 +65,14 @@ describe DeckGenerator do
     _(runner.calls.last).must_include '--cards-per-row=5'
   end
 
+  it 'writes the card links alongside the deck when given a path, empty without forks' do
+    links_file = File.join(dir, 'data', 'card_links.yml')
+
+    generator(card_links_file: links_file).call
+
+    _(YAML.load_file(links_file)).must_equal({})
+  end
+
   it 'builds into a temp deck so the real deck is not appended to' do
     FileUtils.mkdir_p(File.dirname(deck_file))
     File.write(deck_file, "stale\n")
