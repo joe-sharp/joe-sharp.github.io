@@ -98,7 +98,7 @@ github_readme_stats:
   color: blue
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9b440a7f28bc95f4c5559b9fe489c995.jpg
   embed_font: true
-  rules_text: "✕: Add manual offset env vars for stats not visib…"
+  rules_text: ":zap: Dynamically generated stats for your github readmes"
   flavor_text: |-
     https://github.com/joe-sharp/github-readme-stats
     github-readme-stats, forked from anuraghazra/github-readme-stats
@@ -167,7 +167,8 @@ irb:
     irb, forked from ruby/irb
 joe_sharp:
   name: joe-sharp
-  type_line: ''
+  type_line: Markdown
+  mana_cost: '3'
   border_color: silver
   color: colorless
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/d1d006d3b2a44c8955c7d02b7fc193e4.jpg
@@ -195,11 +196,12 @@ joe_sharp_github_io:
     Created: 2020-11-26
 linter_configs:
   name: linter-configs
-  type_line: ''
+  type_line: YAML, JSON, Markdown
+  mana_cost: '3'
   power: '2'
   toughness: '0'
   border_color: silver
-  color: colorless
+  color: gold
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/88366c922d20dc5aa0ff3de52d3f6cec.jpg
   embed_font: true
   rules_text: Collection of config files for various linters. Can be used as remote
@@ -215,9 +217,7 @@ mega_linter:
   color: gold
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/68366e2a01ac7ace4572c4055642349f.jpg
   embed_font: true
-  rules_text: |-
-    ✕: DRAFT: Fix issue #302
-    ✓: Prevent `unexpected token` error on old node v…
+  rules_text: "✓: Prevent `unexpected token` error on old node v…"
   flavor_text: |-
     https://github.com/joe-sharp/mega-linter
     mega-linter, forked from oxsecurity/megalinter
@@ -262,7 +262,6 @@ multidb:
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/3fe60785b296afd688501782a73917ee.jpg
   embed_font: true
   rules_text: |-
-    ✕: Add support and testing for new versions
     ✓: Add support for Active Record 7.1
     ✓: Fix license issues
   flavor_text: |-
@@ -407,7 +406,8 @@ version_gem:
     version_gem, forked from ruby-oauth/version_gem
 zoedreams:
   name: ZoeDreams
-  type_line: ''
+  type_line: Markdown
+  mana_cost: '2'
   border_color: silver
   color: colorless
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/cb36a59f2753dafde339e196419d7f37.jpg

@@ -208,12 +208,28 @@ describe GithubProjectCard do
 
     it "lists up to five PRs, one per line, each with a status symbol" do
       card = card_with([pull_request("Fix thing", "merged"),
-                        pull_request("Idea", "open"),
-                        pull_request("Nope", "closed")])
+                        pull_request("Idea", "open")])
 
       _(card.to_add_card_args[:rules_text]).must_equal "✓: Fix thing
-●: Idea
-✕: Nope"
+●: Idea"
+    end
+
+    it "hides closed PRs from the list, the links, and the count" do
+      card = card_with(
+        [pull_request("Fix thing", "merged"),
+         pull_request("Nope", "closed")],
+        total: 2
+      )
+
+      _(card.to_add_card_args[:rules_text]).must_equal "✓: Fix thing"
+      _(card.rules_links.map { |link| link["label"] }).must_equal ["Fix thing"]
+    end
+
+    it "keeps the repo description when every PR is closed" do
+      card = card_with([pull_request("Nope", "closed")], total: 1)
+
+      _(card.to_add_card_args[:rules_text]).must_equal fixture_project("appraisal")["description"]
+      _(card.rules_links).must_equal []
     end
 
     it "summarises more than five PRs, leaving out zero counts" do
@@ -221,6 +237,14 @@ describe GithubProjectCard do
       card = card_with(merged + [pull_request("Open", "open")], total: 6)
 
       _(card.to_add_card_args[:rules_text]).must_equal "6 PRs to thoughtbot/appraisal: 5 merged, 1 open"
+    end
+
+    it "does not count closed PRs toward the five-PR limit" do
+      merged = Array.new(5) { |i| pull_request("Merged #{i}", "merged") }
+      card = card_with(merged + [pull_request("Nope", "closed")], total: 6)
+
+      _(card.to_add_card_args[:rules_text].lines.size).must_equal 5
+      _(card.rules_links.size).must_equal 5
     end
 
     it "keeps the repo description when a fork has no PR data" do

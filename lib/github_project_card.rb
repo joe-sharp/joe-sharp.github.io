@@ -33,7 +33,7 @@ class GithubProjectCard
   # Rules text wraps at about 51 characters per line on the card, so each listed PR fits on one line.
   RULES_LINE_CHARS = 50
 
-  PR_STATUS_SYMBOLS = { "merged" => "✓", "open" => "●", "closed" => "✕" }.freeze
+  PR_STATUS_SYMBOLS = { "merged" => "✓", "open" => "●" }.freeze
 
   # Type line shows only the top languages; when it is truncated, each color
   # is capped at MAX_PIPS_PER_COLOR pips and every skipped pip adds 1 generic mana.
@@ -217,12 +217,14 @@ class GithubProjectCard
     fork? && pull_requests_total.positive?
   end
 
+  # Closed PRs are left off the card: they are not listed, linked, or counted.
   def pull_requests
-    attributes["pull_requests"] || []
+    (attributes["pull_requests"] || []).reject { |pr| pr["state"] == "closed" }
   end
 
   def pull_requests_total
-    attributes["pull_requests_total"] || pull_requests.size
+    total = attributes["pull_requests_total"] || pull_requests.size
+    total - (attributes["pull_requests"] || []).count { |pr| pr["state"] == "closed" }
   end
 
   def pull_request_list_text
@@ -242,7 +244,7 @@ class GithubProjectCard
 
   def pull_request_summary_text
     counts = pull_requests.map { |pr| pr["state"] }.tally
-    parts = %w[merged open closed].filter_map { |state| "#{counts[state]} #{state}" if counts[state].to_i.positive? }
+    parts = %w[merged open].filter_map { |state| "#{counts[state]} #{state}" if counts[state].to_i.positive? }
 
     "#{pull_requests_total} PRs to #{attributes["parent_full_name"]}: #{parts.join(", ")}"
   end

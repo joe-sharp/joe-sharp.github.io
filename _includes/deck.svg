@@ -762,8 +762,11 @@ JavaScript, Shell
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#blue_text_box_gradient)" stroke="#42A5F5" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#42A5F5" stroke-width="1"/>
+<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
+:zap: Dynamically generated stats for your github
+</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-&#x2715;: Add manual offset env vars for stats not visib&#x2026;
+readmes
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/github-readme-stats
@@ -1106,6 +1109,9 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
 joe-sharp
 </text>
+<g transform="translate(575, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g></g>
+</g>
 </g>
 <g>
 <rect x="37" y="92" width="556" height="406" fill="none" stroke="#8B8B8B" stroke-width="2" rx="8" ry="8"/>
@@ -1114,6 +1120,9 @@ joe-sharp
 </g>
 <g>
 <rect x="30" y="500" width="570" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+Markdown
+</text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
@@ -1234,25 +1243,34 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 &#xA9; Wizards of the Coast LLC
 </text>
-<rect x="25" y="25" width="580" height="740" fill="url(#colorless_frame_gradient)" stroke="#8B8B8B" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
+<rect x="25" y="25" width="580" height="740" fill="url(#gold_frame_gradient)" stroke="#FFD700" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
+<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_highlight_gradient)" stroke="#FFD700" stroke-width="2"/>
+<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_pattern)" opacity="0.3"/>
+<rect x="27" y="27" width="576" height="736" mask="url(#artWindowMask)" rx="8" ry="8" fill="url(#gold_metallic_shadow_gradient)" opacity="0.4"/>
 <g>
-<rect x="30" y="40" width="570" height="50" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<rect x="30" y="40" width="570" height="50" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
 linter-configs
 </text>
+<g transform="translate(575, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g></g>
+</g>
 </g>
 <g>
-<rect x="37" y="92" width="556" height="406" fill="none" stroke="#8B8B8B" stroke-width="2" rx="8" ry="8"/>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#FFD700" stroke-width="2" rx="8" ry="8"/>
 <rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
 <image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/88366c922d20dc5aa0ff3de52d3f6cec.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
 </g>
 <g>
-<rect x="30" y="500" width="570" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<rect x="30" y="500" width="570" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+YAML, JSON, Markdown
+</text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
-<rect x="40" y="545" width="550" height="265" fill="url(#colorless_text_box_gradient)" stroke="#8B8B8B" stroke-width="2"/>
-<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#8B8B8B" stroke-width="1"/>
+<rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
 <text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
 Collection of config files for various linters. Can
 </text>
@@ -1270,7 +1288,7 @@ Created: 2020-12-14
 </text>
 </g>
 <g>
-<rect x="535" y="790" width="60" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<rect x="535" y="790" width="60" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
 <text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
 2/0
 </text>
@@ -1326,9 +1344,6 @@ Swift
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-&#x2715;: DRAFT: Fix issue #302
-</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
 &#x2713;: Prevent `unexpected token` error on old node v&#x2026;
 </text>
@@ -1524,9 +1539,6 @@ Ruby
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-&#x2715;: Add support and testing for new versions
-</text>
 <text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
 &#x2713;: Add support for Active Record 7.1
 </text>
@@ -2228,6 +2240,9 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
 ZoeDreams
 </text>
+<g transform="translate(575, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">2</text></svg></g></g>
+</g>
 </g>
 <g>
 <rect x="37" y="92" width="556" height="406" fill="none" stroke="#8B8B8B" stroke-width="2" rx="8" ry="8"/>
@@ -2236,6 +2251,9 @@ ZoeDreams
 </g>
 <g>
 <rect x="30" y="500" width="570" height="40" fill="url(#colorless_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+Markdown
+</text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>

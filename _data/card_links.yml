@@ -17,11 +17,6 @@ debug:
   label: Set evaluation result to `_` without clobbering the debuggee's `_`
   top: 72.595
   height: 3.011
-github-readme-stats:
-- href: https://github.com/anuraghazra/github-readme-stats/pull/4930
-  label: Add manual offset env vars for stats not visible to the deploy token
-  top: 72.595
-  height: 3.011
 guard:
 - href: https://github.com/guard/guard/pull/1010
   label: Replace OpenStruct in DslDescriber#show with Struct
@@ -33,10 +28,6 @@ irb:
   top: 72.595
   height: 3.011
 mega-linter:
-- href: https://github.com/oxsecurity/megalinter/pull/378
-  label: 'DRAFT: Fix issue #302'
-  top: 69.583
-  height: 3.011
 - href: https://github.com/oxsecurity/megalinter/pull/292
   label: Prevent `unexpected token` error on old node versions
   top: 72.595
@@ -55,10 +46,6 @@ mpxj:
   top: 72.595
   height: 3.011
 multidb:
-- href: https://github.com/OutOfOrder/multidb/pull/45
-  label: Add support and testing for new versions
-  top: 66.572
-  height: 3.011
 - href: https://github.com/OutOfOrder/multidb/pull/41
   label: Add support for Active Record 7.1
   top: 69.583
