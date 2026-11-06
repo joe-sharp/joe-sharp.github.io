@@ -366,7 +366,7 @@ body {
 }
 
 .project-card:hover,
-.project-card:focus-visible {
+.project-card:focus-within {
   transform: translateY(-4px);
 }
 
@@ -391,10 +391,37 @@ body {
   -webkit-backface-visibility: hidden;
 }
 
+/* Lifts the front face a hair off the flip plane so the rules-text links
+   above it win hit-testing over the card link, not the back face. */
+.project-card-face.front { transform: translateZ(1px); }
+
 .project-card-face.back {
   transform: rotateY(180deg);
   background: var(--card-back) center / cover no-repeat;
 }
+
+/* The whole card is one link; each PR line over the rules text is its own link on top of it. */
+.project-card-link {
+  position: absolute;
+  inset: 0;
+}
+
+.project-card-rule-link {
+  position: absolute;
+  left: 6.35%;
+  width: 87.3%;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.project-card-rule-link:hover,
+.project-card-rule-link:focus-visible {
+  background: rgba(227, 178, 60, 0.18);
+}
+
+/* Links wait until a card is dealt; reduced motion shows cards without dealing, so this is only while armed */
+.deal-armed .project-card:not(.is-dealt) .project-card-link,
+.deal-armed .project-card:not(.is-dealt) .project-card-rule-link { pointer-events: none; }
 
 .project-card svg {
   display: block;
