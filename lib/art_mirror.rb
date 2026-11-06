@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'fileutils'
-require 'net/http'
-require_relative 'github_project_card'
+require "fileutils"
+require "net/http"
+require_relative "github_project_card"
 
 # Keeps a WebP copy of each card's art in the site, so the page can show it when
 # Cloudinary cannot. Copies that already exist are never downloaded again, so each
@@ -28,7 +28,7 @@ class ArtMirror
       begin
         File.binwrite(path, @get.call(URI(url)))
         @out.puts "Mirrored #{id}"
-      rescue StandardError => e
+      rescue => e
         @out.puts "::warning title=Art mirror failed::#{id}: #{e.message}"
         failed << id
       end
@@ -40,10 +40,15 @@ class ArtMirror
   # Asks for WebP explicitly, so f_auto returns the same format the browser would get.
   def net_http_get(uri)
     request = Net::HTTP::Get.new(uri)
-    request['Accept'] = 'image/webp'
+    request["Accept"] = "image/webp"
 
-    response = Net::HTTP.start(uri.host, uri.port, use_ssl: true,
-                                                   open_timeout: 15, read_timeout: 30) do |http|
+    response = Net::HTTP.start(
+      uri.host,
+      uri.port,
+      use_ssl: true,
+      open_timeout: 15,
+      read_timeout: 30
+    ) do |http|
       http.request(request)
     end
     raise Error, "HTTP #{response.code}" unless response.is_a?(Net::HTTPSuccess)

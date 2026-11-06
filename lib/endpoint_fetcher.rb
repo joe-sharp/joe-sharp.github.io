@@ -1,16 +1,23 @@
 # frozen_string_literal: true
 
-require 'json'
-require 'net/http'
+require "json"
+require "net/http"
 
 # Fetches a user's projects from the github_project_fetch endpoint. The endpoint
 # is serverless and can be slow on a cold start, so it gets timeouts and retries.
 class EndpointFetcher
-  ENDPOINT = 'https://github-project-fetch.vercel.app/api/projects'
+  ENDPOINT = "https://github-project-fetch.vercel.app/api/projects"
 
   class Error < StandardError; end
 
-  def initialize(endpoint: ENDPOINT, attempts: 3, timeout: 30, backoff: 2, http_get: nil, sleeper: Kernel.method(:sleep))
+  def initialize(
+    endpoint: ENDPOINT,
+    attempts: 3,
+    timeout: 30,
+    backoff: 2,
+    http_get: nil,
+    sleeper: Kernel.method(:sleep)
+  )
     @endpoint = endpoint
     @attempts = attempts
     @timeout = timeout
@@ -49,8 +56,13 @@ class EndpointFetcher
   end
 
   def net_http_get(uri)
-    Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https',
-                                        open_timeout: @timeout, read_timeout: @timeout) do |http|
+    Net::HTTP.start(
+      uri.host,
+      uri.port,
+      use_ssl: uri.scheme == "https",
+      open_timeout: @timeout,
+      read_timeout: @timeout
+    ) do |http|
       http.get(uri.request_uri)
     end
   end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'net/http'
+require "net/http"
 
 # Answers whether a card's art has been uploaded to Cloudinary yet.
 class ArtChecker
@@ -23,8 +23,13 @@ class ArtChecker
   private
 
   def net_http_head(uri)
-    Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https',
-                                        open_timeout: @timeout, read_timeout: @timeout) do |http|
+    Net::HTTP.start(
+      uri.host,
+      uri.port,
+      use_ssl: uri.scheme == "https",
+      open_timeout: @timeout,
+      read_timeout: @timeout
+    ) do |http|
       http.head(uri.request_uri)
     end
   end
