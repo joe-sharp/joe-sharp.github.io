@@ -391,18 +391,6 @@ body {
   -webkit-backface-visibility: hidden;
 }
 
-/* Favorites (_data/favorites.yml) get a faint gold glow behind the card. The
-   card's transform makes it a stacking context, so z-index -1 keeps the glow under the card. */
-.project-card.is-favorite::before {
-  content: "";
-  position: absolute;
-  inset: -4%;
-  border-radius: 8%;
-  box-shadow: 0 0 22px 6px rgba(227, 178, 60, 0.3);
-  z-index: -1;
-  pointer-events: none;
-}
-
 /* Lifts the front face a hair off the flip plane so the rules-text links
    above it win hit-testing over the card link, not the back face. */
 .project-card-face.front { transform: translateZ(1px); }
