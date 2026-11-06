@@ -112,6 +112,18 @@ describe GithubProjectCard do
       _(args_for("zoom-close")[:rules_text]).must_equal ""
     end
 
+    it "names the original repo in --flavor-text for forks, in place of the created date" do
+      _(args_for("appraisal", fork: true, parent_full_name: "thoughtbot/appraisal")[:flavor_text]).must_equal(
+        "https://github.com/joe-sharp/appraisal\nappraisal, forked from thoughtbot/appraisal"
+      )
+    end
+
+    it "falls back to the created date when a fork has no known parent" do
+      _(args_for("appraisal", fork: true, parent_full_name: nil)[:flavor_text]).must_equal(
+        "https://github.com/joe-sharp/appraisal\nCreated: 2021-10-14"
+      )
+    end
+
     it "builds --flavor-text as the repo URL plus a labeled date without UTC time" do
       _(args_for("agreen.studio")[:flavor_text]).must_equal(
         "https://github.com/joe-sharp/agreen.studio\nCreated: 2020-12-02"
@@ -121,13 +133,18 @@ describe GithubProjectCard do
       )
     end
 
-    it "maps star-count log10 buckets to --border-color, treating zero stars as white" do
-      _(args_for("appraisal")[:border_color]).must_equal "white" # 0 stars
-      _(args_for("linter-configs")[:border_color]).must_equal "white" # 2 stars, log10(2).round => 0
-      _(args_for("appraisal", stargazers_count: 10)[:border_color]).must_equal "white" # log10(10).round => 1
-      _(args_for("appraisal", stargazers_count: 100)[:border_color]).must_equal "black" # log10(100).round => 2
-      _(args_for("appraisal", stargazers_count: 1000)[:border_color]).must_equal "silver" # log10(1000).round => 3
-      _(args_for("appraisal", stargazers_count: 10_000)[:border_color]).must_equal "gold" # log10(10000).round => 4
+    it "gives non-fork repos silver, or gold once stars plus forks reach 10" do
+      _(args_for("appraisal")[:border_color]).must_equal "silver" # 0 stars, 0 forks
+      _(args_for("appraisal", stargazers_count: 9)[:border_color]).must_equal "silver"
+      _(args_for("appraisal", stargazers_count: 6, forks_count: 3)[:border_color]).must_equal "silver"
+      _(args_for("appraisal", stargazers_count: 6, forks_count: 4)[:border_color]).must_equal "gold"
+      _(args_for("appraisal", stargazers_count: 10_000)[:border_color]).must_equal "gold"
+    end
+
+    it "gives forks a white border whatever their popularity" do
+      fork = { fork: true, parent_full_name: "thoughtbot/appraisal" }
+      _(args_for("appraisal", **fork)[:border_color]).must_equal "white"
+      _(args_for("appraisal", **fork, stargazers_count: 10_000)[:border_color]).must_equal "white"
     end
 
     it "uses stargazers as --power and forks as --toughness" do
@@ -173,6 +190,118 @@ describe GithubProjectCard do
       _(card.art_url).must_match %r{\Ahttps://res\.cloudinary\.com/uv7kncpy/image/upload/#{GithubProjectCard::ART_TRANSFORMATION}/\h{32}\.jpg\z}o
       _(argv_for("appraisal", art: "https://example.com/x.jpg")).must_include "--art=https://example.com/x.jpg"
       _(argv_for("appraisal")).must_include "--art=#{card.art_url}"
+    end
+  end
+
+  describe "fork pull requests" do
+    let(:fork_attributes) do
+      fixture_project("appraisal").merge("fork" => true, "parent_full_name" => "thoughtbot/appraisal")
+    end
+
+    def pull_request(title, state)
+      { "title" => title, "html_url" => "https://github.com/thoughtbot/appraisal/pull/#{title.length}", "state" => state }
+    end
+
+    def card_with(pull_requests, total: pull_requests.size)
+      GithubProjectCard.new(fork_attributes.merge("pull_requests" => pull_requests, "pull_requests_total" => total))
+    end
+
+    it "lists up to five PRs, one per line, each with a status symbol" do
+      card = card_with([pull_request("Fix thing", "merged"),
+                        pull_request("Idea", "open")])
+
+      _(card.to_add_card_args[:rules_text]).must_equal "✓: Fix thing
+●: Idea"
+    end
+
+    it "hides closed PRs from the list, the links, and the count" do
+      card = card_with(
+        [pull_request("Fix thing", "merged"),
+         pull_request("Nope", "closed")],
+        total: 2
+      )
+
+      _(card.to_add_card_args[:rules_text]).must_equal "✓: Fix thing"
+      _(card.rules_links.map { |link| link["label"] }).must_equal ["Fix thing"]
+    end
+
+    it "keeps the repo description when every PR is closed" do
+      card = card_with([pull_request("Nope", "closed")], total: 1)
+
+      _(card.to_add_card_args[:rules_text]).must_equal fixture_project("appraisal")["description"]
+      _(card.rules_links).must_equal []
+    end
+
+    it "summarises more than five PRs, leaving out zero counts" do
+      merged = Array.new(5) { |i| pull_request("Merged #{i}", "merged") }
+      card = card_with(merged + [pull_request("Open", "open")], total: 6)
+
+      _(card.to_add_card_args[:rules_text]).must_equal "6 PRs to thoughtbot/appraisal: 5 merged, 1 open"
+    end
+
+    it "does not count closed PRs toward the five-PR limit" do
+      merged = Array.new(5) { |i| pull_request("Merged #{i}", "merged") }
+      card = card_with(merged + [pull_request("Nope", "closed")], total: 6)
+
+      _(card.to_add_card_args[:rules_text].lines.size).must_equal 5
+      _(card.rules_links.size).must_equal 5
+    end
+
+    it "keeps the repo description when a fork has no PR data" do
+      _(GithubProjectCard.new(fork_attributes).to_add_card_args[:rules_text]).must_equal(
+        fixture_project("appraisal")["description"]
+      )
+    end
+
+    it "keeps the repo description when a fork has no PRs into its parent" do
+      _(card_with([], total: 0).to_add_card_args[:rules_text]).must_equal fixture_project("appraisal")["description"]
+    end
+
+    it "cuts long PR lines to the card width and turns braces into parentheses" do
+      title = "Use {this} #{"word " * 20}"
+      text = card_with([pull_request(title, "open")]).to_add_card_args[:rules_text]
+
+      _(text.length).must_equal 50
+      _(text.end_with?("\u2026")).must_equal true
+      _(text).wont_include "{"
+    end
+
+    it "links each listed PR to its page" do
+      card = card_with([pull_request("Fix thing", "merged")])
+
+      _(card.rules_links).must_equal(
+        [{ "href" => "https://github.com/thoughtbot/appraisal/pull/9", "label" => "Fix thing" }]
+      )
+    end
+
+    it "links a summary to your PRs in the parent repo" do
+      card = card_with(Array.new(6) { |i| pull_request("PR #{i}", "merged") }, total: 6)
+
+      _(card.rules_links).must_equal(
+        [{
+          "href" => "https://github.com/thoughtbot/appraisal/pulls?q=is%3Apr+author%3Ajoe-sharp",
+          "label" => "6 PRs to thoughtbot/appraisal: 6 merged"
+        }]
+      )
+    end
+
+    it "sends each PR on its own line to the card CLI as an escaped newline" do
+      card = card_with([pull_request("One", "merged"), pull_request("Two", "open")])
+      flag = card.to_add_card_argv.find { |arg| arg.start_with?("--rules-text=") }
+
+      _(flag).must_equal "--rules-text=\u2713: One\\n\u25CF: Two"
+    end
+
+    it "sends a multi-line flavor text as an escaped newline" do
+      flag = GithubProjectCard.new(fixture_project("appraisal")).to_add_card_argv.find { |arg|
+        arg.start_with?("--flavor-text=")
+      }
+
+      _(flag).must_equal "--flavor-text=https://github.com/joe-sharp/appraisal\\nCreated: 2021-10-14"
+    end
+
+    it "has no links without PR data" do
+      _(GithubProjectCard.new(fork_attributes).rules_links).must_equal []
     end
   end
 end

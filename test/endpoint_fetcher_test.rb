@@ -32,7 +32,7 @@ describe EndpointFetcher do
     instance, seen = fetcher([ok])
 
     _(instance.call(username: "joe sharp")).must_equal({ "projects" => [] })
-    _(seen.first.to_s).must_equal "#{EndpointFetcher::ENDPOINT}?username=joe+sharp"
+    _(seen.first.to_s).must_equal "#{EndpointFetcher::ENDPOINT}?username=joe+sharp&include_fork_metadata=true"
   end
 
   it "retries failures with backoff and then succeeds" do

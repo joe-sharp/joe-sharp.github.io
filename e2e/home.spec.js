@@ -43,11 +43,11 @@ test('home page', async ({ page, problems, isMobile }) => {
   await test.step('shows one card per deck entry linking to its repository', async () => {
     await expect(cards).toHaveCount(deck.length);
     for (const [i, entry] of deck.entries()) {
-      const card = cards.nth(i);
-      await expect(card).toHaveAttribute('href', entry.flavor_text.split('\n')[0]);
-      await expect(card).toHaveAttribute('target', '_blank');
-      await expect(card).toHaveAttribute('rel', /noopener/);
-      await expect(card).toHaveAttribute('aria-label', entry.name);
+      const link = cards.nth(i).locator('.project-card-link');
+      await expect(link).toHaveAttribute('href', entry.flavor_text.split('\n')[0]);
+      await expect(link).toHaveAttribute('target', '_blank');
+      await expect(link).toHaveAttribute('rel', /noopener/);
+      await expect(link).toHaveAttribute('aria-label', entry.name);
     }
   });
 
@@ -76,6 +76,21 @@ test('home page', async ({ page, problems, isMobile }) => {
       await expect(cards.nth(i)).toHaveClass(/is-flipped/, { timeout: 15_000 });
     }
     expect(await opacity(cards.last())).toBe('1');
+  });
+
+  // Each PR line is its own link on top of the card link, so a click on a line must hit the line, not the card.
+  await test.step('PR lines over the rules text are clickable links of their own', async () => {
+    const ruleLinks = page.locator('.project-card-rule-link');
+    for (let i = 0; i < (await ruleLinks.count()); i++) {
+      const link = ruleLinks.nth(i);
+      await link.scrollIntoViewIfNeeded();
+      expect(await link.getAttribute('href')).toMatch(/^https:\/\/github\.com\//);
+      const onTop = await link.evaluate((el) => {
+        const box = el.getBoundingClientRect();
+        return document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2) === el;
+      });
+      expect(onTop).toBe(true);
+    }
   });
 
   // Checked late on purpose: the fallback swaps after a probe or a 6s timeout, so by

@@ -76,6 +76,14 @@ describe DeckGenerator do
     _(runner.calls.last).must_include "--cards-per-row=5"
   end
 
+  it "writes the card links alongside the deck when given a path, empty without forks" do
+    links_file = File.join(dir, "data", "card_links.yml")
+
+    generator(card_links_file: links_file).call
+
+    _(YAML.load_file(links_file)).must_equal({})
+  end
+
   it "builds into a temp deck so the real deck is not appended to" do
     FileUtils.mkdir_p(File.dirname(deck_file))
     File.write(deck_file, "stale\n")
@@ -127,7 +135,10 @@ describe DeckGenerator do
   end
 
   describe "when a repo has no art yet" do
-    let(:missing_name) { fixture_projects.first["name"] }
+    # The first card in the deck, so the placeholder is the one that gets checked first.
+    let(:missing_name) do
+      GithubProjectCards.fetch(username: "joe-sharp", fetcher: ->(**) { payload }).first.to_add_card_args[:name]
+    end
     let(:art_checker) { ->(url) { !url.include?(Digest::MD5.hexdigest(missing_name)) } }
 
     it "hands the art it used to the mirror, including the placeholder" do

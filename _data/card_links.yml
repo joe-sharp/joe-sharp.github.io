@@ -1,0 +1,75 @@
+---
+rubocop:
+- href: https://github.com/rubocop/rubocop/pull/16193
+  label: "[Fix #8191] Add `AllowedReceivers` option to `Style/MethodCallWithArgsParentheses`"
+  top: 69.583
+  height: 3.011
+- href: https://github.com/rubocop/rubocop/pull/10542
+  label: Add markdown formatter
+  top: 72.595
+  height: 3.011
+irb:
+- href: https://github.com/ruby/irb/pull/1266
+  label: Preserve an existing `_` local when creating a WorkSpace
+  top: 72.595
+  height: 3.011
+version_gem:
+- href: https://github.com/ruby-oauth/version_gem/pull/36
+  label: Memoize version lookups in VersionGem::Api
+  top: 72.595
+  height: 3.011
+debug:
+- href: https://github.com/ruby/debug/pull/1188
+  label: Set evaluation result to `_` without clobbering the debuggee's `_`
+  top: 72.595
+  height: 3.011
+guard:
+- href: https://github.com/guard/guard/pull/1010
+  label: Replace OpenStruct in DslDescriber#show with Struct
+  top: 72.595
+  height: 3.011
+mpxj:
+- href: https://github.com/joniles/mpxj/pull/970
+  label: Update jackson-databind to mitigate CVE-2026-110879
+  top: 66.572
+  height: 3.011
+- href: https://github.com/joniles/mpxj/pull/959
+  label: Update to jsoup 1.23.2 to fix High-severity CVE
+  top: 69.583
+  height: 3.011
+- href: https://github.com/joniles/mpxj/pull/947
+  label: Update to Jackson 2.22.3 to fix High-severity CVEs
+  top: 72.595
+  height: 3.011
+sift:
+- href: https://github.com/procore-oss/sift/pull/93
+  label: Add Rails 8.1 to the testing matrix
+  top: 72.595
+  height: 3.011
+multidb:
+- href: https://github.com/OutOfOrder/multidb/pull/41
+  label: Add support for Active Record 7.1
+  top: 69.583
+  height: 3.011
+- href: https://github.com/OutOfOrder/multidb/pull/31
+  label: Fix license issues
+  top: 72.595
+  height: 3.011
+appraisal:
+- href: https://github.com/thoughtbot/appraisal/pull/223
+  label: Add gemfile variables
+  top: 66.572
+  height: 3.011
+- href: https://github.com/thoughtbot/appraisal/pull/222
+  label: 'Fix #216, extra newline with customize_gemfiles'
+  top: 69.583
+  height: 3.011
+- href: https://github.com/thoughtbot/appraisal/pull/191
+  label: Add options to customize generated gemfiles
+  top: 72.595
+  height: 3.011
+mega-linter:
+- href: https://github.com/oxsecurity/megalinter/pull/292
+  label: Prevent `unexpected token` error on old node versions
+  top: 72.595
+  height: 3.011

@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require "yaml"
+
 require_relative "../lib/github_project_cards"
 require_relative "../lib/deck_sprite"
 require_relative "../lib/deck_generator"
@@ -10,6 +12,7 @@ require_relative "../lib/art_mirror"
 
 DECK_FILE = "_data/deck.yml"
 SPRITE_FILE = "_includes/deck.svg"
+CARD_LINKS_FILE = "_data/card_links.yml"
 ART_DIR = "images/art"
 CARDS_PER_ROW = 5
 
@@ -26,7 +29,10 @@ if ARGV.include?("--sprite-only")
     "--cards-per-row=#{CARDS_PER_ROW}",
     exception: true
   )
-  File.write(SPRITE_FILE, DeckSprite.prepare(File.read(SPRITE_FILE)))
+  # Forks are the only white-bordered cards, so they can be found from the deck.
+  cards = YAML.load_file(DECK_FILE).values
+  fork_indices = cards.each_index.select { |index| cards[index]["border_color"] == GithubProjectCard::FORK_BORDER_COLOR }
+  File.write(SPRITE_FILE, DeckSprite.prepare(File.read(SPRITE_FILE), fork_indices: fork_indices))
   exit
 end
 
@@ -46,7 +52,8 @@ if ARGV.include?("--run")
       deck_file: DECK_FILE,
       sprite_file: SPRITE_FILE,
       cards_per_row: CARDS_PER_ROW,
-      art_mirror: ArtMirror.new(dir: ART_DIR)
+      art_mirror: ArtMirror.new(dir: ART_DIR),
+      card_links_file: CARD_LINKS_FILE
     ).call
   rescue DeckGenerator::Error, EndpointFetcher::Error => e
     warn e.message

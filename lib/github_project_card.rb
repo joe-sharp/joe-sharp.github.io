@@ -20,6 +20,21 @@ class GithubProjectCard
 
   MULTICOLOR_THRESHOLD = 0.15
 
+  # Non-fork repos are gold once stars + forks reach this, otherwise silver.
+  GOLD_POPULARITY = 10
+
+  # Forks never get silver or gold. White is recolored to black for light pages
+  # by the --fork-frame CSS variable (see DeckSprite).
+  FORK_BORDER_COLOR = "white"
+
+  # Forks with more PRs into the parent than this get a one-line summary instead of a list.
+  MAX_LISTED_PRS = 5
+
+  # Rules text wraps at about 51 characters per line on the card, so each listed PR fits on one line.
+  RULES_LINE_CHARS = 50
+
+  PR_STATUS_SYMBOLS = { "merged" => "✓", "open" => "●" }.freeze
+
   # Type line shows only the top languages; when it is truncated, each color
   # is capped at MAX_PIPS_PER_COLOR pips and every skipped pip adds 1 generic mana.
   MAX_TYPE_LINE_LANGUAGES = 5
@@ -72,6 +87,21 @@ class GithubProjectCard
   end
 
   # The untransformed original. Checking this does not create derived images.
+  # Links drawn over the rules text of a fork card, as [{ "href", "label" }] hashes.
+  def rules_links
+    return [] unless pull_request_text?
+
+    if pull_requests_total > MAX_LISTED_PRS
+      [{ "href" => pull_requests_search_url, "label" => pull_request_summary_text }]
+    else
+      pull_requests.map { |pr| { "href" => pr["html_url"], "label" => pr["title"] } }
+    end
+  end
+
+  def fork?
+    attributes["fork"] == true
+  end
+
   def art_source_url
     "#{ART_BASE_URL}/#{Digest::MD5.hexdigest(name)}.jpg"
   end
@@ -108,11 +138,17 @@ class GithubProjectCard
       ["border-color", args[:border_color]],
       ["power", args[:power]],
       ["toughness", args[:toughness]],
-      ["rules-text", args[:rules_text]],
-      ["flavor-text", args[:flavor_text]]
+      ["rules-text", cli_text(args[:rules_text])],
+      ["flavor-text", cli_text(args[:flavor_text])]
     ]
     present = flags.reject { |flag, value| OPTIONAL_FLAGS.include?(flag) && !value }
     present.reject { |flag, value| flag == "rules-text" && value.empty? }
+  end
+
+  # The mtg_card_maker CLI only keeps the first line of a multi-line argument, and
+  # it turns a literal backslash-n back into a newline, so newlines are sent that way.
+  def cli_text(text)
+    text&.gsub("\n") { '\\n' }
   end
 
   def languages
@@ -172,27 +208,74 @@ class GithubProjectCard
   end
 
   def rules_text
-    attributes["description"] || ""
+    return attributes["description"] || "" unless pull_request_text?
+
+    (pull_requests_total > MAX_LISTED_PRS) ? pull_request_summary_text : pull_request_list_text
+  end
+
+  def pull_request_text?
+    fork? && pull_requests_total.positive?
+  end
+
+  # Closed PRs are left off the card: they are not listed, linked, or counted.
+  def pull_requests
+    (attributes["pull_requests"] || []).reject { |pr| pr["state"] == "closed" }
+  end
+
+  def pull_requests_total
+    total = attributes["pull_requests_total"] || pull_requests.size
+    total - (attributes["pull_requests"] || []).count { |pr| pr["state"] == "closed" }
+  end
+
+  def pull_request_list_text
+    pull_requests.map do |pr|
+      symbol = PR_STATUS_SYMBOLS.fetch(pr["state"], "?")
+      pull_request_line("#{symbol}: #{pr["title"]}")
+    end.join("\n")
+  end
+
+  # Braces would render as HTML in the sprite, so they become parentheses.
+  def pull_request_line(text)
+    text = text.tr("{}", "()")
+    return text if text.length <= RULES_LINE_CHARS
+
+    "#{text[0, RULES_LINE_CHARS - 1]}…"
+  end
+
+  def pull_request_summary_text
+    counts = pull_requests.map { |pr| pr["state"] }.tally
+    parts = %w[merged open].filter_map { |state| "#{counts[state]} #{state}" if counts[state].to_i.positive? }
+
+    "#{pull_requests_total} PRs to #{attributes["parent_full_name"]}: #{parts.join(", ")}"
+  end
+
+  def pull_requests_search_url
+    owner = attributes["html_url"][%r{github\.com/([^/]+)/}, 1]
+    "https://github.com/#{attributes["parent_full_name"]}/pulls?q=is%3Apr+author%3A#{owner}"
+  end
+
+  def parent_full_name
+    attributes["parent_full_name"]
+  end
+
+  def fork_of_known_parent?
+    fork? && !parent_full_name.to_s.empty?
   end
 
   def flavor_text
     url = attributes["html_url"]
+    return "#{url}\n#{name}, forked from #{parent_full_name}" if fork_of_known_parent?
+
     created_date = attributes["created_at"].to_s.split.first
 
     "#{url}\nCreated: #{created_date}"
   end
 
   def border_color
-    stars = attributes["stargazers_count"].to_i
-    return "white" if stars <= 0
+    return FORK_BORDER_COLOR if fork?
 
-    bucket = Math.log10(stars).round
-    case bucket
-    when 0, 1 then "white"
-    when 2 then "black"
-    when 3 then "silver"
-    else "gold"
-    end
+    popularity = attributes["stargazers_count"].to_i + attributes["forks_count"].to_i
+    (popularity >= GOLD_POPULARITY) ? "gold" : "silver"
   end
 
   def power

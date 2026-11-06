@@ -17,12 +17,49 @@ describe GithubProjectCards do
 
   describe ".fetch" do
     it "loads projects from the stubbed endpoint payload without hitting the network" do
-      cards = GithubProjectCards.fetch(username: "joe-sharp", fetcher: stub_fetcher)
+      cards = GithubProjectCards.fetch(username: "joe-sharp", fetcher: stub_fetcher, favorites: [])
 
       _(cards.size).must_equal fixture_projects.size
       _(cards.map { |card| card.to_add_card_args[:name] }).must_equal(
-        fixture_projects.map { |project| project["name"] }
+        fixture_projects.sort_by { |project| project["updated_at"] }.reverse.map { |project| project["name"] }
       )
+    end
+
+    describe "ordering" do
+      let(:projects) do
+        [
+          { "name" => "old", "updated_at" => "2020-01-01 00:00:00 UTC" },
+          { "name" => "newest", "updated_at" => "2024-06-01 12:00:00 UTC" },
+          { "name" => "middle", "updated_at" => "2022-03-15 08:30:00 UTC" }
+        ]
+      end
+
+      def names_for(favorites:)
+        cards = GithubProjectCards.fetch(
+          username: "joe-sharp",
+          fetcher: ->(**) { { "projects" => projects } },
+          favorites: favorites
+        )
+        cards.map { |card| card.to_add_card_args[:name] }
+      end
+
+      it "puts the most recently updated repo first" do
+        _(names_for(favorites: [])).must_equal %w[newest middle old]
+      end
+
+      it "pins favorites to the top in the order they are listed" do
+        _(names_for(favorites: %w[middle old])).must_equal %w[middle old newest]
+      end
+
+      it "skips favorites that are not in the deck yet" do
+        _(names_for(favorites: %w[missing newest])).must_equal %w[newest middle old]
+      end
+
+      it "pins the repos in the favorites file by default" do
+        projects.push({ "name" => "rubocop", "updated_at" => "2019-01-01 00:00:00 UTC" })
+
+        _(names_for(favorites: GithubProjectCards.load_favorites).first).must_equal "rubocop"
+      end
     end
   end
 
@@ -43,7 +80,7 @@ describe GithubProjectCards do
       _(command).must_include '--mana-cost="5RW"'
       _(command).must_include '--type-line="Ruby, Shell"'
       _(command).must_include '--color="red"'
-      _(command).must_include '--border-color="white"'
+      _(command).must_include '--border-color="silver"'
       _(command).must_include '--power="2"'
       _(command).must_include '--toughness="1"'
       _(command).must_include '--rules-text="'
