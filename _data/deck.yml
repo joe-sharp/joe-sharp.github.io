@@ -1,107 +1,20 @@
 ---
-agreen_studio:
-  name: agreen.studio
-  type_line: HTML, CSS, JavaScript
-  mana_cost: 3WUU
-  border_color: silver
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/f79aba9b01e199b3debf38f3c3218d11.jpg
-  embed_font: true
-  rules_text: Website for Anita Green
-  flavor_text: |-
-    https://github.com/joe-sharp/agreen.studio
-    Created: 2020-12-02
-appraisal:
-  name: appraisal
-  type_line: Ruby
-  mana_cost: 4R
-  border_color: white
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/7592a7909b6662f6fff382e2c854a165.jpg
-  embed_font: true
-  rules_text: |-
-    ✓: Add gemfile variables
-    ✓: Fix #216, extra newline with customize_gemfiles
-    ✓: Add options to customize generated gemfiles
-  flavor_text: |-
-    https://github.com/joe-sharp/appraisal
-    appraisal, forked from thoughtbot/appraisal
-boondoc:
-  name: boondoc
-  type_line: Ruby, Shell
-  mana_cost: 4RW
+joe_sharp_github_io:
+  name: joe-sharp.github.io
+  type_line: Ruby, SCSS, JavaScript, CSS, HTML
+  mana_cost: 4RWWUU
   power: '1'
   toughness: '0'
   border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/786ce262cf3afb246a205dc5217bdfe1.jpg
-  embed_font: true
-  rules_text: Markdown-only API documentation for Ruby, written from YARD-style comments
-  flavor_text: |-
-    https://github.com/joe-sharp/boondoc
-    Created: 2026-10-26
-customatreus:
-  name: CustomAtreus
-  type_line: C++, Makefile
-  mana_cost: 3WU
-  border_color: silver
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/69c95f8fe9347ab05332f0ab2a6c2010.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/faa79416b855ca1c82b6b5aeb3c3235a.jpg
   embed_font: true
-  rules_text: Custom Firmware for Keyboardio Atreus
+  rules_text: 'The source for projects.joe-sharp.com: a Jekyll-powered portfolio with
+    an About section and a grid of my GitHub projects, each shown as a collectible
+    card.'
   flavor_text: |-
-    https://github.com/joe-sharp/CustomAtreus
-    Created: 2021-07-05
-debug:
-  name: debug
-  type_line: Ruby, C, Shell
-  mana_cost: 5RRW
-  border_color: white
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
-  embed_font: true
-  rules_text: "●: Set evaluation result to `_` without clobberin…"
-  flavor_text: |-
-    https://github.com/joe-sharp/debug
-    debug, forked from ruby/debug
-dotfiles:
-  name: dotfiles
-  type_line: Vim Script, Shell, Ruby
-  mana_cost: 3WR
-  border_color: silver
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/c3ae06f70363066574dc6f52338df7f5.jpg
-  embed_font: true
-  rules_text: Various config files
-  flavor_text: |-
-    https://github.com/joe-sharp/dotfiles
-    Created: 2021-01-23
-exercism_solutions:
-  name: exercism-solutions
-  type_line: JavaScript, Ruby
-  mana_cost: 4UR
-  power: '0'
-  toughness: '3'
-  border_color: silver
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9877723b058feacc4ebfa6e541ba8241.jpg
-  embed_font: true
-  rules_text: These are my solutions to the lessons I take on exercism.org
-  flavor_text: |-
-    https://github.com/joe-sharp/exercism-solutions
-    Created: 2021-09-10
-github_readme_stats:
-  name: github-readme-stats
-  type_line: JavaScript, Shell
-  mana_cost: 5UW
-  border_color: white
-  color: blue
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9b440a7f28bc95f4c5559b9fe489c995.jpg
-  embed_font: true
-  rules_text: ":zap: Dynamically generated stats for your github readmes"
-  flavor_text: |-
-    https://github.com/joe-sharp/github-readme-stats
-    github-readme-stats, forked from anuraghazra/github-readme-stats
+    https://github.com/joe-sharp/joe-sharp.github.io
+    Created: 2020-11-26
 github_project_fetch:
   name: github_project_fetch
   type_line: Ruby
@@ -117,18 +30,97 @@ github_project_fetch:
   flavor_text: |-
     https://github.com/joe-sharp/github_project_fetch
     Created: 2025-07-01
-guard:
-  name: guard
-  type_line: Ruby, Gherkin
-  mana_cost: 4RB
+boondoc:
+  name: boondoc
+  type_line: Ruby, Shell
+  mana_cost: 4RW
+  power: '1'
+  toughness: '0'
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/786ce262cf3afb246a205dc5217bdfe1.jpg
+  embed_font: true
+  rules_text: Markdown-only API documentation for Ruby, written from YARD-style comments
+  flavor_text: |-
+    https://github.com/joe-sharp/boondoc
+    Created: 2026-10-26
+treehouse_points:
+  name: treehouse-points
+  type_line: Liquid, JavaScript, SCSS, HTML, Ruby
+  mana_cost: 3WWWUR
+  border_color: silver
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/2464f2fe6495760016f9a3247ffb9c17.jpg
+  embed_font: true
+  rules_text: Widget to display Treehouse points on the web
+  flavor_text: |-
+    https://github.com/joe-sharp/treehouse-points
+    Created: 2020-11-29
+mtg_card_maker:
+  name: mtg_card_maker
+  type_line: Ruby, Shell
+  mana_cost: 5RW
+  power: '2'
+  toughness: '1'
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/595f103c608631e0049772bf3ad48b06.jpg
+  embed_font: true
+  rules_text: 'MTG Card Maker is a tool for creating fan-made Magic: The Gathering
+    cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content
+    Policy. Not approved/endorsed by Wizards. Portions of the materials used are property
+    of Wizards of the Coast. ©Wizards of the Coast LLC.'
+  flavor_text: |-
+    https://github.com/joe-sharp/mtg_card_maker
+    Created: 2025-07-12
+irb:
+  name: irb
+  type_line: Ruby, Shell
+  mana_cost: 5RW
   border_color: white
   color: red
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
   embed_font: true
-  rules_text: "●: Replace OpenStruct in DslDescriber#show with S…"
+  rules_text: "●: Preserve an existing `_` local when creating a…"
   flavor_text: |-
-    https://github.com/joe-sharp/guard
-    guard, forked from guard/guard
+    https://github.com/joe-sharp/irb
+    irb, forked from ruby/irb
+version_gem:
+  name: version_gem
+  type_line: Ruby, Shell
+  mana_cost: 4RW
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: "●: Memoize version lookups in VersionGem::Api"
+  flavor_text: |-
+    https://github.com/joe-sharp/version_gem
+    version_gem, forked from ruby-oauth/version_gem
+debug:
+  name: debug
+  type_line: Ruby, C, Shell
+  mana_cost: 5RRW
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: "●: Set evaluation result to `_` without clobberin…"
+  flavor_text: |-
+    https://github.com/joe-sharp/debug
+    debug, forked from ruby/debug
+sharp_style_rubocop:
+  name: sharp_style_rubocop
+  type_line: Ruby, Shell
+  mana_cost: 3RW
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Default Rubocop configuration with some Sharp Style tweaks
+  flavor_text: |-
+    https://github.com/joe-sharp/sharp_style_rubocop
+    Created: 2026-10-27
 guard_boondoc:
   name: guard-boondoc
   type_line: Ruby
@@ -153,74 +145,32 @@ guard_status:
   flavor_text: |-
     https://github.com/joe-sharp/guard-status
     Created: 2026-10-26
-irb:
-  name: irb
-  type_line: Ruby, Shell
-  mana_cost: 5RW
+rubocop:
+  name: rubocop
+  type_line: Ruby, HTML, Emacs Lisp, Shell
+  mana_cost: 6RWWG
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/984eddbbc013e25cbb6379bf68aa05c1.jpg
+  embed_font: true
+  rules_text: |-
+    ●: [Fix #8191] Add `AllowedReceivers` option to `…
+    ✓: Add markdown formatter
+  flavor_text: |-
+    https://github.com/joe-sharp/rubocop
+    rubocop, forked from rubocop/rubocop
+guard:
+  name: guard
+  type_line: Ruby, Gherkin
+  mana_cost: 4RB
   border_color: white
   color: red
   art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
   embed_font: true
-  rules_text: "●: Preserve an existing `_` local when creating a…"
+  rules_text: "●: Replace OpenStruct in DslDescriber#show with S…"
   flavor_text: |-
-    https://github.com/joe-sharp/irb
-    irb, forked from ruby/irb
-joe_sharp:
-  name: joe-sharp
-  type_line: Markdown
-  mana_cost: '3'
-  border_color: silver
-  color: colorless
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/d1d006d3b2a44c8955c7d02b7fc193e4.jpg
-  embed_font: true
-  rules_text: 'joe-sharp/joe-sharp is a special repository. Its README.md appears
-    on my profile: https://github.com/joe-sharp'
-  flavor_text: |-
-    https://github.com/joe-sharp/joe-sharp
-    Created: 2020-11-26
-joe_sharp_github_io:
-  name: joe-sharp.github.io
-  type_line: Ruby, SCSS, JavaScript, CSS, HTML
-  mana_cost: 4RWWUU
-  power: '1'
-  toughness: '0'
-  border_color: silver
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/faa79416b855ca1c82b6b5aeb3c3235a.jpg
-  embed_font: true
-  rules_text: 'The source for projects.joe-sharp.com: a Jekyll-powered portfolio with
-    an About section and a grid of my GitHub projects, each shown as a collectible
-    card.'
-  flavor_text: |-
-    https://github.com/joe-sharp/joe-sharp.github.io
-    Created: 2020-11-26
-linter_configs:
-  name: linter-configs
-  type_line: YAML, JSON, Markdown
-  mana_cost: '3'
-  power: '2'
-  toughness: '0'
-  border_color: silver
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/88366c922d20dc5aa0ff3de52d3f6cec.jpg
-  embed_font: true
-  rules_text: Collection of config files for various linters. Can be used as remote
-    configuration for Mega-Linter. https://github.com/nvuillam/mega-linter
-  flavor_text: |-
-    https://github.com/joe-sharp/linter-configs
-    Created: 2020-12-14
-mega_linter:
-  name: mega-linter
-  type_line: Python, Dockerfile, JavaScript, Shell, Swift
-  mana_cost: 29GGUUWWRRBB
-  border_color: white
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/68366e2a01ac7ace4572c4055642349f.jpg
-  embed_font: true
-  rules_text: "✓: Prevent `unexpected token` error on old node v…"
-  flavor_text: |-
-    https://github.com/joe-sharp/mega-linter
-    mega-linter, forked from oxsecurity/megalinter
+    https://github.com/joe-sharp/guard
+    guard, forked from guard/guard
 mpxj:
   name: mpxj
   type_line: Java, Ruby, VBA, CSS, Batchfile
@@ -236,23 +186,55 @@ mpxj:
   flavor_text: |-
     https://github.com/joe-sharp/mpxj
     mpxj, forked from joniles/mpxj
-mtg_card_maker:
-  name: mtg_card_maker
-  type_line: Ruby, Shell
-  mana_cost: 5RW
-  power: '2'
-  toughness: '1'
+joe_sharp:
+  name: joe-sharp
+  type_line: Markdown
+  mana_cost: '3'
   border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/595f103c608631e0049772bf3ad48b06.jpg
+  color: colorless
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/d1d006d3b2a44c8955c7d02b7fc193e4.jpg
   embed_font: true
-  rules_text: 'MTG Card Maker is a tool for creating fan-made Magic: The Gathering
-    cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content
-    Policy. Not approved/endorsed by Wizards. Portions of the materials used are property
-    of Wizards of the Coast. ©Wizards of the Coast LLC.'
+  rules_text: 'joe-sharp/joe-sharp is a special repository. Its README.md appears
+    on my profile: https://github.com/joe-sharp'
   flavor_text: |-
-    https://github.com/joe-sharp/mtg_card_maker
-    Created: 2025-07-12
+    https://github.com/joe-sharp/joe-sharp
+    Created: 2020-11-26
+github_readme_stats:
+  name: github-readme-stats
+  type_line: JavaScript, Shell
+  mana_cost: 5UW
+  border_color: white
+  color: blue
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9b440a7f28bc95f4c5559b9fe489c995.jpg
+  embed_font: true
+  rules_text: ":zap: Dynamically generated stats for your github readmes"
+  flavor_text: |-
+    https://github.com/joe-sharp/github-readme-stats
+    github-readme-stats, forked from anuraghazra/github-readme-stats
+sift:
+  name: sift
+  type_line: Ruby, HTML, JavaScript, CSS
+  mana_cost: 4RWUU
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/a54956cea274f302e66eadfc566dc90c.jpg
+  embed_font: true
+  rules_text: "●: Add Rails 8.1 to the testing matrix"
+  flavor_text: |-
+    https://github.com/joe-sharp/sift
+    sift, forked from procore-oss/sift
+rubygems:
+  name: rubygems
+  type_line: Ruby, Roff, Rust, Shell
+  mana_cost: 6RRRW
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/a2b42015bc2d55385451f2f047531ff5.jpg
+  embed_font: true
+  rules_text: Library packaging and distribution for Ruby.
+  flavor_text: |-
+    https://github.com/joe-sharp/rubygems
+    rubygems, forked from ruby/rubygems
 multidb:
   name: multidb
   type_line: Ruby
@@ -267,19 +249,156 @@ multidb:
   flavor_text: |-
     https://github.com/joe-sharp/multidb
     multidb, forked from OutOfOrder/multidb
-ninja_switches:
-  name: ninja-switches
-  type_line: CSS, JavaScript, HTML
-  mana_cost: 3UUW
+linter_configs:
+  name: linter-configs
+  type_line: YAML, JSON, Markdown
+  mana_cost: '3'
+  power: '2'
+  toughness: '0'
   border_color: silver
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/67d5d041b286fce9ebbbf9e1ef8967ce.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/88366c922d20dc5aa0ff3de52d3f6cec.jpg
   embed_font: true
-  rules_text: Defunct web application used to configure a Pebble watch to make HTTP
-    requests
+  rules_text: Collection of config files for various linters. Can be used as remote
+    configuration for Mega-Linter. https://github.com/nvuillam/mega-linter
   flavor_text: |-
-    https://github.com/joe-sharp/ninja-switches
-    Created: 2020-12-03
+    https://github.com/joe-sharp/linter-configs
+    Created: 2020-12-14
+telfers_ultima_adventures:
+  name: Telfers-Ultima-Adventures
+  type_line: C#, GLSL, HLSL, Python, HTML
+  mana_cost: 7URRBGWW
+  border_color: white
+  color: blue
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/6edf1d8410830cf57931dc598e1bf32a.jpg
+  embed_font: true
+  rules_text: Telfer's Fork of UOA
+  flavor_text: |-
+    https://github.com/joe-sharp/Telfers-Ultima-Adventures
+    Telfers-Ultima-Adventures, forked from FinalTwist/Ultima-Adventures
+uo_macros:
+  name: UO-Macros
+  type_line: Python
+  mana_cost: 4G
+  border_color: silver
+  color: green
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/c766858fceaed60510f18f0368f28bd2.jpg
+  embed_font: true
+  rules_text: Macros for Ultima Online & Classic Assist, may work with other assistants
+  flavor_text: |-
+    https://github.com/joe-sharp/UO-Macros
+    Created: 2025-02-11
+appraisal:
+  name: appraisal
+  type_line: Ruby
+  mana_cost: 4R
+  border_color: white
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/7592a7909b6662f6fff382e2c854a165.jpg
+  embed_font: true
+  rules_text: |-
+    ✓: Add gemfile variables
+    ✓: Fix #216, extra newline with customize_gemfiles
+    ✓: Add options to customize generated gemfiles
+  flavor_text: |-
+    https://github.com/joe-sharp/appraisal
+    appraisal, forked from thoughtbot/appraisal
+dotfiles:
+  name: dotfiles
+  type_line: Vim Script, Shell, Ruby
+  mana_cost: 3WR
+  border_color: silver
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/c3ae06f70363066574dc6f52338df7f5.jpg
+  embed_font: true
+  rules_text: Various config files
+  flavor_text: |-
+    https://github.com/joe-sharp/dotfiles
+    Created: 2021-01-23
+zoedreams:
+  name: ZoeDreams
+  type_line: Markdown
+  mana_cost: '2'
+  border_color: silver
+  color: colorless
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/cb36a59f2753dafde339e196419d7f37.jpg
+  embed_font: true
+  flavor_text: |-
+    https://github.com/joe-sharp/ZoeDreams
+    Created: 2020-11-28
+mega_linter:
+  name: mega-linter
+  type_line: Python, Dockerfile, JavaScript, Shell, Swift
+  mana_cost: 29GGUUWWRRBB
+  border_color: white
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/68366e2a01ac7ace4572c4055642349f.jpg
+  embed_font: true
+  rules_text: "✓: Prevent `unexpected token` error on old node v…"
+  flavor_text: |-
+    https://github.com/joe-sharp/mega-linter
+    mega-linter, forked from oxsecurity/megalinter
+exercism_solutions:
+  name: exercism-solutions
+  type_line: JavaScript, Ruby
+  mana_cost: 4UR
+  power: '0'
+  toughness: '3'
+  border_color: silver
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/9877723b058feacc4ebfa6e541ba8241.jpg
+  embed_font: true
+  rules_text: These are my solutions to the lessons I take on exercism.org
+  flavor_text: |-
+    https://github.com/joe-sharp/exercism-solutions
+    Created: 2021-09-10
+agreen_studio:
+  name: agreen.studio
+  type_line: HTML, CSS, JavaScript
+  mana_cost: 3WUU
+  border_color: silver
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/f79aba9b01e199b3debf38f3c3218d11.jpg
+  embed_font: true
+  rules_text: Website for Anita Green
+  flavor_text: |-
+    https://github.com/joe-sharp/agreen.studio
+    Created: 2020-12-02
+customatreus:
+  name: CustomAtreus
+  type_line: C++, Makefile
+  mana_cost: 3WU
+  border_color: silver
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/69c95f8fe9347ab05332f0ab2a6c2010.jpg
+  embed_font: true
+  rules_text: Custom Firmware for Keyboardio Atreus
+  flavor_text: |-
+    https://github.com/joe-sharp/CustomAtreus
+    Created: 2021-07-05
+zoom_close:
+  name: zoom-close
+  type_line: JavaScript
+  mana_cost: 1U
+  border_color: white
+  color: blue
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/1445604355d549511026d7a41a90da6a.jpg
+  embed_font: true
+  flavor_text: |-
+    https://github.com/joe-sharp/zoom-close
+    zoom-close, forked from seanstar12/zoom-close
+treehouse_vue:
+  name: treehouse-vue
+  type_line: Vue, Ruby, JavaScript, HTML
+  mana_cost: 3BRUW
+  border_color: silver
+  color: gold
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/340152f140c1e6f3aac7bcb7b58c94fd.jpg
+  embed_font: true
+  rules_text: About Widget to display Treehouse points on the web, rewritten in Vue.js
+  flavor_text: |-
+    https://github.com/joe-sharp/treehouse-vue
+    Created: 2020-12-02
 old_arduino_projects:
   name: old-arduino-projects
   type_line: C++
@@ -294,135 +413,16 @@ old_arduino_projects:
   flavor_text: |-
     https://github.com/joe-sharp/old-arduino-projects
     Created: 2020-12-14
-rubocop:
-  name: rubocop
-  type_line: Ruby, HTML, Emacs Lisp, Shell
-  mana_cost: 6RWWG
-  border_color: white
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/984eddbbc013e25cbb6379bf68aa05c1.jpg
-  embed_font: true
-  rules_text: |-
-    ●: [Fix #8191] Add `AllowedReceivers` option to `…
-    ✓: Add markdown formatter
-  flavor_text: |-
-    https://github.com/joe-sharp/rubocop
-    rubocop, forked from rubocop/rubocop
-rubygems:
-  name: rubygems
-  type_line: Ruby, Roff, Rust, Shell
-  mana_cost: 6RRRW
-  border_color: white
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/a2b42015bc2d55385451f2f047531ff5.jpg
-  embed_font: true
-  rules_text: Library packaging and distribution for Ruby.
-  flavor_text: |-
-    https://github.com/joe-sharp/rubygems
-    rubygems, forked from ruby/rubygems
-sharp_style_rubocop:
-  name: sharp_style_rubocop
-  type_line: Ruby, Shell
-  mana_cost: 3RW
-  border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
-  embed_font: true
-  rules_text: Default Rubocop configuration with some Sharp Style tweaks
-  flavor_text: |-
-    https://github.com/joe-sharp/sharp_style_rubocop
-    Created: 2026-10-27
-sift:
-  name: sift
-  type_line: Ruby, HTML, JavaScript, CSS
-  mana_cost: 4RWUU
-  border_color: white
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/a54956cea274f302e66eadfc566dc90c.jpg
-  embed_font: true
-  rules_text: "●: Add Rails 8.1 to the testing matrix"
-  flavor_text: |-
-    https://github.com/joe-sharp/sift
-    sift, forked from procore-oss/sift
-telfers_ultima_adventures:
-  name: Telfers-Ultima-Adventures
-  type_line: C#, GLSL, HLSL, Python, HTML
-  mana_cost: 7URRBGWW
-  border_color: white
-  color: blue
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/6edf1d8410830cf57931dc598e1bf32a.jpg
-  embed_font: true
-  rules_text: Telfer's Fork of UOA
-  flavor_text: |-
-    https://github.com/joe-sharp/Telfers-Ultima-Adventures
-    Telfers-Ultima-Adventures, forked from FinalTwist/Ultima-Adventures
-treehouse_points:
-  name: treehouse-points
-  type_line: Liquid, JavaScript, SCSS, HTML, Ruby
-  mana_cost: 3WWWUR
+ninja_switches:
+  name: ninja-switches
+  type_line: CSS, JavaScript, HTML
+  mana_cost: 3UUW
   border_color: silver
   color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/2464f2fe6495760016f9a3247ffb9c17.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/67d5d041b286fce9ebbbf9e1ef8967ce.jpg
   embed_font: true
-  rules_text: Widget to display Treehouse points on the web
+  rules_text: Defunct web application used to configure a Pebble watch to make HTTP
+    requests
   flavor_text: |-
-    https://github.com/joe-sharp/treehouse-points
-    Created: 2020-11-29
-treehouse_vue:
-  name: treehouse-vue
-  type_line: Vue, Ruby, JavaScript, HTML
-  mana_cost: 3BRUW
-  border_color: silver
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/340152f140c1e6f3aac7bcb7b58c94fd.jpg
-  embed_font: true
-  rules_text: About Widget to display Treehouse points on the web, rewritten in Vue.js
-  flavor_text: |-
-    https://github.com/joe-sharp/treehouse-vue
-    Created: 2020-12-02
-uo_macros:
-  name: UO-Macros
-  type_line: Python
-  mana_cost: 4G
-  border_color: silver
-  color: green
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/c766858fceaed60510f18f0368f28bd2.jpg
-  embed_font: true
-  rules_text: Macros for Ultima Online & Classic Assist, may work with other assistants
-  flavor_text: |-
-    https://github.com/joe-sharp/UO-Macros
-    Created: 2025-02-11
-version_gem:
-  name: version_gem
-  type_line: Ruby, Shell
-  mana_cost: 4RW
-  border_color: white
-  color: gold
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
-  embed_font: true
-  rules_text: "●: Memoize version lookups in VersionGem::Api"
-  flavor_text: |-
-    https://github.com/joe-sharp/version_gem
-    version_gem, forked from ruby-oauth/version_gem
-zoedreams:
-  name: ZoeDreams
-  type_line: Markdown
-  mana_cost: '2'
-  border_color: silver
-  color: colorless
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/cb36a59f2753dafde339e196419d7f37.jpg
-  embed_font: true
-  flavor_text: |-
-    https://github.com/joe-sharp/ZoeDreams
-    Created: 2020-11-28
-zoom_close:
-  name: zoom-close
-  type_line: JavaScript
-  mana_cost: 1U
-  border_color: white
-  color: blue
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/1445604355d549511026d7a41a90da6a.jpg
-  embed_font: true
-  flavor_text: |-
-    https://github.com/joe-sharp/zoom-close
-    zoom-close, forked from seanstar12/zoom-close
+    https://github.com/joe-sharp/ninja-switches
+    Created: 2020-12-03

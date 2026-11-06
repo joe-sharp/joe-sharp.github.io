@@ -8,8 +8,14 @@ module GithubProjectCards
 
   def fetch(username:, fetcher:)
     payload = fetcher.call(username: username)
-    projects = payload["projects"] || []
+    projects = sort_by_updated(payload["projects"] || [])
 
     projects.map { |project| GithubProjectCard.new(project) }
+  end
+
+  # Most recently updated first. GitHub timestamps share one sortable format, so
+  # comparing the strings orders them by time; the name only breaks exact ties.
+  def sort_by_updated(projects)
+    projects.sort_by { |project| [project["updated_at"].to_s, project["name"].to_s] }.reverse
   end
 end

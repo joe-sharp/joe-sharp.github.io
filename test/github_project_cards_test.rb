@@ -21,8 +21,19 @@ describe GithubProjectCards do
 
       _(cards.size).must_equal fixture_projects.size
       _(cards.map { |card| card.to_add_card_args[:name] }).must_equal(
-        fixture_projects.map { |project| project["name"] }
+        fixture_projects.sort_by { |project| project["updated_at"] }.reverse.map { |project| project["name"] }
       )
+    end
+
+    it "puts the most recently updated repo first" do
+      projects = [
+        { "name" => "old", "updated_at" => "2020-01-01 00:00:00 UTC" },
+        { "name" => "newest", "updated_at" => "2024-06-01 12:00:00 UTC" },
+        { "name" => "middle", "updated_at" => "2022-03-15 08:30:00 UTC" }
+      ]
+      cards = GithubProjectCards.fetch(username: "joe-sharp", fetcher: ->(**) { { "projects" => projects } })
+
+      _(cards.map { |card| card.to_add_card_args[:name] }).must_equal %w[newest middle old]
     end
   end
 

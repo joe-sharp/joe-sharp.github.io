@@ -135,7 +135,8 @@ describe DeckGenerator do
   end
 
   describe "when a repo has no art yet" do
-    let(:missing_name) { fixture_projects.first["name"] }
+    # The first card in the deck, so the placeholder is the one that gets checked first.
+    let(:missing_name) { GithubProjectCards.sort_by_updated(payload["projects"]).first["name"] }
     let(:art_checker) { ->(url) { !url.include?(Digest::MD5.hexdigest(missing_name)) } }
 
     it "hands the art it used to the mirror, including the placeholder" do
