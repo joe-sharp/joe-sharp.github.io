@@ -553,7 +553,7 @@ body {
 .plain-card-name {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
   font-weight: 600;
-  color: var(--ink) !important;
+  color: var(--gold) !important;
   text-decoration: none;
 }
 
@@ -574,11 +574,29 @@ body {
 
 .plain-card-prs {
   margin: 0.5rem 0 0;
-  padding-left: 1.1rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 .plain-card-prs a {
-  color: var(--green);
+  color: var(--ink);
+}
+
+.plain-card-prs a:hover {
+  color: var(--gold);
+}
+
+.plain-card-pr-status {
+  display: inline-block;
+  width: 1.1rem;
+}
+
+.plain-card-pr.is-merged .plain-card-pr-status {
+  color: #34c982;
+}
+
+.plain-card-pr.is-open .plain-card-pr-status {
+  color: var(--gold);
 }
 
 html.boring .projects-plain {
@@ -602,3 +620,33 @@ html.boring *::after {
   text-align: center;
 }
 
+
+/* Links in the About paragraphs use the site's purple */
+#page .block-content a {
+  color: #8b3fd1 !important;
+}
+
+/* Boring cards: a few colours so the text is easy to scan */
+.projects-plain .plain-card-type {
+  color: #7fd6c2;
+}
+
+.projects-plain .plain-card-text {
+  color: var(--ink);
+}
+
+.projects-plain .plain-card-meta {
+  color: #b99be8;
+}
+
+/* Favorites get a gold border on the sprite cards too */
+.project-card.is-favorite .project-card-face.front {
+  box-shadow: 0 0 0 3px var(--gold);
+  border-radius: 4.5%;
+}
+
+/* About text runs the full width of the block instead of the theme's 760px column */
+#page #about .block-content,
+#page #about .block-title {
+  max-width: none;
+}
