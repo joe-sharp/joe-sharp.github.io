@@ -6,13 +6,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
-        <meta name="description" content="Staff Software Engineer at Procore keeping a 20-year-old Rails monolith modern, plus the open-source Ruby projects behind it." />
+        <meta name="description" content="Staff Software Engineer, keeping legacy Ruby/Rails codebases modern, plus the open-source projects behind them." />
         <meta name="keywords" content="Joe Sharp, Programming, Programmer, Guru, Genius, Mac Genius, Hacker, Engineer" />
         <meta name="author" content="Joe Sharp" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 month" />
         <meta property="og:title" content="joe-sharp">
-        <meta property="og:description" content="Staff Software Engineer at Procore keeping a 20-year-old Rails monolith modern, plus the open-source Ruby projects behind it.">
+        <meta property="og:description" content="Staff Software Engineer, keeping legacy Ruby/Rails codebases modern, plus the open-source projects behind them.">
         <meta property="og:image" content="https://projects.joe-sharp.com/images/joe-sharp.png">
         <meta property="og:url" content="https://projects.joe-sharp.com/">
         <meta name="twitter:card" content="summary">
@@ -21,6 +21,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/main.css">
+        <script>try { if (localStorage.getItem("boring") === "1") document.documentElement.classList.add("boring"); } catch (e) {}</script>
 
     </head>
     <body>
@@ -78,7 +79,7 @@
   <section id="hero" class="hero">
   <h2 class="hero-title">joe-sharp</h2>
   <div class="hero-text">
-    <p>Staff Software Engineer at <strong>Procore</strong></p>
+    <p>Staff Software Engineer</p>
 
   </div>
   
@@ -91,11 +92,18 @@
   
   
   <div class="block-content">
-    <p>I keep one of the biggest and oldest Rails codebases out there modern, and I love it. Procore’s monolith is 20 years old and 7.4 million lines, and about 100 teams ship from it every day. I own the Ruby and Rails platform underneath them: major-version upgrades of Ruby, Rails and Node, dependency and CVE remediation across the whole codebase, and the tooling that lets all of it land without slowing product teams down.
-I bring a quality mindset and deep test automation experience to all the code I write, which is why I’m confident making changes that land across every team’s codebase at once.</p>
+    <p>I’m an active open-source contributor, mostly in the Ruby community. I wrote RuboCop’s Markdown formatter, which shipped in v1.29, and I’m a listed contributor on <a href="https://github.com/rubocop/rubocop">RuboCop</a>, <a href="https://github.com/thoughtbot/appraisal">Appraisal</a> and <a href="https://github.com/appraisal-rb/appraisal2">appraisal2</a>, <a href="https://github.com/procore-oss/migration-lock-timeout">migration-lock-timeout</a>, <a href="https://github.com/oxsecurity/megalinter">MegaLinter</a>, <a href="https://github.com/joniles/mpxj">MPXJ</a>, <a href="https://github.com/OutOfOrder/multidb">multidb</a>, <a href="https://github.com/bradurani/pg-eyeballs">pg-eyeballs</a> and <a href="https://github.com/payrollhero/dynamic_form">dynamic_form</a>. I’ve also sent bugfixes and maintenance PRs to <a href="https://github.com/ruby/irb">irb</a>, <a href="https://github.com/ruby/debug">ruby/debug</a>, <a href="https://github.com/guard/guard">Guard</a>, <a href="https://github.com/procore-oss/sift">sift</a>, and <a href="https://github.com/ruby-oauth/version_gem">version_gem</a>.</p>
 <p class="about-hearts">🩷💜💙</p>
-<p>I’m an active open-source contributor in the Ruby community. I wrote RuboCop’s Markdown formatter, which shipped in v1.29, and have three PRs merged into Thoughtbot’s Appraisal along with changes in several other Ruby projects. I also build my own tools, including MTG Card Maker, the Ruby project behind the cards on this page.</p>
+<p>Every project below is a collectible card generated from GitHub data by MTG Card Maker, a Ruby project I wrote. The type line lists the repo’s languages, and the mana cost and color come from that language mix. Power and toughness are stars and forks. Popular repos get a gold frame and the rest get silver. Forks of other projects get a plain white frame and list my pull requests upstream (✓ merged, ● open), with each PR line a clickable link. Favorites are pinned to the top with a gold glow.</p>
+<p>Not your thing? Turn on boring mode below.</p>
 
+    
+    <div class="boring-toggle-row">
+      <button type="button" class="boring-toggle" role="switch" aria-checked="false">
+        <span class="boring-toggle-track" aria-hidden="true"></span>Boring mode
+      </button>
+    </div>
+    
     
     
   </div>
@@ -104,10 +112,12 @@ I bring a quality mindset and deep test automation experience to all the code I 
 
   
   <section id="projects" class="block">
-  
-  
-  <h2 class="block-title underline">Projects</h2>
-  
+  <div class="projects-head">
+    
+    
+    <h2 class="block-title underline">Projects</h2>
+    
+  </div>
   
   
   
@@ -2447,7 +2457,7 @@ Created: 2020-12-03
       
       
       
-      <div class="project-card">
+      <div class="project-card is-favorite">
         <span class="project-card-tilt"><span class="project-card-flip">
           <span class="project-card-face front">
             <a class="project-card-link" href="https://github.com/joe-sharp/boondoc" target="_blank" rel="noopener noreferrer" aria-label="boondoc">
@@ -2469,7 +2479,7 @@ Created: 2020-12-03
       
       
       
-      <div class="project-card">
+      <div class="project-card is-favorite">
         <span class="project-card-tilt"><span class="project-card-flip">
           <span class="project-card-face front">
             <a class="project-card-link" href="https://github.com/joe-sharp/rubocop" target="_blank" rel="noopener noreferrer" aria-label="rubocop">
@@ -3199,6 +3209,593 @@ Created: 2020-12-03
       </div>
     
   </div>
+  
+  <ul class="projects-plain">
+    
+      
+      
+      
+      
+      <li class="plain-card is-favorite">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/boondoc" target="_blank" rel="noopener noreferrer">boondoc</a>
+        <p class="plain-card-type">Ruby, Shell</p>
+        
+        <p class="plain-card-text">Markdown-only API documentation for Ruby, written from YARD-style comments</p>
+        
+        
+        <p class="plain-card-meta">Stars 1 · Forks 0</p>
+        
+        <p class="plain-card-meta">Created: 2026-10-26</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card is-favorite">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/rubocop" target="_blank" rel="noopener noreferrer">rubocop</a>
+        <p class="plain-card-type">Ruby, HTML, Emacs Lisp, Shell</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-open">
+            <span class="plain-card-pr-status" aria-hidden="true">●</span><a href="https://github.com/rubocop/rubocop/pull/16193" target="_blank" rel="noopener noreferrer">[Fix #8191] Add `AllowedReceivers` option to `Style/MethodCallWithArgsParentheses`</a>
+          </li>
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/rubocop/rubocop/pull/10542" target="_blank" rel="noopener noreferrer">Add markdown formatter</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">rubocop, forked from rubocop/rubocop</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/joe-sharp.github.io" target="_blank" rel="noopener noreferrer">joe-sharp.github.io</a>
+        <p class="plain-card-type">Ruby, SCSS, JavaScript, CSS, HTML</p>
+        
+        <p class="plain-card-text">The source for projects.joe-sharp.com: a Jekyll-powered portfolio with an About section and a grid of my GitHub projects, each shown as a collectible card.</p>
+        
+        
+        <p class="plain-card-meta">Stars 1 · Forks 0</p>
+        
+        <p class="plain-card-meta">Created: 2020-11-26</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/github_project_fetch" target="_blank" rel="noopener noreferrer">github_project_fetch</a>
+        <p class="plain-card-type">Ruby</p>
+        
+        <p class="plain-card-text">A Ruby serverless application that fetches public repositories along with their language data from GitHub users, deployed on Vercel.</p>
+        
+        
+        <p class="plain-card-meta">Stars 1 · Forks 0</p>
+        
+        <p class="plain-card-meta">Created: 2025-07-01</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/treehouse-points" target="_blank" rel="noopener noreferrer">treehouse-points</a>
+        <p class="plain-card-type">Liquid, JavaScript, SCSS, HTML, Ruby</p>
+        
+        <p class="plain-card-text">Widget to display Treehouse points on the web</p>
+        
+        
+        <p class="plain-card-meta">Created: 2020-11-29</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/mtg_card_maker" target="_blank" rel="noopener noreferrer">mtg_card_maker</a>
+        <p class="plain-card-type">Ruby, Shell</p>
+        
+        <p class="plain-card-text">MTG Card Maker is a tool for creating fan-made Magic: The Gathering cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+        
+        
+        <p class="plain-card-meta">Stars 2 · Forks 1</p>
+        
+        <p class="plain-card-meta">Created: 2025-07-12</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/irb" target="_blank" rel="noopener noreferrer">irb</a>
+        <p class="plain-card-type">Ruby, Shell</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-open">
+            <span class="plain-card-pr-status" aria-hidden="true">●</span><a href="https://github.com/ruby/irb/pull/1266" target="_blank" rel="noopener noreferrer">Preserve an existing `_` local when creating a WorkSpace</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">irb, forked from ruby/irb</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/version_gem" target="_blank" rel="noopener noreferrer">version_gem</a>
+        <p class="plain-card-type">Ruby, Shell</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-open">
+            <span class="plain-card-pr-status" aria-hidden="true">●</span><a href="https://github.com/ruby-oauth/version_gem/pull/36" target="_blank" rel="noopener noreferrer">Memoize version lookups in VersionGem::Api</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">version_gem, forked from ruby-oauth/version_gem</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/debug" target="_blank" rel="noopener noreferrer">debug</a>
+        <p class="plain-card-type">Ruby, C, Shell</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-open">
+            <span class="plain-card-pr-status" aria-hidden="true">●</span><a href="https://github.com/ruby/debug/pull/1188" target="_blank" rel="noopener noreferrer">Set evaluation result to `_` without clobbering the debuggee&#39;s `_`</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">debug, forked from ruby/debug</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/sharp_style_rubocop" target="_blank" rel="noopener noreferrer">sharp_style_rubocop</a>
+        <p class="plain-card-type">Ruby, Shell</p>
+        
+        <p class="plain-card-text">Default Rubocop configuration with some Sharp Style tweaks</p>
+        
+        
+        <p class="plain-card-meta">Created: 2026-10-27</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/guard-boondoc" target="_blank" rel="noopener noreferrer">guard-boondoc</a>
+        <p class="plain-card-type">Ruby</p>
+        
+        <p class="plain-card-text">Guard plugin that regenerates your boondoc docs when their sources change</p>
+        
+        
+        <p class="plain-card-meta">Created: 2026-10-26</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/guard-status" target="_blank" rel="noopener noreferrer">guard-status</a>
+        <p class="plain-card-type">Ruby</p>
+        
+        <p class="plain-card-text">Guard plugin that prints one status line for all your other guards</p>
+        
+        
+        <p class="plain-card-meta">Created: 2026-10-26</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/guard" target="_blank" rel="noopener noreferrer">guard</a>
+        <p class="plain-card-type">Ruby, Gherkin</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-open">
+            <span class="plain-card-pr-status" aria-hidden="true">●</span><a href="https://github.com/guard/guard/pull/1010" target="_blank" rel="noopener noreferrer">Replace OpenStruct in DslDescriber#show with Struct</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">guard, forked from guard/guard</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/mpxj" target="_blank" rel="noopener noreferrer">mpxj</a>
+        <p class="plain-card-type">Java, Ruby, VBA, CSS, Batchfile</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/joniles/mpxj/pull/970" target="_blank" rel="noopener noreferrer">Update jackson-databind to mitigate CVE-2026-110879</a>
+          </li>
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/joniles/mpxj/pull/959" target="_blank" rel="noopener noreferrer">Update to jsoup 1.23.2 to fix High-severity CVE</a>
+          </li>
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/joniles/mpxj/pull/947" target="_blank" rel="noopener noreferrer">Update to Jackson 2.22.3 to fix High-severity CVEs</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">mpxj, forked from joniles/mpxj</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/joe-sharp" target="_blank" rel="noopener noreferrer">joe-sharp</a>
+        <p class="plain-card-type">Markdown</p>
+        
+        <p class="plain-card-text">joe-sharp/joe-sharp is a special repository. Its README.md appears on my profile: https://github.com/joe-sharp</p>
+        
+        
+        <p class="plain-card-meta">Created: 2020-11-26</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/github-readme-stats" target="_blank" rel="noopener noreferrer">github-readme-stats</a>
+        <p class="plain-card-type">JavaScript, Shell</p>
+        
+        <p class="plain-card-text">:zap: Dynamically generated stats for your github readmes</p>
+        
+        
+        <p class="plain-card-meta">github-readme-stats, forked from anuraghazra/github-readme-stats</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/sift" target="_blank" rel="noopener noreferrer">sift</a>
+        <p class="plain-card-type">Ruby, HTML, JavaScript, CSS</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-open">
+            <span class="plain-card-pr-status" aria-hidden="true">●</span><a href="https://github.com/procore-oss/sift/pull/93" target="_blank" rel="noopener noreferrer">Add Rails 8.1 to the testing matrix</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">sift, forked from procore-oss/sift</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/rubygems" target="_blank" rel="noopener noreferrer">rubygems</a>
+        <p class="plain-card-type">Ruby, Roff, Rust, Shell</p>
+        
+        <p class="plain-card-text">Library packaging and distribution for Ruby.</p>
+        
+        
+        <p class="plain-card-meta">rubygems, forked from ruby/rubygems</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/multidb" target="_blank" rel="noopener noreferrer">multidb</a>
+        <p class="plain-card-type">Ruby</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/OutOfOrder/multidb/pull/41" target="_blank" rel="noopener noreferrer">Add support for Active Record 7.1</a>
+          </li>
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/OutOfOrder/multidb/pull/31" target="_blank" rel="noopener noreferrer">Fix license issues</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">multidb, forked from OutOfOrder/multidb</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/linter-configs" target="_blank" rel="noopener noreferrer">linter-configs</a>
+        <p class="plain-card-type">YAML, JSON, Markdown</p>
+        
+        <p class="plain-card-text">Collection of config files for various linters. Can be used as remote configuration for Mega-Linter. https://github.com/nvuillam/mega-linter</p>
+        
+        
+        <p class="plain-card-meta">Stars 2 · Forks 0</p>
+        
+        <p class="plain-card-meta">Created: 2020-12-14</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/Telfers-Ultima-Adventures" target="_blank" rel="noopener noreferrer">Telfers-Ultima-Adventures</a>
+        <p class="plain-card-type">C#, GLSL, HLSL, Python, HTML</p>
+        
+        <p class="plain-card-text">Telfer&#39;s Fork of UOA</p>
+        
+        
+        <p class="plain-card-meta">Telfers-Ultima-Adventures, forked from FinalTwist/Ultima-Adventures</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/UO-Macros" target="_blank" rel="noopener noreferrer">UO-Macros</a>
+        <p class="plain-card-type">Python</p>
+        
+        <p class="plain-card-text">Macros for Ultima Online &amp; Classic Assist, may work with other assistants</p>
+        
+        
+        <p class="plain-card-meta">Created: 2025-02-11</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/appraisal" target="_blank" rel="noopener noreferrer">appraisal</a>
+        <p class="plain-card-type">Ruby</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/thoughtbot/appraisal/pull/223" target="_blank" rel="noopener noreferrer">Add gemfile variables</a>
+          </li>
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/thoughtbot/appraisal/pull/222" target="_blank" rel="noopener noreferrer">Fix #216, extra newline with customize_gemfiles</a>
+          </li>
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/thoughtbot/appraisal/pull/191" target="_blank" rel="noopener noreferrer">Add options to customize generated gemfiles</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">appraisal, forked from thoughtbot/appraisal</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/dotfiles" target="_blank" rel="noopener noreferrer">dotfiles</a>
+        <p class="plain-card-type">Vim Script, Shell, Ruby</p>
+        
+        <p class="plain-card-text">Various config files</p>
+        
+        
+        <p class="plain-card-meta">Created: 2021-01-23</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/ZoeDreams" target="_blank" rel="noopener noreferrer">ZoeDreams</a>
+        <p class="plain-card-type">Markdown</p>
+        
+        
+        <p class="plain-card-meta">Created: 2020-11-28</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/mega-linter" target="_blank" rel="noopener noreferrer">mega-linter</a>
+        <p class="plain-card-type">Python, Dockerfile, JavaScript, Shell, Swift</p>
+        
+        
+        <ul class="plain-card-prs">
+          
+          
+          <li class="plain-card-pr is-merged">
+            <span class="plain-card-pr-status" aria-hidden="true">✓</span><a href="https://github.com/oxsecurity/megalinter/pull/292" target="_blank" rel="noopener noreferrer">Prevent `unexpected token` error on old node versions</a>
+          </li>
+          
+        </ul>
+        
+        
+        <p class="plain-card-meta">mega-linter, forked from oxsecurity/megalinter</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/exercism-solutions" target="_blank" rel="noopener noreferrer">exercism-solutions</a>
+        <p class="plain-card-type">JavaScript, Ruby</p>
+        
+        <p class="plain-card-text">These are my solutions to the lessons I take on exercism.org</p>
+        
+        
+        <p class="plain-card-meta">Stars 0 · Forks 3</p>
+        
+        <p class="plain-card-meta">Created: 2021-09-10</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/agreen.studio" target="_blank" rel="noopener noreferrer">agreen.studio</a>
+        <p class="plain-card-type">HTML, CSS, JavaScript</p>
+        
+        <p class="plain-card-text">Website for Anita Green</p>
+        
+        
+        <p class="plain-card-meta">Created: 2020-12-02</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/CustomAtreus" target="_blank" rel="noopener noreferrer">CustomAtreus</a>
+        <p class="plain-card-type">C++, Makefile</p>
+        
+        <p class="plain-card-text">Custom Firmware for Keyboardio Atreus</p>
+        
+        
+        <p class="plain-card-meta">Created: 2021-07-05</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/zoom-close" target="_blank" rel="noopener noreferrer">zoom-close</a>
+        <p class="plain-card-type">JavaScript</p>
+        
+        
+        <p class="plain-card-meta">zoom-close, forked from seanstar12/zoom-close</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/treehouse-vue" target="_blank" rel="noopener noreferrer">treehouse-vue</a>
+        <p class="plain-card-type">Vue, Ruby, JavaScript, HTML</p>
+        
+        <p class="plain-card-text">About Widget to display Treehouse points on the web, rewritten in Vue.js</p>
+        
+        
+        <p class="plain-card-meta">Created: 2020-12-02</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/old-arduino-projects" target="_blank" rel="noopener noreferrer">old-arduino-projects</a>
+        <p class="plain-card-type">C++</p>
+        
+        <p class="plain-card-text">Old Arduino Projects</p>
+        
+        
+        <p class="plain-card-meta">Stars 0 · Forks 1</p>
+        
+        <p class="plain-card-meta">Created: 2020-12-14</p>
+      </li>
+    
+      
+      
+      
+      
+      <li class="plain-card">
+        <a class="plain-card-name" href="https://github.com/joe-sharp/ninja-switches" target="_blank" rel="noopener noreferrer">ninja-switches</a>
+        <p class="plain-card-type">CSS, JavaScript, HTML</p>
+        
+        <p class="plain-card-text">Defunct web application used to configure a Pebble watch to make HTTP requests</p>
+        
+        
+        <p class="plain-card-meta">Created: 2020-12-03</p>
+      </li>
+    
+  </ul>
+  <script src="/assets/js/boring.js"></script>
   <script src="/assets/js/art-fallback.js"></script>
   <script src="/assets/js/deal.js"></script>
   
@@ -3210,7 +3807,7 @@ Created: 2020-12-03
       </main>
       <footer id="colophon" class="site-footer">
   <p class="site-info">
-    &copy; 2025 Joe Sharp, all rights reserved.
+    &copy; 2026 Joe Sharp, all rights reserved.
     &nbsp;
     
     <a href="https://joe-sharp.com" 

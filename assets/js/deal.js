@@ -2,6 +2,7 @@
 (function () {
   var grid = document.querySelector('.projects-cards');
   if (!grid) return;
+  if (document.documentElement.classList.contains("boring")) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   if (!('IntersectionObserver' in window) || !Element.prototype.animate) return;
 
