@@ -1,9 +1,11 @@
+@use "functions" as *;
+
 /**
  * General
  * ----------------------------------------------------------------------------
  */
 html {
-  font-family: _font(primary);
+  font-family: font(primary);
   font-size: 112.5%;
   height: 100%;
   min-height: 100%;
@@ -15,13 +17,13 @@ html {
 
 body {
   background: #fff;
-  color: _palette(primary);
+  color: palette(primary);
   line-height: 1.66667;
 }
 
 a {
-  border-bottom: 2px solid _palette(accent);
-  color: _palette(secondary);
+  border-bottom: 2px solid palette(accent);
+  color: palette(secondary);
   text-decoration: none;
   -webkit-transition: border .3s ease, color .3s ease;
   transition: border .3s ease, color .3s ease;
@@ -38,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: _palette(secondary);
+  color: palette(secondary);
   font-weight: bold;
   line-height: 1.2;
   margin: 1.66667rem 0 0.83333rem;
@@ -87,15 +89,15 @@ address {
 mark,
 ins {
   background: #fff493;
-  color: _palette(secondary);
+  color: palette(secondary);
   padding: 0 3px;
   text-decoration: none;
 }
 
 pre {
-  border: 1px solid _palette(border);
+  border: 1px solid palette(border);
   border-radius: 5px;
-  color: _palette(secondary);
+  color: palette(secondary);
   font-size: 0.88889rem;
   margin: 0 0 1.66667rem;
   overflow: auto;
@@ -104,7 +106,7 @@ pre {
   white-space: pre;
 
   &:before {
-    border-color: _palette(border);
+    border-color: palette(border);
     border-style: solid;
     border-width: 0 0 1px 1px;
     color: inherit;
@@ -118,8 +120,8 @@ pre {
 }
 
 blockquote {
-  border-bottom: 1px solid _palette(secondary);
-  border-top: 3px solid _palette(secondary);
+  border-bottom: 1px solid palette(secondary);
+  border-top: 3px solid palette(secondary);
   font-size: 2rem;
   line-height: 1.25;
   margin: 2.5rem 0;
@@ -140,7 +142,7 @@ blockquote {
 
   small,
   cite {
-    color: _palette(meta);
+    color: palette(meta);
     display: block;
     font-size: 0.5em;
     font-style: normal;
@@ -178,7 +180,7 @@ li > ol {
 }
 
 hr {
-  background-color: _palette(border);
+  background-color: palette(border);
   border: 0;
   height: 1px;
   margin: 1.66667em 0;
@@ -193,7 +195,7 @@ table {
 }
 
 caption {
-  color: _palette(meta);
+  color: palette(meta);
   font-size: 0.875em;
   font-style: normal;
   margin-bottom: 1em;
@@ -202,18 +204,18 @@ caption {
 
 th,
 td {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 1px solid palette(border);
   padding: 0.5em 5px;
 }
 
 th {
-  color: _palette(secondary);
+  color: palette(secondary);
   font-weight: bold;
 }
 
 /* Form fields */
 label {
-  color: _palette(secondary);
+  color: palette(secondary);
   font-weight: bold;
 }
 
@@ -238,11 +240,11 @@ input[type="url"],
 select,
 textarea {
   background: #fff;
-  border: 1px solid _palette(border-alt);
+  border: 1px solid palette(border-alt);
   border-radius: 5px;
   box-shadow: none;
   box-sizing: border-box;
-  color: _palette(primary);
+  color: palette(primary);
   display: inline-block;
   font-size: 16px;
   font-weight: normal;
@@ -272,8 +274,8 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 a.button {
-  background: _palette(accent);
-  border: 2px solid _palette(accent);
+  background: palette(accent);
+  border: 2px solid palette(accent);
   border-radius: 30px;
   box-sizing: border-box;
   color: #fff;
@@ -291,8 +293,8 @@ a.button {
   &:focus,
   &:active {
     background: 0;
-    box-shadow: 0 0 1px 7px rgba(_palette(accent),.2);
-    color: _palette(secondary);
+    box-shadow: 0 0 1px 7px rgba(palette(accent),.2);
+    color: palette(secondary);
     outline: 0;
   }
 }
@@ -305,14 +307,14 @@ a.button {
 
 a.circle {
   background: transparent;
-  color: _palette(primary);
+  color: palette(primary);
   padding: 0;
   width: 3em;
 
   &:hover,
   &:focus,
   &:active {
-    background: _palette(accent);
+    background: palette(accent);
     color: #fff;
   }
 }
@@ -370,8 +372,8 @@ img {
   position: relative;
 
   &:after {
-    border-left: 30px solid _palette(accent);
-    box-shadow: inset 0 1px 0 0 _palette(border);
+    border-left: 30px solid palette(accent);
+    box-shadow: inset 0 1px 0 0 palette(border);
     display: block;
     content: "";
     height: 3px;

@@ -1,0 +1,19 @@
+@use "sass:color";
+
+// Font.
+$font: (
+  primary: ("Roboto", "Helvetica Neue", Helvetica, sans-serif)
+);
+
+// Palette.
+$palette: (
+  primary:       #555e69,
+  secondary:     color.adjust(#555e69, $lightness: -15%),
+  meta:          color.adjust(#555e69, $lightness: 25%),
+  border:        #8b3fd1,
+  border-alt:    color.adjust(#8b3fd1, $lightness: 25%),
+  accent:        #8b3fd1,
+  accent-blue:   #8b3fd1,
+  accent-violet: #9371e6,
+  accent-orange: #fc6e51
+);

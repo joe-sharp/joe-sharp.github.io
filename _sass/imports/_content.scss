@@ -1,3 +1,5 @@
+@use "functions" as *;
+
 /**
  * Content
  * ----------------------------------------------------------------------------
@@ -20,7 +22,7 @@
     color: inherit;
 
     &:hover {
-      color: _palette(accent);
+      color: palette(accent);
     }
   }
 }
@@ -40,7 +42,7 @@
 }
 
 .post-meta {
-  color: _palette(meta);
+  color: palette(meta);
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -72,7 +74,7 @@
   }
 
   .post-inside {
-    border: 1px solid _palette(border);
+    border: 1px solid palette(border);
     border-radius: 5px;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -121,7 +123,7 @@
   }
 
   .post-title {
-    border-bottom: 1px solid _palette(border);
+    border-bottom: 1px solid palette(border);
     font-size: 1.33333rem;
     margin: 0;
     padding-bottom: 0.83333rem;
@@ -173,7 +175,7 @@
 }
 
 .page-number {
-  color: _palette(meta);
+  color: palette(meta);
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -223,7 +225,7 @@
 }
 
 .block-title {
-  color: _palette(secondary);
+  color: palette(secondary);
   font-size: 1.33333em;
   letter-spacing: 0.11111em;
   margin: 0 0 1.25em;
@@ -268,13 +270,13 @@
     text-decoration: none;
 
     &:hover {
-      color: _palette(accent) !important;
+      color: palette(accent) !important;
     }
   }
 }
 
 .project-meta {
-  color: _palette(meta);
+  color: palette(meta);
   font-size: 0.88889em;
   margin: 0.5em 0 0;
 }

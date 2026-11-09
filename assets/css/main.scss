@@ -1,38 +1,18 @@
 ---
 ---
 
-// Font.
-$font: (
-  primary: ("Roboto", "Helvetica Neue", Helvetica, sans-serif)
-);
-
-// Palette.
-$palette: (
-  primary:       #555e69,
-  secondary:     darken(#555e69, 15%),
-  meta:          lighten(#555e69, 25%),
-  border:        #8b3fd1,
-  border-alt:    lighten(#8b3fd1, 25%),
-  accent:        #8b3fd1,
-  accent-blue:   #8b3fd1,
-  accent-violet: #9371e6,
-  accent-orange: #fc6e51
-);
-
-@import "imports/functions";
+@use "imports/reset";
+@use "imports/general";
+@use "imports/icons";
+@use "imports/animations";
+@use "imports/structure";
+@use "imports/header";
+@use "imports/content";
+@use "imports/footer";
+@use "imports/palettes";
+@use "imports/banner";
 
 @import "fontawesome.min.css";
 @import "brands.min.css";
-
-@import "imports/reset";
-@import "imports/general";
-@import "imports/icons";
-@import "imports/animations";
-@import "imports/structure";
-@import "imports/header";
-@import "imports/content";
-@import "imports/footer";
-@import "imports/palettes";
-@import "imports/banner";
 
 @import "custom.css";

@@ -1,11 +1,13 @@
+@use "functions" as *;
+
 /**
  * Site Header
  * ----------------------------------------------------------------------------
  */
 .site-header {
   background: #fff;
-  border-bottom: 1px solid _palette(border);
-  color: _palette(primary);
+  border-bottom: 1px solid palette(border);
+  color: palette(primary);
 }
 
 .site-header-inside {
@@ -49,8 +51,8 @@
   }
 
   .avatar {
-    border: 2px solid _palette(accent);
-    box-shadow: 0 0 1px 7px rgba(_palette(accent),.2);
+    border: 2px solid palette(accent);
+    box-shadow: 0 0 1px 7px rgba(palette(accent),.2);
     border-radius: 100%;
     display: block;
     object-fit: cover;
@@ -60,7 +62,7 @@
 }
 
 .site-title {
-  color: _palette(secondary);
+  color: palette(secondary);
   font-size: 1.11111rem;
   font-weight: bold;
   line-height: 1;
@@ -93,7 +95,7 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    border: 1px solid _palette(border);
+    border: 1px solid palette(border);
     border-radius: 50%;
     color: inherit;
     display: -ms-flexbox;
@@ -110,9 +112,9 @@
     text-decoration: none;
 
     &:hover {
-      background: _palette(accent);
-      border-color: _palette(accent);
-      box-shadow: 0 0 1px 5px rgba(_palette(accent),.2);
+      background: palette(accent);
+      border-color: palette(accent);
+      box-shadow: 0 0 1px 5px rgba(palette(accent),.2);
       color: #fff;
     }
   }
@@ -146,12 +148,12 @@
 }
 
 .site-header.dark {
-  background: _palette(secondary);
+  background: palette(secondary);
   border: 0;
-  color: _palette(meta);
+  color: palette(meta);
 
   .site-navigation {
-    background: _palette(secondary);
+    background: palette(secondary);
   }
 
   .site-title {
@@ -161,18 +163,18 @@
   .menu,
   .menu-item,
   .social-links a {
-    border-color: _palette(primary);
+    border-color: palette(primary);
   }
 
   .social-links a:hover {
-    border-color: _palette(accent);
+    border-color: palette(accent);
   }
 }
 
 @media only screen and (min-width: 801px) {
   .site-header {
     border-bottom: 0;
-    border-right: 1px solid _palette(border);
+    border-right: 1px solid palette(border);
     height: 100%;
     left: 0;
     position: fixed;
@@ -216,7 +218,7 @@
 
     .avatar {
       border-width: 3px;
-      box-shadow: 0 0 1px 11px rgba(_palette(accent),.2);
+      box-shadow: 0 0 1px 11px rgba(palette(accent),.2);
       object-fit: cover;
       height: 100px;
       width: 100px;
