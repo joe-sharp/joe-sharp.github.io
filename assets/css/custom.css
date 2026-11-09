@@ -602,15 +602,3 @@ html.boring *::after {
   text-align: center;
 }
 
-/* About: repos where Joe is a listed contributor get a badge */
-.about-repo-badge {
-  display: inline-block;
-  margin-left: 0.4rem;
-  padding: 0 0.5rem;
-  border: 1px solid var(--gold);
-  border-radius: 999px;
-  color: var(--gold);
-  font-family: 'JetBrains Mono', 'Courier New', monospace;
-  font-size: 0.7rem;
-  vertical-align: middle;
-}
