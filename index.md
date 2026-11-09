@@ -12,14 +12,15 @@ sections:
     component: content_block.html
     type: contentblock
     title: About
+    boring_toggle: true
     content: >-
-      I keep one of the biggest and oldest Rails codebases out there modern, and I love it. Procore's monolith is 20 years old and 7.4 million lines, and about 100 teams ship from it every day. I own the Ruby and Rails platform underneath them: major-version upgrades of Ruby, Rails and Node, dependency and CVE remediation across the whole codebase, and the tooling that lets all of it land without slowing product teams down.
-
-      I bring a quality mindset and deep test automation experience to all the code I write, which is why I'm confident making changes that land across every team's codebase at once.
+      I'm an active open-source contributor, mostly in the Ruby community. I wrote RuboCop's Markdown formatter, which shipped in v1.29, have three PRs merged into thoughtbot's Appraisal, and have sent fixes and upgrades to ruby/irb, ruby/debug, Guard, multidb, Procore's sift, version_gem, MegaLinter and MPXJ.
 
       <p class="about-hearts">🩷💜💙</p>
 
-      I'm an active open-source contributor in the Ruby community. I wrote RuboCop's Markdown formatter, which shipped in v1.29, and have three PRs merged into Thoughtbot's Appraisal along with changes in several other Ruby projects. I also build my own tools, including MTG Card Maker, the Ruby project behind the cards on this page.
+      Every project below is a collectible card generated from GitHub data by MTG Card Maker, a Ruby project I wrote. The type line lists the repo's languages, and the mana cost and color come from that language mix. Power and toughness are stars and forks. Popular repos get a gold frame and the rest get silver. Forks of other projects get a plain white frame and list my pull requests upstream (✓ merged, ● open), with each PR line a clickable link. Favorites are pinned to the top with a gold glow.
+
+      <p>Not your thing? Turn on boring mode below.</p>
     actions:
   - section_id: projects
     component: projects_block.html

@@ -145,3 +145,42 @@ test.describe('with reduced motion, opened on a hash link', () => {
     expect(problems).toEqual([]);
   });
 });
+
+// Boring mode is saved in localStorage, so it needs its own visit to start clean.
+test('boring mode swaps the cards for a plain list and remembers the choice', async ({ page, problems }) => {
+  await page.goto('./');
+  const toggle = page.getByRole('switch', { name: 'Boring mode' });
+
+  await test.step('starts off with the sprite cards showing', async () => {
+    await expect(toggle).toHaveAttribute('aria-checked', 'false');
+    await expect(page.locator('.projects-cards')).toBeVisible();
+    await expect(page.locator('.projects-plain')).toBeHidden();
+  });
+
+  await test.step('turning it on shows one plain entry per deck entry', async () => {
+    await toggle.click();
+    await expect(toggle).toHaveAttribute('aria-checked', 'true');
+    await expect(page.locator('.projects-cards')).toBeHidden();
+    const plain = page.locator('.plain-card');
+    await expect(plain).toHaveCount(deck.length);
+    for (const [i, entry] of deck.entries()) {
+      await expect(plain.nth(i).locator('.plain-card-name')).toHaveAttribute('href', entry.flavor_text.split('\n')[0]);
+    }
+  });
+
+  await test.step('the choice survives a reload without dealing the cards', async () => {
+    await page.reload();
+    await expect(toggle).toHaveAttribute('aria-checked', 'true');
+    await expect(page.locator('.projects-cards')).toBeHidden();
+    await expect(page.locator('.projects-cards')).not.toHaveClass(/deal-armed/);
+  });
+
+  await test.step('turning it off brings the cards back', async () => {
+    await toggle.click();
+    await expect(toggle).toHaveAttribute('aria-checked', 'false');
+    await expect(page.locator('.projects-cards')).toBeVisible();
+    await expect(page.locator('.projects-plain')).toBeHidden();
+  });
+
+  expect(problems).toEqual([]);
+});
