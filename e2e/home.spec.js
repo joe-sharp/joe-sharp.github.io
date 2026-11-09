@@ -166,6 +166,9 @@ test('boring mode swaps the cards for a plain list and remembers the choice', as
     for (const [i, entry] of deck.entries()) {
       await expect(plain.nth(i).locator('.plain-card-name')).toHaveAttribute('href', entry.flavor_text.split('\n')[0]);
     }
+    for (const card of await plain.all()) {
+      expect(await card.evaluate((el) => el.scrollWidth - el.clientWidth)).toBeLessThanOrEqual(0);
+    }
   });
 
   await test.step('the choice survives a reload without dealing the cards', async () => {
