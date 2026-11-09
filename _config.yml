@@ -17,7 +17,7 @@ title: &title joe-sharp
 subtitle: &subtitle Staff Software Engineer
 email: joesharp13@gmail.com
 description: >-
-  Staff Software Engineer at Procore keeping a 20-year-old Rails monolith modern, plus the open-source Ruby projects behind it.
+  Staff Software Engineer, keeping legacy Ruby/Rails codebases modern, plus the open-source projects behind them.
 baseurl: "" # the subpath of your site
 url: "https://projects.joe-sharp.com" # the base hostname & protocol for your site
 github_username: joe-sharp
@@ -41,7 +41,7 @@ header:
 
 # Footer settings
 footer:
-  content: '&copy; 2025 Joe Sharp, all rights reserved.'
+  content: '&copy; 2026 Joe Sharp, all rights reserved.'
   links:
     - text: joe-sharp.com
       url: 'https://joe-sharp.com'
