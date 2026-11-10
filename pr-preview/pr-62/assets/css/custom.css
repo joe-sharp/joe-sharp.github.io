@@ -459,3 +459,194 @@ body {
   .project-card { transition: none; }
   .project-card.is-dealing::after { animation: none; }
 }
+
+/* Boring mode: the same projects as a plain list, with no sprite, art or animation */
+#page #projects .projects-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#page #projects .projects-head .block-title {
+  width: auto;
+  margin: 0;
+}
+
+.boring-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.9rem 0.4rem 0.4rem;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.boring-toggle[aria-checked="true"] {
+  background: rgba(227, 178, 60, 0.12);
+}
+
+.boring-toggle:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.boring-toggle-track {
+  position: relative;
+  width: 2.4rem;
+  height: 1.3rem;
+  border-radius: 999px;
+  background: var(--purple-dim);
+  transition: background 0.2s ease;
+}
+
+.boring-toggle-track::after {
+  content: '';
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--ink);
+  transition: transform 0.2s ease;
+}
+
+.boring-toggle[aria-checked="true"] .boring-toggle-track {
+  background: var(--gold);
+}
+
+.boring-toggle[aria-checked="true"] .boring-toggle-track::after {
+  transform: translateX(1.1rem);
+  background: var(--bg);
+}
+
+.projects-plain {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plain-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 1rem;
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.plain-card.is-favorite {
+  border-color: var(--gold);
+}
+
+.plain-card-name {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-weight: 600;
+  color: var(--gold) !important;
+  text-decoration: none;
+}
+
+.plain-card-name:hover {
+  color: var(--gold) !important;
+}
+
+.projects-plain p,
+.projects-plain li {
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.projects-plain p {
+  margin: 0.4rem 0 0;
+}
+
+.plain-card-prs {
+  margin: 0.5rem 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.plain-card-prs a {
+  color: var(--ink);
+}
+
+.plain-card-prs a:hover {
+  color: var(--gold);
+}
+
+.plain-card-pr-status {
+  display: inline-block;
+  width: 1.1rem;
+}
+
+.plain-card-pr.is-merged .plain-card-pr-status {
+  color: #34c982;
+}
+
+.plain-card-pr.is-open .plain-card-pr-status {
+  color: var(--gold);
+}
+
+html.boring .projects-plain {
+  display: grid;
+}
+
+html.boring #projects > svg,
+html.boring .projects-cards {
+  display: none;
+}
+
+html.boring *,
+html.boring *::before,
+html.boring *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+.boring-toggle-row {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+
+/* Links in the About paragraphs use the site's purple */
+#page .block-content a {
+  color: #8b3fd1 !important;
+}
+
+/* Boring cards: a few colours so the text is easy to scan */
+.projects-plain .plain-card-type {
+  color: #7fd6c2;
+}
+
+.projects-plain .plain-card-text {
+  color: var(--ink);
+}
+
+.projects-plain .plain-card-meta {
+  color: #b99be8;
+}
+
+/* Favorites get a gold border on the sprite cards too */
+.project-card.is-favorite .project-card-face.front {
+  box-shadow: 0 0 0 3px var(--gold);
+  border-radius: 4.5%;
+}
+
+/* About text runs the full width of the block instead of the theme's 760px column */
+#page #about .block-content,
+#page #about .block-title {
+  max-width: none;
+}
