@@ -3,7 +3,7 @@ boondoc:
   name: boondoc
   type_line: Ruby, Shell
   mana_cost: 4RW
-  power: '1'
+  power: '2'
   toughness: '0'
   border_color: silver
   color: red
@@ -13,6 +13,19 @@ boondoc:
   flavor_text: |-
     https://github.com/joe-sharp/boondoc
     Created: 2026-10-26
+bundle_matrix:
+  name: bundle_matrix
+  type_line: Ruby, Shell
+  mana_cost: 4RW
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/793c3085780fbc29915eb4d59f46e726.jpg
+  embed_font: true
+  rules_text: A Bundler plugin that repeats `bundle install`, `bundle update` and
+    `bundle add` against every other gemfile in your project
+  flavor_text: |-
+    https://github.com/joe-sharp/bundle_matrix
+    Created: 2026-11-06
 rubocop:
   name: rubocop
   type_line: Ruby, HTML, Emacs Lisp, Shell
@@ -43,6 +56,59 @@ joe_sharp_github_io:
   flavor_text: |-
     https://github.com/joe-sharp/joe-sharp.github.io
     Created: 2020-11-26
+sharp_style_rubocop:
+  name: sharp_style_rubocop
+  type_line: Ruby, Shell
+  mana_cost: 3RW
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Default Rubocop configuration with some Sharp Style tweaks
+  flavor_text: |-
+    https://github.com/joe-sharp/sharp_style_rubocop
+    Created: 2026-10-27
+guard_status:
+  name: guard-status
+  type_line: Ruby
+  mana_cost: 4R
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard plugin that prints one status line for all your other guards
+  flavor_text: |-
+    https://github.com/joe-sharp/guard-status
+    Created: 2026-10-26
+guard_boondoc:
+  name: guard-boondoc
+  type_line: Ruby
+  mana_cost: 3R
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  embed_font: true
+  rules_text: Guard plugin that regenerates your boondoc docs when their sources change
+  flavor_text: |-
+    https://github.com/joe-sharp/guard-boondoc
+    Created: 2026-10-26
+mtg_card_maker:
+  name: mtg_card_maker
+  type_line: Ruby, Shell
+  mana_cost: 5RW
+  power: '2'
+  toughness: '1'
+  border_color: silver
+  color: red
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/595f103c608631e0049772bf3ad48b06.jpg
+  embed_font: true
+  rules_text: 'MTG Card Maker is a tool for creating fan-made Magic: The Gathering
+    cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content
+    Policy. Not approved/endorsed by Wizards. Portions of the materials used are property
+    of Wizards of the Coast. ©Wizards of the Coast LLC.'
+  flavor_text: |-
+    https://github.com/joe-sharp/mtg_card_maker
+    Created: 2025-07-12
 github_project_fetch:
   name: github_project_fetch
   type_line: Ruby
@@ -70,30 +136,13 @@ treehouse_points:
   flavor_text: |-
     https://github.com/joe-sharp/treehouse-points
     Created: 2020-11-29
-mtg_card_maker:
-  name: mtg_card_maker
-  type_line: Ruby, Shell
-  mana_cost: 5RW
-  power: '2'
-  toughness: '1'
-  border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/595f103c608631e0049772bf3ad48b06.jpg
-  embed_font: true
-  rules_text: 'MTG Card Maker is a tool for creating fan-made Magic: The Gathering
-    cards. MTG Card Maker is unofficial Fan Content permitted under the Fan Content
-    Policy. Not approved/endorsed by Wizards. Portions of the materials used are property
-    of Wizards of the Coast. ©Wizards of the Coast LLC.'
-  flavor_text: |-
-    https://github.com/joe-sharp/mtg_card_maker
-    Created: 2025-07-12
 irb:
   name: irb
   type_line: Ruby, Shell
   mana_cost: 5RW
   border_color: white
   color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
+  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/42e1825c7c404d6fe3746d47eba2368c.jpg
   embed_font: true
   rules_text: "●: Preserve an existing `_` local when creating a…"
   flavor_text: |-
@@ -123,42 +172,6 @@ debug:
   flavor_text: |-
     https://github.com/joe-sharp/debug
     debug, forked from ruby/debug
-sharp_style_rubocop:
-  name: sharp_style_rubocop
-  type_line: Ruby, Shell
-  mana_cost: 3RW
-  border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
-  embed_font: true
-  rules_text: Default Rubocop configuration with some Sharp Style tweaks
-  flavor_text: |-
-    https://github.com/joe-sharp/sharp_style_rubocop
-    Created: 2026-10-27
-guard_boondoc:
-  name: guard-boondoc
-  type_line: Ruby
-  mana_cost: 3R
-  border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
-  embed_font: true
-  rules_text: Guard plugin that regenerates your boondoc docs when their sources change
-  flavor_text: |-
-    https://github.com/joe-sharp/guard-boondoc
-    Created: 2026-10-26
-guard_status:
-  name: guard-status
-  type_line: Ruby
-  mana_cost: 4R
-  border_color: silver
-  color: red
-  art: https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg
-  embed_font: true
-  rules_text: Guard plugin that prints one status line for all your other guards
-  flavor_text: |-
-    https://github.com/joe-sharp/guard-status
-    Created: 2026-10-26
 guard:
   name: guard
   type_line: Ruby, Gherkin

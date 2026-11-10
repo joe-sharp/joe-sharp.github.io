@@ -345,12 +345,76 @@ Created: 2026-10-26
 <g>
 <rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
 <text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
-1/0
+2/0
 </text>
 </g>
 </svg>
   </g>
   <g id="deck-card-1" transform="translate(660, 0)">
+    <svg viewBox="0 0 630 880" width="630" height="880">
+
+
+
+
+
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
+<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
+<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+MTG Card Maker by Joe Sharp
+</text>
+<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+Portions of the materials used are property of Wizards of the Coast.
+</text>
+<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+&#xA9; Wizards of the Coast LLC
+</text>
+<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
+<g>
+<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<text x="45" y="75" fill="#111" font-size="36" class="card-name">
+bundle_matrix
+</text>
+<g transform="translate(505, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">4</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g><g transform="translate(55, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g></g>
+</g>
+</g>
+<g>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
+<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/793c3085780fbc29915eb4d59f46e726.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+</g>
+<g>
+<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+Ruby, Shell
+</text>
+<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
+</g>
+<g>
+<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
+<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+A Bundler plugin that repeats `bundle install`,
+</text>
+<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
+`bundle update` and `bundle add` against every
+</text>
+<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+other gemfile in your project
+</text>
+<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
+https://github.com/joe-sharp/bundle_matrix
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2026-11-06
+</text>
+</g>
+</svg>
+  </g>
+  <g id="deck-card-2" transform="translate(1320, 0)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -408,7 +472,7 @@ rubocop, forked from rubocop/rubocop
 </g>
 </svg>
   </g>
-  <g id="deck-card-2" transform="translate(1320, 0)">
+  <g id="deck-card-3" transform="translate(1980, 0)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -484,7 +548,7 @@ Created: 2020-11-26
 </g>
 </svg>
   </g>
-  <g id="deck-card-3" transform="translate(1980, 0)">
+  <g id="deck-card-4" transform="translate(2640, 0)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -509,52 +573,43 @@ Portions of the materials used are property of Wizards of the Coast.
 <g>
 <rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
-github_project_fetch
+sharp_style_rubocop
 </text>
-<g transform="translate(540, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">4</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
+<g transform="translate(505, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g><g transform="translate(55, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g></g>
 </g>
 </g>
 <g>
 <rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
 <rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
-<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/4cbe2cfff1bc4222e612ebdd5df0ec69.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
 </g>
 <g>
 <rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
 <text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Ruby
+Ruby, Shell
 </text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-A Ruby serverless application that fetches public
-</text>
 <text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-repositories along with their language data from
+Default Rubocop configuration with some Sharp Style
 </text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-GitHub users, deployed on Vercel.
+tweaks
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
-https://github.com/joe-sharp/github_project_fetch
+https://github.com/joe-sharp/sharp_style_rubocop
 </text>
 <text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
-Created: 2025-07-01
-</text>
-</g>
-<g>
-<rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
-1/0
+Created: 2026-10-27
 </text>
 </g>
 </svg>
   </g>
-  <g id="deck-card-4" transform="translate(2640, 0)">
+  <g id="deck-card-5" transform="translate(0, 910)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -575,47 +630,108 @@ Portions of the materials used are property of Wizards of the Coast.
 <text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
 &#xA9; Wizards of the Coast LLC
 </text>
-<rect x="25" y="25" width="580" height="740" fill="url(#gold_frame_gradient)" stroke="#FFD700" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
-<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_highlight_gradient)" stroke="#FFD700" stroke-width="2"/>
-<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_pattern)" opacity="0.3"/>
-<rect x="27" y="27" width="576" height="736" mask="url(#artWindowMask)" rx="8" ry="8" fill="url(#gold_metallic_shadow_gradient)" opacity="0.4"/>
+<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
 <g>
-<rect x="30" y="40" width="570" height="50" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
 <text x="45" y="75" fill="#111" font-size="36" class="card-name">
-treehouse-points
+guard-status
 </text>
-<g transform="translate(400, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g><g transform="translate(55, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g><g transform="translate(90, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g><g transform="translate(125, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#B5D9F4"/>  <g>    <path d="M479-56q-150 0-257-104T115-414q0-71.79 28-137.89Q171-618 223-668l162-160q20-19 44.74-29 24.74-10 50.26-10t50.26 10Q555-847 575-828l162 160q52 50 80 116.11 28 66.1 28 137.89 0 150-107.5 254T479-56ZM251-414h458q0-44-18.5-85t-49.67-71.56L480-731 319.17-570.56Q288-540 269.5-498.93 251-457.86 251-414Z"/>  </g></svg></g><g transform="translate(160, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
+<g transform="translate(540, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">4</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
 </g>
 </g>
 <g>
-<rect x="37" y="92" width="556" height="406" fill="none" stroke="#FFD700" stroke-width="2" rx="8" ry="8"/>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
 <rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
-<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/2464f2fe6495760016f9a3247ffb9c17.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
 </g>
 <g>
-<rect x="30" y="500" width="570" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
 <text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Liquid, JavaScript, SCSS, HTML, Ruby
+Ruby
 </text>
 <path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
 </g>
 <g>
-<rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
-<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
+<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
+<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
+Guard plugin that prints one status line for all
+</text>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-Widget to display Treehouse points on the web
+your other guards
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
-https://github.com/joe-sharp/treehouse-points
+https://github.com/joe-sharp/guard-status
 </text>
 <text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
-Created: 2020-11-29
+Created: 2026-10-26
 </text>
 </g>
 </svg>
   </g>
-  <g id="deck-card-5" transform="translate(0, 910)">
+  <g id="deck-card-6" transform="translate(660, 910)">
+    <svg viewBox="0 0 630 880" width="630" height="880">
+
+
+
+
+
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
+<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
+<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+MTG Card Maker by Joe Sharp
+</text>
+<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+Portions of the materials used are property of Wizards of the Coast.
+</text>
+<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+&#xA9; Wizards of the Coast LLC
+</text>
+<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
+<g>
+<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<text x="45" y="75" fill="#111" font-size="36" class="card-name">
+guard-boondoc
+</text>
+<g transform="translate(540, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
+</g>
+</g>
+<g>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
+<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+</g>
+<g>
+<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+Ruby
+</text>
+<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
+</g>
+<g>
+<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
+<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
+Guard plugin that regenerates your boondoc docs
+</text>
+<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+when their sources change
+</text>
+<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
+https://github.com/joe-sharp/guard-boondoc
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2026-10-26
+</text>
+</g>
+</svg>
+  </g>
+  <g id="deck-card-7" transform="translate(1320, 910)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -694,7 +810,138 @@ Created: 2025-07-12
 </g>
 </svg>
   </g>
-  <g id="deck-card-6" transform="translate(660, 910)">
+  <g id="deck-card-8" transform="translate(1980, 910)">
+    <svg viewBox="0 0 630 880" width="630" height="880">
+
+
+
+
+
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
+<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
+<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+MTG Card Maker by Joe Sharp
+</text>
+<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+Portions of the materials used are property of Wizards of the Coast.
+</text>
+<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+&#xA9; Wizards of the Coast LLC
+</text>
+<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
+<g>
+<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<text x="45" y="75" fill="#111" font-size="36" class="card-name">
+github_project_fetch
+</text>
+<g transform="translate(540, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">4</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
+</g>
+</g>
+<g>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
+<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/4cbe2cfff1bc4222e612ebdd5df0ec69.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+</g>
+<g>
+<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+Ruby
+</text>
+<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
+</g>
+<g>
+<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
+<text x="55" y="606.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+A Ruby serverless application that fetches public
+</text>
+<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
+repositories along with their language data from
+</text>
+<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+GitHub users, deployed on Vercel.
+</text>
+<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
+https://github.com/joe-sharp/github_project_fetch
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2025-07-01
+</text>
+</g>
+<g>
+<rect x="535" y="790" width="60" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="565" y="819" fill="#111" font-size="28" text-anchor="middle" class="card-power-toughness">
+1/0
+</text>
+</g>
+</svg>
+  </g>
+  <g id="deck-card-9" transform="translate(2640, 910)">
+    <svg viewBox="0 0 630 880" width="630" height="880">
+
+
+
+
+
+<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
+<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
+<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
+<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
+<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+MTG Card Maker by Joe Sharp
+</text>
+<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+Portions of the materials used are property of Wizards of the Coast.
+</text>
+<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
+&#xA9; Wizards of the Coast LLC
+</text>
+<rect x="25" y="25" width="580" height="740" fill="url(#gold_frame_gradient)" stroke="#FFD700" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
+<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_highlight_gradient)" stroke="#FFD700" stroke-width="2"/>
+<rect x="25" y="25" width="580" height="740" mask="url(#artWindowMask)" rx="10" ry="10" fill="url(#gold_metallic_pattern)" opacity="0.3"/>
+<rect x="27" y="27" width="576" height="736" mask="url(#artWindowMask)" rx="8" ry="8" fill="url(#gold_metallic_shadow_gradient)" opacity="0.4"/>
+<g>
+<rect x="30" y="40" width="570" height="50" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
+<text x="45" y="75" fill="#111" font-size="36" class="card-name">
+treehouse-points
+</text>
+<g transform="translate(400, 63)">
+<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g><g transform="translate(55, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g><g transform="translate(90, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g><g transform="translate(125, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#B5D9F4"/>  <g>    <path d="M479-56q-150 0-257-104T115-414q0-71.79 28-137.89Q171-618 223-668l162-160q20-19 44.74-29 24.74-10 50.26-10t50.26 10Q555-847 575-828l162 160q52 50 80 116.11 28 66.1 28 137.89 0 150-107.5 254T479-56ZM251-414h458q0-44-18.5-85t-49.67-71.56L480-731 319.17-570.56Q288-540 269.5-498.93 251-457.86 251-414Z"/>  </g></svg></g><g transform="translate(160, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
+</g>
+</g>
+<g>
+<rect x="37" y="92" width="556" height="406" fill="none" stroke="#FFD700" stroke-width="2" rx="8" ry="8"/>
+<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/2464f2fe6495760016f9a3247ffb9c17.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+</g>
+<g>
+<rect x="30" y="500" width="570" height="40" fill="url(#gold_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
+<text x="45" y="528" fill="#111" font-size="22" class="card-type">
+Liquid, JavaScript, SCSS, HTML, Ruby
+</text>
+<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
+</g>
+<g>
+<rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
+<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
+<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
+Widget to display Treehouse points on the web
+</text>
+<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
+https://github.com/joe-sharp/treehouse-points
+</text>
+<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
+Created: 2020-11-29
+</text>
+</g>
+</svg>
+  </g>
+  <g id="deck-card-10" transform="translate(0, 1820)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -725,7 +972,7 @@ irb
 <g>
 <rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
 <rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
-<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
+<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/42e1825c7c404d6fe3746d47eba2368c.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
 </g>
 <g>
 <rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
@@ -749,7 +996,7 @@ irb, forked from ruby/irb
 </g>
 </svg>
   </g>
-  <g id="deck-card-7" transform="translate(1320, 910)">
+  <g id="deck-card-11" transform="translate(660, 1820)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -807,7 +1054,7 @@ version_gem, forked from ruby-oauth/version_gem
 </g>
 </svg>
   </g>
-  <g id="deck-card-8" transform="translate(1980, 910)">
+  <g id="deck-card-12" transform="translate(1320, 1820)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -862,190 +1109,7 @@ debug, forked from ruby/debug
 </g>
 </svg>
   </g>
-  <g id="deck-card-9" transform="translate(2640, 910)">
-    <svg viewBox="0 0 630 880" width="630" height="880">
-
-
-
-
-
-<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
-<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
-<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
-<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
-<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
-<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-MTG Card Maker by Joe Sharp
-</text>
-<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-Portions of the materials used are property of Wizards of the Coast.
-</text>
-<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-&#xA9; Wizards of the Coast LLC
-</text>
-<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
-<g>
-<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
-<text x="45" y="75" fill="#111" font-size="36" class="card-name">
-sharp_style_rubocop
-</text>
-<g transform="translate(505, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g><g transform="translate(55, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FEFDDF"/>  <g transform="translate(70, -70) scale(0.85)">    <path d="M-6-420v-120h282v120H-6Zm299-162L185-691l84-84 109 108-85 85Zm127-102v-282h120v282H420Zm247 102-85-85 109-108 84 84-108 109Zm17 162v-120h282v120H684Zm-203.71 85Q420-335 377.5-377.21q-42.5-42.2-42.5-102.5 0-60.29 42.21-102.79 42.2-42.5 102.5-42.5 60.29 0 102.79 42.21 42.5 42.2 42.5 102.5 0 60.29-42.21 102.79-42.2 42.5-102.5 42.5ZM691-185 582-293l85-85 108 109-84 84Zm-422 0-84-84 108-109 85 85-109 108ZM420 6v-282h120V6H420Z"/>  </g></svg></g></g>
-</g>
-</g>
-<g>
-<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
-<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
-<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
-</g>
-<g>
-<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Ruby, Shell
-</text>
-<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
-</g>
-<g>
-<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
-<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-Default Rubocop configuration with some Sharp Style
-</text>
-<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-tweaks
-</text>
-<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
-https://github.com/joe-sharp/sharp_style_rubocop
-</text>
-<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
-Created: 2026-10-27
-</text>
-</g>
-</svg>
-  </g>
-  <g id="deck-card-10" transform="translate(0, 1820)">
-    <svg viewBox="0 0 630 880" width="630" height="880">
-
-
-
-
-
-<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
-<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
-<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
-<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
-<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
-<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-MTG Card Maker by Joe Sharp
-</text>
-<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-Portions of the materials used are property of Wizards of the Coast.
-</text>
-<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-&#xA9; Wizards of the Coast LLC
-</text>
-<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
-<g>
-<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
-<text x="45" y="75" fill="#111" font-size="36" class="card-name">
-guard-boondoc
-</text>
-<g transform="translate(540, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">3</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
-</g>
-</g>
-<g>
-<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
-<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
-<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
-</g>
-<g>
-<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Ruby
-</text>
-<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
-</g>
-<g>
-<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
-<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-Guard plugin that regenerates your boondoc docs
-</text>
-<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-when their sources change
-</text>
-<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
-https://github.com/joe-sharp/guard-boondoc
-</text>
-<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
-Created: 2026-10-26
-</text>
-</g>
-</svg>
-  </g>
-  <g id="deck-card-11" transform="translate(660, 1820)">
-    <svg viewBox="0 0 630 880" width="630" height="880">
-
-
-
-
-
-<rect x="0" y="0" width="630" height="880" rx="25" ry="25" fill="#EEE" mask="url(#artWindowMask)"/>
-<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_highlight_gradient)" stroke="#8B8B8B" stroke-width="2"/>
-<rect x="0" y="0" width="630" height="880" mask="url(#artWindowMask)" rx="25" ry="25" fill="url(#silver_metallic_pattern)" opacity="0.15"/>
-<rect x="2" y="2" width="626" height="876" mask="url(#artWindowMask)" rx="23" ry="23" fill="url(#silver_metallic_shadow_gradient)" opacity="0.18"/>
-<path fill="#111" transform="translate(40,820) scale(1.1)" d="M0 0h7v7h-7zM8 0h3v1h-2v1h3v-2h1v1h1v-1h1v1h2v1h-1v2h1v1h1v-1h1v3h1v-1h1v-2h-1v-1h-2v-1h3v-1h-1v-1h2v2h2v-1h-1v-1h3v1h2v-1h1v2h-3v1h-1v-1h-1v1h-1v1h1v2h-1v3h-1v-1h-1v-1h-1v1h1v2h-2v-1h-2v-1h-1v2h2v2h-1v-1h-2v-4h-1v-1h1v1h1v-2h-1v-1h-1v1h-1v-2h-1v1h-1v-1h-1v1h1v1h1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v1h-1v1h-3v-3h-1v4h-2v-1h-1v-1h1v1h1v-4h1v-2h-1zM30 0h3v1h-2v1h-1zM34 0h7v7h-7zM1 1v5h5v-5zM35 1v5h5v-5zM2 2h3v3h-3zM13 2v1h2v-1zM31 2h1v1h-1zM36 2h3v3h-3zM21 3v1h1v-1zM26 3h1v1h-1zM30 3h1v1h-1zM25 4h1v1h2v-1h1v3h-1v-1h-1v2h1v1h-1v1h1v-1h1v-1h1v-3h1v-1h2v1h-2v3h-1v1h-1v3h1v1h-2v1h1v1h-1v2h-1v-1h-2v-2h-1v-1h-1v-1h-1v-1h1v1h1v-1h1v1h-1v1h1v-1h2v-1h-1v-5h-1zM17 6v1h1v-1zM21 6v1h1v-1zM24 6h1v1h-1zM32 6h1v1h-1zM2 8h3v1h-3zM31 8h5v1h1v1h-1v1h2v1h1v-2h-1v-2h3v1h-1v2h1v1h-1v1h1v1h-1v1h-3v-1h-1v3h2v-1h1v3h-1v1h-1v1h-1v-3h-2v-1h-1v2h-1v-1h-1v-2h-1v-1h1v-1h1v-1h-1v-2h-1v-1h1zM1 9h1v2h-1zM5 9h1v1h-1zM13 9h1v2h-1v2h-1v-2h-1v3h-2v1h-1v1h-1v-1h-1v-1h2v-1h-2v-1h-1v-1h1v-1h1v1h-1v1h1v-1h2v1h-1v1h1v-1h1v-2h3zM24 9h1v1h-1zM33 9v1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h-1v1h1v-1h1v1h-1v1h1v-1h1v-2h2v-1h-2v-3zM3 10h1v1h-1zM31 10v1h1v-1zM2 11h1v2h-1zM4 12h1v2h-1zM14 12h2v1h-1v1h-1v1h2v-1h1v-1h1v-1h2v1h1v-1h1v1h1v1h-1v2h-1v1h-1v1h-1v-2h-1v-2h-1v2h1v1h-1v2h-1v-2h-1v1h-2v-1h1v-1h-1v-3h1zM0 13h2v1h2v1h-4zM18 13v1h1v-1zM25 13v1h1v1h1v-2zM37 13v1h2v-1zM4 15h2v1h-1v1h-1zM9 15h2v2h-1v-1h-1zM19 15v1h1v-1zM6 16h1v1h-1zM8 16h1v1h-1zM24 16h1v1h2v1h1v-1h2v2h1v1h-2v-1h-1v2h-1v1h-1v2h-1v1h-3v1h-1v-2h3v-2h-1v1h-1v-3h1v1h2v-1h1v-2h-1v1h-1zM34 16v1h1v-1zM40 16h1v2h-1zM1 17h3v2h-1v1h-3v-2h1zM11 17h1v1h-1zM21 17h2v1h-1v1h-1zM6 18h1v1h-1zM8 18h1v1h1v-1h1v2h1v-1h2v2h-1v-1h-1v2h-5v-1h-1v-1h2zM15 19h1v2h-1zM17 19h1v1h-1zM19 19h2v1h-2zM39 19h1v1h-1zM3 20h1v2h1v-1h1v1h1v1h-2v1h-2v-2h-1v2h1v1h-2v1h-1v-2h1v-1h-1v-2h3zM8 20v1h2v-1zM18 20h1v1h-1zM33 20h1v1h2v1h-1v1h1v1h-2v-2h-1v1h-1v-1h-1v1h1v1h-2v-1h-1v-1h-1v-1h1v1h1v-1h3zM38 20h1v1h2v1h-2v2h-2v-1h1v-1h-1v-1h1zM14 21h1v1h1v-1h2v1h1v-1h2v2h-1v3h1v1h-2v1h1v2h-5v-1h-1v-3h-2v-1h-2v-1h-1v1h-1v-2h2v1h1v-1h1v-1h2zM16 22v1h-1v1h-1v1h1v-1h1v1h-1v4h2v-3h2v-2h-2v-2zM27 22h1v1h-1zM12 23v1h1v-1zM28 23h1v1h-1zM6 24h1v1h-1zM29 24h1v1h-1zM40 24h1v2h-1zM3 25h1v1h1v-1h1v1h-1v1h-1v2h-2v-2h-1v-1h1v1h1zM7 25h1v1h4v1h-1v1h2v1h-4v-1h-1v1h1v1h2v1h1v-1h1v-1h1v1h-1v4h1v-3h1v2h1v-2h1v1h1v1h-1v1h1v1h-1v1h-1v-1h-1v1h-1v3h1v-3h1v1h2v1h2v1h-3v-1h-1v1h-1v1h-2v-2h-1v-1h1v-2h-2v2h-1v-2h-1v-1h-1v-1h1v-1h1v-1h-2v-1h-1v-1h-1v-1h1v-1h-1v-1h1zM25 25h2v1h-1v1h1v-1h1v-1h1v1h-1v1h-1v1h-2zM30 25h2v1h-1v1h1v-1h1v-1h5v1h-1v1h1v1h1v1h2v1h-2v1h-1v-1h-3v-1h-1v-1h-1v1h-2v-1h-1v-1h-1v-1h1zM23 26h1v2h1v1h-1v2h-1v-1h-1v-1h-1v-1h1v-1h1zM33 26v1h1v-1zM35 26v1h1v-1zM0 27h1v6h-1zM22 28v1h1v-1zM29 28h1v3h-1v-1h-2v1h-1v-1h-1v-1h4zM35 28v1h2v-1zM4 29h1v1h2v1h-1v1h-1v-1h-3v-1h2zM33 29h1v1h1v2h2v-1h1v1h-1v1h1v-1h1v2h-1v2h2v-1h1v1h-1v1h1v1h-1v2h-1v-3h-3v1h2v1h-1v1h1v1h-3v-1h-1v-1h-1v-1h-2v-1h-1v-1h1v-1h-1v-2h-1v-1h-1v-1h1v1h1v1h1v1h1v-2h1v-1h-1v-1h1zM20 30h1v1h-1zM19 31h1v1h-1zM22 31h1v2h1v-1h1v1h-1v1h-1v1h2v1h2v-2h1v-1h1v3h-2v1h-1v1h-2v-1h-1v2h1v1h-1v1h-1v-3h-1v-2h1zM40 31h1v3h-1zM2 32h1v1h-1zM4 32h1v1h-1zM6 32h1v1h-1zM10 32v1h1v-1zM26 32h1v1h-1zM11 33v1h1v-1zM20 33h1v1h-1zM33 33v3h3v-3zM0 34h7v7h-7zM19 34h1v2h-2v-1h1zM34 34h1v1h-1zM1 35v5h5v-5zM2 36h3v3h-3zM8 36h1v1h1v4h-1v-2h-1zM31 36v1h1v-1zM29 37h1v2h-1zM34 37v1h1v-1zM27 38h1v3h-4v-1h1v-1h2zM16 39h1v1h-1zM20 39h1v1h-1zM31 39h2v1h-1v1h-1zM35 39v1h1v-1zM12 40h1v1h-1zM17 40h2v1h-2zM29 40h1v1h-1z"/>
-<text x="90" y="830" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-MTG Card Maker by Joe Sharp
-</text>
-<text x="90" y="848" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-Portions of the materials used are property of Wizards of the Coast.
-</text>
-<text x="90" y="866" fill="#111" font-size="14" text-anchor="start" class="card-copyright">
-&#xA9; Wizards of the Coast LLC
-</text>
-<rect x="25" y="25" width="580" height="740" fill="url(#red_frame_gradient)" stroke="#F44336" stroke-width="2" rx="10" ry="10" mask="url(#artWindowMask)"/>
-<g>
-<rect x="30" y="40" width="570" height="50" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25" mask="url(#)"/>
-<text x="45" y="75" fill="#111" font-size="36" class="card-name">
-guard-status
-</text>
-<g transform="translate(540, 63)">
-<defs><filter id="mana-cost-drop-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-1" dy="2.5" stdDeviation="0" flood-color="black"/></filter></defs><g filter="url(#mana-cost-drop-shadow)"><g transform="translate(-15, -15)"><svg height="30px" viewBox="-15 -15 30 30" width="30px">  <circle cx="0" cy="0" r="15" fill="#DDD"/>  <text x="0" y="10" fill="#000" text-anchor="middle" font-weight="normal" font-size="32" font-family="serif">4</text></svg></g><g transform="translate(20, -15)"><svg height="30px" viewBox="0 -960 960 960" width="30px">  <circle cx="50%" cy="-50%" r="480" fill="#FABA9F"/>  <g transform="translate(-20, 20) scale(1.05)">    <path d="M135-399.89Q135-511 193-599.5q58-88.5 126.77-151.17 68.78-62.67 127-96L505-880v172q0 25.74 17.25 40.37Q539.49-653 560.78-653q11.22 0 22.23-4.7T603-674l31-39q87 51 139 134t52 178.52q0 92.88-43.5 169.18Q738-155 666-110q22.19-27.84 33.6-61.77Q711-205.71 711-243.5q0-47.5-16.98-88.49-16.99-41-50.56-73.9L480-566 318-406q-34 32-51.5 73.54-17.5 41.54-17.5 88.73 0 37.73 11.4 71.77Q271.81-137.93 294-110q-72-45-115.5-121.45Q135-307.89 135-399.89ZM480-375l67.67 66.42Q561-294 568-277.86q7 16.13 7 33.86 0 38.3-28.44 65.65Q518.11-151 479.76-151q-38.34 0-66.55-27.35Q385-205.7 385-244q0-19 6.93-34.83Q398.86-294.67 412-308l68-67Z"/>  </g></svg></g></g>
-</g>
-</g>
-<g>
-<rect x="37" y="92" width="556" height="406" fill="none" stroke="#F44336" stroke-width="2" rx="8" ry="8"/>
-<rect x="40" y="95" width="550" height="400" fill="none" stroke="#111" stroke-width="2" rx="5" ry="5"/>
-<image href="https://res.cloudinary.com/uv7kncpy/image/upload/f_auto,q_auto,c_fill,g_center,w_660,h_480/v1790537119/c21f969b5f03d33d43e04f8f136e7682.jpg" x="40" y="95" width="550" height="400" preserveAspectRatio="xMidYMid slice"/>
-</g>
-<g>
-<rect x="30" y="500" width="570" height="40" fill="url(#red_name_gradient)" stroke="#111" stroke-width="2" rx="10" ry="25"/>
-<text x="45" y="528" fill="#111" font-size="22" class="card-type">
-Ruby
-</text>
-<path stroke-width="3" d="m 56.073212,76.492299 q 0,6.192777 -1.457124,11.656992 -1.335697,5.464215 -4.85708,9.592733 -3.399956,4.007086 -9.349879,6.435636 -5.828496,2.30711 -14.814094,2.30711 -8.257036,0 -14.206959,-1.94283 -5.9499234,-2.06426 -9.8355875,-4.735657 L 7.8666926,85.113616 q 3.5213834,2.064259 7.5284744,3.64281 4.007091,1.578551 8.742744,1.578551 6.921339,0 9.957014,-3.399956 Q 37.1306,83.535065 37.1306,75.520883 V 20.635878 H 56.073212 Z M 104.0368,41.278468 h 14.08553 l 4.00709,-20.64259 h 15.78551 l -4.00709,20.64259 h 8.86417 v 13.964105 h -11.53557 l -2.91424,14.935521 h 14.44981 V 84.1422 H 125.6508 l -3.88566,20.64259 H 105.97963 L 109.86529,84.1422 H 95.77976 l -3.885664,20.64259 H 76.108586 L 79.99425,84.1422 H 71.251506 V 70.178094 H 82.665644 L 85.579892,55.242573 H 71.251506 V 41.278468 h 16.99978 l 4.007091,-20.64259 h 15.785513 z m -5.585646,28.899626 h 14.085536 l 2.91424,-14.935521 H 101.3654 Z" fill="none" stroke="#111" transform="translate(557,504) scale(0.23) scale(0.93839063,1.0656543)" aria-label="J#"/>
-</g>
-<g>
-<rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
-<line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
-<text x="55" y="633.3333333333334" fill="#111" font-size="24" class="card-rules-text">
-Guard plugin that prints one status line for all
-</text>
-<text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-your other guards
-</text>
-<text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
-https://github.com/joe-sharp/guard-status
-</text>
-<text x="55" y="739.3333333333334" fill="#111" font-size="24" class="card-flavor-text">
-Created: 2026-10-26
-</text>
-</g>
-</svg>
-  </g>
-  <g id="deck-card-12" transform="translate(1320, 1820)">
+  <g id="deck-card-13" transform="translate(1980, 1820)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1100,7 +1164,7 @@ guard, forked from guard/guard
 </g>
 </svg>
   </g>
-  <g id="deck-card-13" transform="translate(1980, 1820)">
+  <g id="deck-card-14" transform="translate(2640, 1820)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1161,7 +1225,7 @@ mpxj, forked from joniles/mpxj
 </g>
 </svg>
   </g>
-  <g id="deck-card-14" transform="translate(2640, 1820)">
+  <g id="deck-card-15" transform="translate(0, 2730)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1225,7 +1289,7 @@ Created: 2020-11-26
 </g>
 </svg>
   </g>
-  <g id="deck-card-15" transform="translate(0, 2730)">
+  <g id="deck-card-16" transform="translate(660, 2730)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1286,7 +1350,7 @@ anuraghazra/github-readme-stats
 </g>
 </svg>
   </g>
-  <g id="deck-card-16" transform="translate(660, 2730)">
+  <g id="deck-card-17" transform="translate(1320, 2730)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1341,7 +1405,7 @@ sift, forked from procore-oss/sift
 </g>
 </svg>
   </g>
-  <g id="deck-card-17" transform="translate(1320, 2730)">
+  <g id="deck-card-18" transform="translate(1980, 2730)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1396,7 +1460,7 @@ rubygems, forked from ruby/rubygems
 </g>
 </svg>
   </g>
-  <g id="deck-card-18" transform="translate(1980, 2730)">
+  <g id="deck-card-19" transform="translate(2640, 2730)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1454,7 +1518,7 @@ multidb, forked from OutOfOrder/multidb
 </g>
 </svg>
   </g>
-  <g id="deck-card-19" transform="translate(2640, 2730)">
+  <g id="deck-card-20" transform="translate(0, 3640)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1527,7 +1591,7 @@ Created: 2020-12-14
 </g>
 </svg>
   </g>
-  <g id="deck-card-20" transform="translate(0, 3640)">
+  <g id="deck-card-21" transform="translate(660, 3640)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1585,7 +1649,7 @@ FinalTwist/Ultima-Adventures
 </g>
 </svg>
   </g>
-  <g id="deck-card-21" transform="translate(660, 3640)">
+  <g id="deck-card-22" transform="translate(1320, 3640)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1646,7 +1710,7 @@ Created: 2025-02-11
 </g>
 </svg>
   </g>
-  <g id="deck-card-22" transform="translate(1320, 3640)">
+  <g id="deck-card-23" transform="translate(1980, 3640)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1707,7 +1771,7 @@ appraisal, forked from thoughtbot/appraisal
 </g>
 </svg>
   </g>
-  <g id="deck-card-23" transform="translate(1980, 3640)">
+  <g id="deck-card-24" transform="translate(2640, 3640)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1768,7 +1832,7 @@ Created: 2021-01-23
 </g>
 </svg>
   </g>
-  <g id="deck-card-24" transform="translate(2640, 3640)">
+  <g id="deck-card-25" transform="translate(0, 4550)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1823,7 +1887,7 @@ Created: 2020-11-28
 </g>
 </svg>
   </g>
-  <g id="deck-card-25" transform="translate(0, 4550)">
+  <g id="deck-card-26" transform="translate(660, 4550)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1884,7 +1948,7 @@ mega-linter, forked from oxsecurity/megalinter
 </g>
 </svg>
   </g>
-  <g id="deck-card-26" transform="translate(660, 4550)">
+  <g id="deck-card-27" transform="translate(1320, 4550)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -1954,7 +2018,7 @@ Created: 2021-09-10
 </g>
 </svg>
   </g>
-  <g id="deck-card-27" transform="translate(1320, 4550)">
+  <g id="deck-card-28" transform="translate(1980, 4550)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -2015,7 +2079,7 @@ Created: 2020-12-02
 </g>
 </svg>
   </g>
-  <g id="deck-card-28" transform="translate(1980, 4550)">
+  <g id="deck-card-29" transform="translate(2640, 4550)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -2076,7 +2140,7 @@ Created: 2021-07-05
 </g>
 </svg>
   </g>
-  <g id="deck-card-29" transform="translate(2640, 4550)">
+  <g id="deck-card-30" transform="translate(0, 5460)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -2128,7 +2192,7 @@ zoom-close, forked from seanstar12/zoom-close
 </g>
 </svg>
   </g>
-  <g id="deck-card-30" transform="translate(0, 5460)">
+  <g id="deck-card-31" transform="translate(660, 5460)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -2192,7 +2256,7 @@ Created: 2020-12-02
 </g>
 </svg>
   </g>
-  <g id="deck-card-31" transform="translate(660, 5460)">
+  <g id="deck-card-32" transform="translate(1320, 5460)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
@@ -2256,7 +2320,7 @@ Created: 2020-12-14
 </g>
 </svg>
   </g>
-  <g id="deck-card-32" transform="translate(1320, 5460)">
+  <g id="deck-card-33" transform="translate(1980, 5460)">
     <svg viewBox="0 0 630 880" width="630" height="880">
 
 
