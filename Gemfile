@@ -28,7 +28,7 @@ gem "http_parser.rb", "~> 0.6", platforms: [:jruby]
 gem "mtg_card_maker", "~> 0.2.1"
 
 group :test do
-  gem "minitest", "~> 6.0"
+  gem "minitest", "~> 6.1"
   gem "rake", "~> 13.2"
 end
 
@@ -41,4 +41,4 @@ gem "debug", "~> 1.11", require: "debug"
 gem "rubocop", "~> 1.92"
 gem "rubocop-performance", require: false
 gem "rubocop-rspec", require: false
-gem "sharp_style_rubocop", "~> 0.1.5"
+gem "sharp_style_rubocop", "~> 0.1.6"
