@@ -1043,7 +1043,7 @@ Ruby, Shell
 <rect x="40" y="545" width="550" height="265" fill="url(#gold_text_box_gradient)" stroke="#FFD700" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#FFD700" stroke-width="1"/>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-&#x25CF;: Memoize version lookups in VersionGem::Api
+&#x2713;: Memoize version lookups in VersionGem::Api
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/version_gem
@@ -1153,7 +1153,7 @@ Ruby, Gherkin
 <rect x="40" y="545" width="550" height="265" fill="url(#red_text_box_gradient)" stroke="#F44336" stroke-width="2"/>
 <line x1="55" y1="677.5" x2="575" y2="677.5" stroke="#F44336" stroke-width="1"/>
 <text x="55" y="659.8333333333334" fill="#111" font-size="24" class="card-rules-text">
-&#x25CF;: Replace OpenStruct in DslDescriber#show with S&#x2026;
+&#x2713;: Replace OpenStruct in DslDescriber#show with S&#x2026;
 </text>
 <text x="55" y="712.8333333333334" fill="#111" font-size="24" class="card-flavor-text">
 https://github.com/joe-sharp/guard
